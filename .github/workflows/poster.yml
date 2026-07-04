@@ -1,0 +1,64 @@
+# Backup na nuvem do poster do @felipebzr_ (Vida de Oracao).
+# O TITULAR e o PC do Felipe (tarefas do Windows 9h/12h/17h BRT).
+# Este workflow roda ~45 min DEPOIS de cada slot e so publica se o conteudo
+# do dia ainda NAO estiver no ar (checagem via API). Nunca duplica.
+name: poster-backup
+
+on:
+  schedule:
+    - cron: '45 12 * * *'   # 09:45 BRT -> story da manha
+    - cron: '45 15 * * *'   # 12:45 BRT -> feed
+    - cron: '45 20 * * *'   # 17:45 BRT -> story da tarde
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'auto | feed | manha | tarde'
+        required: false
+        default: 'auto'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poster
+  cancel-in-progress: false
+
+env:
+  TZ: America/Sao_Paulo
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Dependencias
+        run: pip install --quiet requests
+
+      - name: Decidir modo pelo horario
+        id: modo
+        run: |
+          MODO="${{ github.event.inputs.modo || 'auto' }}"
+          if [ "$MODO" = "auto" ]; then
+            H=$(date -u +%H)
+            if [ "$H" -lt 14 ]; then MODO=manha
+            elif [ "$H" -lt 18 ]; then MODO=feed
+            else MODO=tarde; fi
+          fi
+          echo "modo=$MODO" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Postar (se o PC nao postou)
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        working-directory: api-setup
+        run: |
+          MODO="${{ steps.modo.outputs.modo }}"
+          if [ "$MODO" = "feed" ]; then python poster_diario.py; else python poster_stories.py "$MODO"; fi
+
+      - name: Guardar estado e logs no repo
+        run: |
+          git config user.name "poster-backup"
+          git config user.email "actions@users.noreply.github.com"
+          git add api-setup/*.json api-setup/*.txt || true
+          git diff --cached --quiet || { git commit -m "estado: ${{ steps.modo.outputs.modo }} $(date +'%F %H:%M')"; git pull --rebase; git push; }
