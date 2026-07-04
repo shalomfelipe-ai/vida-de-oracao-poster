@@ -100,15 +100,22 @@ def host_0x0(path: Path) -> str:
     return url
 
 
+def hosts_chain():
+    """Ordem dos hosts. No GitHub Actions o catbox responde 412 e a Meta
+    rejeitou URL do litterbox (04/07/2026) -> na nuvem comeca por tmpfiles/0x0."""
+    padrao = [("catbox", host_catbox), ("litterbox", host_litterbox),
+              ("tmpfiles", host_tmpfiles), ("0x0", host_0x0)]
+    nuvem = [("tmpfiles", host_tmpfiles), ("0x0", host_0x0),
+             ("litterbox", host_litterbox), ("catbox", host_catbox)]
+    return nuvem if os.environ.get("GITHUB_ACTIONS") else padrao
+
+
 def make_public(path: Path, secrets: dict) -> str:
     host = secrets.get("HOST", "catbox")
     if host == "github":
         return host_github(path, secrets.get("GITHUB", {}))
-    # cadeia de fallback: catbox -> litterbox -> tmpfiles -> 0x0
-    # (03/07/2026: catbox passou a responder 412 e derrubou a postagem do dia)
     ultimo = None
-    for nome, fn in (("catbox", host_catbox), ("litterbox", host_litterbox),
-                     ("tmpfiles", host_tmpfiles), ("0x0", host_0x0)):
+    for nome, fn in hosts_chain():
         try:
             url = fn(path)
             print(f"  hospedado em {nome}: ok")
@@ -119,6 +126,45 @@ def make_public(path: Path, secrets: dict) -> str:
     raise RuntimeError(f"todos os hosts de imagem falharam (ultimo erro: {ultimo})")
 
 
+_ERROS_DE_DOWNLOAD = ("9004", "2207052", "2207003", "Timeout", "timed out",
+                      "download", "Only photo or video")
+
+
+def _erro_de_download(e) -> bool:
+    s = str(e)
+    return any(k in s for k in _ERROS_DE_DOWNLOAD)
+
+
+def container_com_fallback(ig_id, path, token, extra=None, secrets=None):
+    """Hospeda a imagem e cria o container na Meta; se a Meta nao conseguir
+    BAIXAR a midia daquele host (erro de download/timeout), tenta o proximo
+    host em vez de desistir. (04/07/2026: Meta rejeitou litterbox na nuvem.)"""
+    secrets = secrets or {}
+    if secrets.get("HOST") == "github":
+        url = host_github(Path(path), secrets.get("GITHUB", {}))
+        cid = _post(f"{ig_id}/media", dict(extra or {}, image_url=url), token)["id"]
+        wait_ready(cid, token)
+        return cid
+    ultimo = None
+    for nome, fn in hosts_chain():
+        try:
+            url = fn(Path(path))
+        except Exception as e:
+            print(f"  host {nome} falhou no upload: {e}")
+            ultimo = e
+            continue
+        print(f"  hospedado em {nome}: ok")
+        try:
+            cid = _post(f"{ig_id}/media", dict(extra or {}, image_url=url), token)["id"]
+            wait_ready(cid, token)
+            return cid
+        except Exception as e:
+            if _erro_de_download(e):
+                print(f"  Meta nao baixou de {nome}; tentando outro host...")
+                ultimo = e
+                continue
+            raise
+    raise RuntimeError(f"nenhum host serviu a midia para a Meta (ultimo erro: {ultimo})")
 
 
 # ---------- checagens "ja esta no ar?" (para o backup da nuvem nao duplicar) ----------
@@ -181,18 +227,13 @@ def wait_ready(container_id, token, tries=20, delay=3):
 def publish(ig_id, imagens, legenda, secrets):
     token = secrets["ACCESS_TOKEN"]
     print(f"Hospedando {len(imagens)} imagem(ns)...")
-    urls = [make_public(Path(p), secrets) for p in imagens]
-
-    if len(urls) == 1:
-        cid = _post(f"{ig_id}/media", {"image_url": urls[0], "caption": legenda}, token)["id"]
-        wait_ready(cid, token)
-        creation_id = cid
+    if len(imagens) == 1:
+        creation_id = container_com_fallback(ig_id, imagens[0], token,
+                                             {"caption": legenda}, secrets)
     else:
-        children = []
-        for u in urls:
-            cid = create_item_container(ig_id, u, token, is_carousel_item=True)
-            wait_ready(cid, token)
-            children.append(cid)
+        children = [container_com_fallback(ig_id, p, token,
+                                           {"is_carousel_item": "true"}, secrets)
+                    for p in imagens]
         creation_id = _post(f"{ig_id}/media",
                             {"media_type": "CAROUSEL", "caption": legenda,
                              "children": ",".join(children)}, token)["id"]

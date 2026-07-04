@@ -15,7 +15,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 INSTA = HERE.parent
 sys.path.insert(0, str(HERE))
-from postar_instagram_api import make_public, _post, wait_ready, load_secrets, stories_hoje_brt  # noqa
+from postar_instagram_api import container_com_fallback, _post, wait_ready, load_secrets, stories_hoje_brt  # noqa
 
 # data -> (story_manha, story_tarde, lote)
 CAL_S = {
@@ -93,9 +93,8 @@ def marcar(chave, media_id):
 
 def publish_story(ig_id, img_path, secrets):
     token = secrets["ACCESS_TOKEN"]
-    url = make_public(Path(img_path), secrets)
-    cid = _post(f"{ig_id}/media", {"media_type": "STORIES", "image_url": url}, token)["id"]
-    wait_ready(cid, token)
+    cid = container_com_fallback(ig_id, img_path, token,
+                                 {"media_type": "STORIES"}, secrets)
     return _post(f"{ig_id}/media_publish", {"creation_id": cid}, token).get("id")
 
 
