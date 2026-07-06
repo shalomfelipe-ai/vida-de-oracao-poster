@@ -35,15 +35,21 @@ CAL_S = {
     "2026-07-06": ("sab11_story1.png", "sab11_story2.png", "lote-06-12-jul"),
     "2026-07-07": ("dom12_story1.png", "dom12_story2.png", "lote-06-12-jul"),
     "2026-07-08": ("seg13_story1.png", "seg13_story2.png", "lote-13-19-jul"),
-    "2026-07-09": (None, "story_joao_entardecer.png", "lote-frases-santo"),
+    "2026-07-09": ("lote-jaculatorias/jac_01_confio.png", "story_joao_entardecer.png", "lote-frases-santo"),
     "2026-07-10": ("qua15_story1.png", "qua15_story2.png", "lote-13-19-jul"),
     "2026-07-11": ("qui16_story1.png", "qui16_story2.png", "lote-13-19-jul"),
-    "2026-07-12": (None, "story_teresinha_olhar.png", "lote-frases-santo"),
-    "2026-07-15": (None, "story_joao_onde_amor.png", "lote-frases-santo"),
+    "2026-07-12": ("lote-jaculatorias/jac_02_meu_tudo.png", "story_teresinha_olhar.png", "lote-frases-santo"),
+    "2026-07-15": ("lote-jaculatorias/jac_03_aumentai_fe.png", "story_joao_onde_amor.png", "lote-frases-santo"),
     "2026-07-16": ("ter14_story1.png", "ter14_story2.png", "lote-13-19-jul"),
     "2026-07-17": ("sex17_story1.png", "sex17_story2.png", "lote-13-19-jul"),
     "2026-07-13": ("sab18_story1.png", "sab18_story2.png", "lote-13-19-jul"),
-    "2026-07-14": ("dom19_story1.png", "dom19_story2.png", "lote-13-19-jul"),
+    "2026-07-14": ("dom19_story1.png", "dom19_story2.png", "lote-13-19-jul"),    # --- Serie "Jaculatoria de hoje" (stories, jul) ---
+    "2026-07-21": ("jac_04_que_eu_veja.png", "jac_05_abba.png", "lote-jaculatorias"),
+    "2026-07-24": ("jac_06_meu_senhor.png", "jac_07_espirito.png", "lote-jaculatorias"),
+    "2026-07-27": ("jac_08_vossa_vontade.png", "jac_09_mae.png", "lote-jaculatorias"),
+    "2026-07-29": ("jac_10_sao_jose.png", None, "lote-jaculatorias"),
+    "2026-07-30": ("jac_11_misericordia.png", None, "lote-jaculatorias"),
+    "2026-07-31": ("jac_12_tudo_bem.png", None, "lote-jaculatorias"),
 }
 
 
@@ -130,7 +136,7 @@ def main():
     except Exception as e:
         registrar(f"AVISO {chave}: checagem 'ja no ar' falhou ({repr(e)[:150]}) NAO posto para nao arriscar duplicata.")
         return
-    img = INSTA / lote / nome
+    img = (INSTA / nome) if "/" in nome else (INSTA / lote / nome)
     if not img.exists():
         registrar(f"ERRO {chave}: imagem faltando: {img}")
         return

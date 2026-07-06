@@ -51,6 +51,8 @@ CAL = {
     "2026-07-28": (["jac2_arroz.png"], "lote-frases-santo", "JAC2 ARROZ"),
     "2026-07-24": (["joao_final.png"], "serie-santos-carmelo", "SAO JOAO 24/07"),
     "2026-07-27": (["teresinha_final.png"], "serie-santos-carmelo", "STA TERESINHA 27/07"),
+    # --- Carrossel "Jaculatorias pra rezar o dia inteiro" (para guardar) ---
+    "2026-07-31": (["carrossel/01_capa.png", "carrossel/02_confio.png", "carrossel/03_aumentai_fe.png", "carrossel/04_abba.png", "carrossel/05_espirito.png", "carrossel/06_mae.png", "carrossel/07_sao_jose.png", "carrossel/08_misericordia.png", "carrossel/09_tudo_bem.png", "carrossel/10_fim.png"], "lote-jaculatorias", "CARROSSEL JACULATORIAS"),
 }
 
 
