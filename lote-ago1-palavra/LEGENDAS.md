@@ -54,7 +54,7 @@ Tem um jeito de rezar o Evangelho que muda tudo: em vez de ler de fora, você en
 
 Escolha uma passagem com ação: uma cura, uma conversa, a barca no meio da tempestade. Componha o lugar na imaginação: onde você está ali? Use os sentidos. Veja os rostos, ouça a voz de Jesus, sinta o calor, o cheiro, o vento.
 
-E então faça o principal: fale com Ele como quem está presente de verdade, e escute o que Ele responde. Não é fantasia. É deixar a fé usar a sua imaginação pra te colocar diante do Senhor vivo.
+E então faça o principal: fale com Ele como quem está presente de verdade, e escute o que Ele responde. Longe de ser fantasia, é deixar a fé usar a sua imaginação pra te colocar diante do Senhor vivo.
 
 Experimenta hoje: reze uma cena do Evangelho de dentro, como personagem, não como leitor.
 
@@ -104,6 +104,4 @@ Seu propósito da semana: cinco minutos com o Evangelho do dia, todos os dias. S
 
 O que você gostaria de escutar de Deus esta semana?
 
-#vidadeoração #oração #oraçãopessoal #palavradedeus #escuta #evangelho #espiritualidade #vidaespiritual #fé #católico #rezar
-
-**Stories:** `d7_story1` (Deus fala primeiro) · `d7_story2` (seu propósito: 5 min com o Evangelho)
+#vidadeoração #oração #oraçãopessoal #palavradedeus #escuta #evangelho #espiritualidade #vidaespiritual #fé #católico #re

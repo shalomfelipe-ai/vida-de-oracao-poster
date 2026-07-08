@@ -17,10 +17,10 @@ Você costuma invocar o Espírito Santo antes de rezar?
 **Legenda:**
 Uma das jaculatórias mais simples e mais poderosas da Igreja: "Sagrado Coração de Jesus, eu confio em Vós."
 
-Confiar não é sentir que vai dar tudo certo. É entregar o que você não controla nas mãos de Quem te ama mais do que você se ama.
+Confiar é entregar o que você não controla nas mãos de Quem te ama mais do que você se ama.
 
 Experimenta hoje: cada vez que bater a ansiedade, repita essa frase, devagar, três vezes.
 
 O que hoje você mais precisa entregar pra Deus?
 
-#vidadeoração #oração #oraçãopessoal #sagradocoração #confiança #jaculatória #espiritualidade #vidaespiritual #fé #católico #rezar
+#vidadeoração #oração #oraçãopessoal #sagradocoração #confiança #jaculatória #espiritualidade #vidaespiritua

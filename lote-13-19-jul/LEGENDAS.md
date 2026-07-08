@@ -116,7 +116,7 @@ Um padre amigo meu usa uma imagem que nunca esqueci. Às vezes a gente trata Deu
 
 Mas Deus é Pai. Que pai daria uma pedra ao filho que pede pão, ou uma cobra a quem pede um peixe? Ele dá o Espírito Santo a quem pede, e dá o que é bom, do jeito d'Ele e no tempo d'Ele.
 
-Isso não é desculpa pra parar de pedir. É um convite a pedir com confiança, e a soltar o controle do "como".
+Continue pedindo, agora com mais confiança, soltando o controle do "como".
 
 Experimenta hoje: faça um pedido concreto a Deus e entregue a Ele a maneira de responder.
 
