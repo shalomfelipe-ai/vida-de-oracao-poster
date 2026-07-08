@@ -103,8 +103,8 @@ def host_0x0(path: Path) -> str:
 def hosts_chain():
     """Ordem dos hosts. No GitHub Actions o catbox responde 412 e a Meta
     rejeitou URL do litterbox (04/07/2026) -> na nuvem comeca por tmpfiles/0x0."""
-    padrao = [("catbox", host_catbox), ("litterbox", host_litterbox),
-              ("tmpfiles", host_tmpfiles), ("0x0", host_0x0)]
+    padrao = [("tmpfiles", host_tmpfiles), ("0x0", host_0x0),
+              ("catbox", host_catbox), ("litterbox", host_litterbox)]
     nuvem = [("tmpfiles", host_tmpfiles), ("0x0", host_0x0),
              ("litterbox", host_litterbox), ("catbox", host_catbox)]
     return nuvem if os.environ.get("GITHUB_ACTIONS") else padrao
@@ -126,8 +126,10 @@ def make_public(path: Path, secrets: dict) -> str:
     raise RuntimeError(f"todos os hosts de imagem falharam (ultimo erro: {ultimo})")
 
 
-_ERROS_DE_DOWNLOAD = ("9004", "2207052", "2207003", "Timeout", "timed out",
-                      "download", "Only photo or video")
+_ERROS_DE_DOWNLOAD = ("9004", "2207052", "2207003", "36001", "2207083",
+                      "Timeout", "timed out", "download",
+                      "Only photo or video", "format is not supported",
+                      "Unknown Image Format", "could not be processed")
 
 
 def _erro_de_download(e) -> bool:
@@ -210,7 +212,7 @@ def create_item_container(ig_id, image_url, token, is_carousel_item):
     return _post(f"{ig_id}/media", data, token)["id"]
 
 
-def wait_ready(container_id, token, tries=20, delay=3):
+def wait_ready(container_id, token, tries=40, delay=3):
     """Espera o container ficar FINISHED antes de publicar."""
     for _ in range(tries):
         r = requests.get(f"{GRAPH}/{container_id}",
