@@ -87,7 +87,7 @@ Me conta aqui: qual jaculatória você inventaria pro seu dia a dia?
 **Legenda:**
 No fim, não vão nos perguntar quantas coisas fizemos, e sim com quanto amor. Essa frase de São João da Cruz coloca a vida toda no lugar certo: tudo o que fazemos por amor tem valor eterno.
 "No entardecer da vida, seremos julgados pelo amor." (São João da Cruz)
-Compartilhe com alguém que precisa ouvir isso hoje. E me conta: onde tem sido mais difícil amar ultimamente?
+Compartilhe com alguém que precisa ouvir isso hoje. E me conta: quem você quer amar melhor hoje?
 #vidadeoração #oração #joãodacruz #espiritualidade #espiritualidadecatólica #fé #vidaespiritual #carmelo #santidade #rezar
 
 ---
@@ -123,7 +123,7 @@ Salve pra reler num dia difícil. E me conta aqui embaixo: o que mais rouba a su
 **Legenda:**
 No fim, não vão nos perguntar quantas coisas fizemos, e sim com quanto amor. Essa frase de São João da Cruz coloca a vida toda no lugar certo: tudo o que fazemos por amor tem valor eterno.
 "No entardecer da vida, seremos julgados pelo amor." (São João da Cruz)
-Compartilhe com alguém que precisa ouvir isso hoje. E me conta: onde tem sido mais difícil amar ultimamente?
+Compartilhe com alguém que precisa ouvir isso hoje. E me conta: quem você quer amar com mais atenção hoje?
 #vidadeoração #oração #joãodacruz #espiritualidade #espiritualidadecatólica #fé #vidaespiritual #carmelo #santidade #rezar
 
 ---

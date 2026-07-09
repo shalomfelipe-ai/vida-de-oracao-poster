@@ -21,7 +21,7 @@ O que mais tira você do prumo quando reza?
 
 #vidadeoração #oração #oraçãopessoal #distração #espiritualidade #vidaespiritual #fé #católico #rezar #espiritualidadecatólica
 
-**Stories:** `seg06_story1.png` (manhã) "responde: o que mais te tira do prumo?" · `seg06_story2.png` (tarde) "me conta: você se cobra demais na oração?" (resposta na DM)
+**Stories:** `seg06_story1.png` (manhã) "responde: o que já te ajuda a voltar pra Deus no meio do dia?" · `seg06_story2.png` (tarde) "me conta: o que te ajuda a rezar com mais leveza?" (resposta na DM)
 
 ---
 
@@ -137,4 +137,4 @@ Como está a sua oração quando não vem consolo nenhum?
 
 #vidadeoração #oração #oraçãopessoal #secura #santateresadavila #joãodacruz #fé #vidaespiritual #católico #rezar
 
-**Stories:** `dom12_story1.png` "responde: você desanima quando não sente nada?" · `dom12_story2.png` "me conta: qual vai ser o seu horário fixo?" (resposta na DM)
+**Stories:** `dom12_story1.png` "responde: o que te faz continuar mesmo quando não sente nada?" · `dom12_story2.png` "me conta: qual vai ser o seu horário fixo?" (resposta na DM)
