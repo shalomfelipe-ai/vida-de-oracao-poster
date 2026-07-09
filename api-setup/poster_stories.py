@@ -16,6 +16,14 @@ HERE = Path(__file__).resolve().parent
 INSTA = HERE.parent
 sys.path.insert(0, str(HERE))
 from postar_instagram_api import container_com_fallback, _post, wait_ready, load_secrets, stories_hoje_brt  # noqa
+try:
+    from alerta_telegram import alertar_falha as _alerta_falha, alertar_sucesso as _alerta_ok
+except Exception:
+    def _alerta_falha(*a, **k):
+        return False
+    def _alerta_ok(*a, **k):
+        return False
+
 
 # data -> (story_manha, story_tarde, lote)
 CAL_S = {
@@ -168,6 +176,7 @@ def main():
             return
     except Exception as e:
         registrar(f"AVISO {chave}: checagem 'ja no ar' falhou ({repr(e)[:150]}) NAO posto para nao arriscar duplicata.")
+        _alerta_falha(f"Story {chave} (checagem)", e)
         return
     img = (INSTA / nome) if "/" in nome else (INSTA / lote / nome)
     if not img.exists():
@@ -177,8 +186,10 @@ def main():
         mid = publish_story(secrets["IG_USER_ID"], str(img), secrets)
         marcar(chave, mid)
         registrar(f"OK {chave}: story publicado ({nome}) media_id={mid}")
+        _alerta_ok(f"Story {chave}", mid)
     except Exception as e:
         registrar(f"ERRO {chave}: {repr(e)[:300]}")
+        _alerta_falha(f"Story {chave}", e)
 
 
 if __name__ == "__main__":

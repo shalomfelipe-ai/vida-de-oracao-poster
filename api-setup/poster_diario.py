@@ -15,6 +15,14 @@ HERE = Path(__file__).resolve().parent
 INSTA = HERE.parent  # .../instagram
 sys.path.insert(0, str(HERE))
 from postar_instagram_api import publish, load_secrets, feed_ja_hoje  # noqa
+try:
+    from alerta_telegram import alertar_falha as _alerta_falha, alertar_sucesso as _alerta_ok
+except Exception:
+    def _alerta_falha(*a, **k):
+        return False
+    def _alerta_ok(*a, **k):
+        return False
+
 
 # data -> (lista de arquivos de imagem, pasta do lote, rotulo da secao no LEGENDAS.md)
 CAL = {
@@ -166,6 +174,7 @@ def main():
             return
     except Exception as e:
         registrar(f"AVISO {hoje}: checagem 'ja no ar' falhou ({repr(e)[:150]}) NAO posto para nao arriscar duplicata.")
+        _alerta_falha(f"Feed {hoje} (checagem)", e)
         return
     imgs_rel, lote, secao = CAL[hoje]
     imgs = [str(INSTA / lote / n) for n in imgs_rel]
@@ -178,8 +187,10 @@ def main():
         media_id = publish(secrets["IG_USER_ID"], imgs, legenda, secrets)
         marcar_postado(hoje, media_id)
         registrar(f"OK {hoje}: publicado ({len(imgs)} img) media_id={media_id}")
+        _alerta_ok(f"Feed {hoje} ({secao})", media_id)
     except Exception as e:
         registrar(f"ERRO {hoje}: {repr(e)[:300]}")
+        _alerta_falha(f"Feed {hoje}", e)
 
 
 if __name__ == "__main__":
