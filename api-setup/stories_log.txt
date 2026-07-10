@@ -14,3 +14,4 @@
 [2026-07-09 05:58:51] AVISO 2026-07-09-manha: checagem 'ja no ar' falhou (RuntimeError('GET 17841401526820437/stories -> 400: {"error":{"message":"API access blocked.","type":"OAuthException","code":200,"fbtrace_id":"AcTviq5) NAO posto para nao arriscar duplicata.
 [2026-07-09 16:02:31] OK 2026-07-09-tarde: story publicado (story_joao_entardecer.png) media_id=18014305445879838
 [2026-07-09 18:06:16] 2026-07-09-tarde ja foi postado — pulando.
+[2026-07-10 05:51:48] ERRO 2026-07-10-manha: RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
