@@ -76,11 +76,11 @@ CAL = {
     "2026-07-13": (["sab18_post_refri.png"], "lote-13-19-jul", "SAB 18/07"),
     "2026-07-14": (["dom19_post1_capa.png", "dom19_post2.png", "dom19_post3.png", "dom19_post4.png"], "lote-13-19-jul", "DOM 19/07"),
     # --- Frases dos santos (APROVADAS pelo Felipe: arte final feita no ChatGPT) ---
-    "2026-07-15": (["aprov_joao_onde_amor.png"], "lote-frases-santo", "APROV 17 JOAO ONDE AMOR"),
+    "2026-07-15": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-08", "Legenda do post"),  # CARROSSEL #8 distracao (grade 2/sem aprovada 11/07; bumpou APROV 17 JOAO ONDE AMOR)
     "2026-07-16": (["ter14_post_jaculatorias.png"], "lote-13-19-jul", "TER 14/07"),
     "2026-07-17": (["sex17_post_aguas.png"], "lote-13-19-jul", "SEX 17/07"),
     "2026-07-18": (["sex10_post_tristeza.png"], "lote-06-12-jul", "SEX 10/07"),
-    "2026-07-19": (["jac_sede_nascente.png"], "lote-frases-santo", "JAC 19 SEDE DESERTO"),
+    "2026-07-19": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-14", "Legenda do post"),  # CARROSSEL #14 filho no colo (bumpou JAC 19 SEDE)
     "2026-07-20": (["jac_tusabes_drama.png"], "lote-frases-santo", "JAC 20 TU SABES"),
     # Slots 19-20/07 em aberto; as demais
     # frases aguardam arte aprovada. Nao agendadas p/ nao publicar versao nao aprovada.
@@ -88,10 +88,10 @@ CAL = {
     # "2026-07-20": (["frase06_teresinha.png"], "lote-frases-santo", "FRASE 06 20/07"),
     # --- Série Santos do Carmelo (arte + mini bio) ---
     "2026-07-21": (["teresa_final.png"], "serie-santos-carmelo", "STA TERESA 21/07"),
-    "2026-07-22": (["jac2_fica_comigo.png"], "lote-frases-santo", "JAC2 FICA COMIGO"),
+    "2026-07-22": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-09", "Legenda do post"),  # CARROSSEL #9 secura (bumpou JAC2 FICA COMIGO)
     "2026-07-23": (["jac2_compaixao.png"], "lote-frases-santo", "JAC2 COMPAIXAO"),
     "2026-07-25": (["jac2_aquem_iremos.png"], "lote-frases-santo", "JAC2 A QUEM IREMOS"),
-    "2026-07-26": (["jac2_corca.png"], "lote-frases-santo", "JAC2 CORCA"),
+    "2026-07-26": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-15", "Legenda do post"),  # CARROSSEL #15 microrrezas (bumpou JAC2 CORCA)
     "2026-07-28": (["jac2_arroz.png"], "lote-frases-santo", "JAC2 ARROZ"),
     "2026-07-24": (["joao_final.png"], "serie-santos-carmelo", "SAO JOAO 24/07"),
     "2026-07-27": (["teresinha_final.png"], "serie-santos-carmelo", "STA TERESINHA 27/07"),
