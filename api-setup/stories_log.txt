@@ -22,3 +22,4 @@
 [2026-07-11 20:38:40] 2026-07-11-tarde: story do slot ja esta no ar backup nao precisou agir.
 [2026-07-12 15:42:53] OK 2026-07-12-tarde: story publicado (story_teresinha_olhar.png) media_id=18096430436524434
 [2026-07-12 20:38:01] 2026-07-12-tarde ja foi postado — pulando.
+[2026-07-13 15:24:14] ERRO 2026-07-13-tarde: RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
