@@ -9,7 +9,7 @@ Uso (as tarefas do Windows chamam):
     python poster_stories.py manha
     python poster_stories.py tarde
 """
-import sys, json, datetime, os
+import sys, json, datetime, os, time
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -145,6 +145,21 @@ def publish_story(ig_id, img_path, secrets):
     return _post(f"{ig_id}/media_publish", {"creation_id": cid}, token).get("id")
 
 
+def _stories_hoje_com_retry(ig_id, token, tentativas=3, espera=6):
+    """Checagem 'ja no ar' com retry: um timeout transitorio (ex.: Read timed out
+    na graph.instagram.com) NAO deve abortar o post do dia. So desiste apos N falhas."""
+    ultimo = None
+    for i in range(tentativas):
+        try:
+            return stories_hoje_brt(ig_id, token)
+        except Exception as e:
+            ultimo = e
+            registrar(f"checagem 'ja no ar' tentativa {i+1}/{tentativas} falhou ({repr(e)[:120]})")
+            if i < tentativas - 1:
+                time.sleep(espera)
+    raise ultimo
+
+
 def main():
     slot = (sys.argv[1] if len(sys.argv) > 1 else "").lower()
     if slot not in ("manha", "tarde"):
@@ -167,7 +182,7 @@ def main():
     # manha = qualquer story de hoje antes das 14h BRT; tarde = das 14h em diante.
     try:
         secrets = load_secrets()
-        de_hoje = [t for t in stories_hoje_brt(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"])
+        de_hoje = [t for t in _stories_hoje_com_retry(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"])
                    if t.strftime("%Y-%m-%d") == hoje]
         ja = any(t.hour < 14 for t in de_hoje) if slot == "manha" else any(t.hour >= 14 for t in de_hoje)
         if ja:
