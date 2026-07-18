@@ -56,9 +56,14 @@ def host_catbox(path: Path) -> str:
 
 def host_github(path: Path, cfg: dict) -> str:
     """Assume que as imagens ja estao num repo publico; monta o raw URL.
-    cfg: {"user":.., "repo":.., "branch":"main", "dir":"lote"}"""
+    cfg: {"user":.., "repo":.., "branch":"main", "dir":"lote"}
+    18/07/2026: se cfg nao fixa "dir", usa a PASTA DO PROPRIO ARQUIVO
+    (ex.: lote-06-12-jul), porque o lote muda a cada dia."""
     base = f"https://raw.githubusercontent.com/{cfg['user']}/{cfg['repo']}/{cfg.get('branch','main')}"
-    sub = cfg.get("dir", "").strip("/")
+    sub = cfg.get("dir")
+    if sub is None:
+        sub = Path(path).resolve().parent.name
+    sub = str(sub).strip("/")
     return f"{base}/{sub}/{path.name}" if sub else f"{base}/{path.name}"
 
 
@@ -100,14 +105,21 @@ def host_0x0(path: Path) -> str:
     return url
 
 
-def hosts_chain():
+def hosts_chain(secrets=None):
     """Ordem dos hosts. No GitHub Actions o catbox responde 412 e a Meta
-    rejeitou URL do litterbox (04/07/2026) -> na nuvem comeca por tmpfiles/0x0."""
+    rejeitou URL do litterbox (04/07/2026) -> na nuvem comeca por tmpfiles/0x0.
+    18/07/2026: se secrets tem GITHUB, o raw.githubusercontent entra PRIMEIRO
+    (os 4 hosts anonimos cairam juntos em 18/07 e derrubaram o feed); os
+    anonimos seguem como fallback."""
     padrao = [("tmpfiles", host_tmpfiles), ("0x0", host_0x0),
               ("catbox", host_catbox), ("litterbox", host_litterbox)]
     nuvem = [("tmpfiles", host_tmpfiles), ("0x0", host_0x0),
              ("litterbox", host_litterbox), ("catbox", host_catbox)]
-    return nuvem if os.environ.get("GITHUB_ACTIONS") else padrao
+    chain = nuvem if os.environ.get("GITHUB_ACTIONS") else padrao
+    cfg = (secrets or {}).get("GITHUB")
+    if cfg:
+        chain = [("github", lambda p, c=cfg: host_github(Path(p), c))] + chain
+    return chain
 
 
 def make_public(path: Path, secrets: dict) -> str:
@@ -115,7 +127,7 @@ def make_public(path: Path, secrets: dict) -> str:
     if host == "github":
         return host_github(path, secrets.get("GITHUB", {}))
     ultimo = None
-    for nome, fn in hosts_chain():
+    for nome, fn in hosts_chain(secrets):
         try:
             url = fn(path)
             print(f"  hospedado em {nome}: ok")
@@ -148,7 +160,7 @@ def container_com_fallback(ig_id, path, token, extra=None, secrets=None):
         wait_ready(cid, token)
         return cid
     ultimo = None
-    for nome, fn in hosts_chain():
+    for nome, fn in hosts_chain(secrets):
         try:
             url = fn(Path(path))
         except Exception as e:
