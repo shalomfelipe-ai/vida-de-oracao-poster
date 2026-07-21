@@ -40,3 +40,4 @@
 [2026-07-20 16:15:27] OK 2026-07-20-tarde: story publicado (story_jac_tusabes.png) media_id=17930367453124079
 [2026-07-20 17:46:19] 2026-07-20-tarde ja foi postado — pulando.
 [2026-07-20 20:43:27] 2026-07-20-tarde ja foi postado — pulando.
+[2026-07-21 17:23:48] ERRO 2026-07-21-tarde: RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
