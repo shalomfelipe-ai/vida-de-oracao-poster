@@ -15,7 +15,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 INSTA = HERE.parent  # .../instagram
 sys.path.insert(0, str(HERE))
-from postar_instagram_api import publish, load_secrets, feed_ja_hoje  # noqa
+from postar_instagram_api import publish, publish_reel, load_secrets, feed_ja_hoje  # noqa
 try:
     from alerta_telegram import alertar_falha as _alerta_falha, alertar_sucesso as _alerta_ok
 except Exception:
@@ -28,39 +28,39 @@ except Exception:
 # data -> (lista de arquivos de imagem, pasta do lote, rotulo da secao no LEGENDAS.md)
 CAL = {
     # ===== EXTRA feeds 29-30/07 (dias que estavam sem feed) =====
-    "2026-07-29": (["feed_29.png"], "lote-extra", "EXTRA 29/07"),
-    "2026-07-30": (["feed_30.png"], "lote-extra", "EXTRA 30/07"),
+    "2026-07-29": (["06_jesus-eu-confio-em-vos.mp4"], "lote-reels-fundos", "REEL 06"),  # REEL (substitui card avulso)
+    "2026-07-30": (["07_em-tuas-maos-pai.mp4"], "lote-reels-fundos", "REEL 07"),  # REEL (substitui card avulso)
     # ===== PONTE 01-03/08 (jaculatorias, bridge p/ agosto) =====
-    "2026-08-01": (["p1_post.png"], "lote-ponte-ago", "PONTE 01/08"),
-    "2026-08-02": (["p2_post.png"], "lote-ponte-ago", "PONTE 02/08"),
-    "2026-08-03": (["p3_post.png"], "lote-ponte-ago", "PONTE 03/08"),
+    "2026-08-01": (["01_vinde-espirito-santo.mp4"], "lote-reels-fundos", "REEL 01"),  # REEL (substitui card avulso)
+    "2026-08-02": (["08_meu-senhor-e-meu-deus.mp4"], "lote-reels-fundos", "REEL 08"),  # REEL (substitui card avulso)
+    "2026-08-03": (["11_senhor-que-eu-veja.mp4"], "lote-reels-fundos", "REEL 11"),  # REEL (substitui card avulso)
     # ===== AGOSTO (4 semanas tematicas geradas 07/07) =====
     "2026-08-04": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-ago1-palavra", "SEG 04/08"),
-    "2026-08-05": (["d2_post.png"], "lote-ago1-palavra", "TER 05/08"),
-    "2026-08-06": (["d3_post.png"], "lote-ago1-palavra", "QUA 06/08"),
+    "2026-08-05": (["02_tudo-concorre-para-o-bem.mp4"], "lote-reels-fundos", "REEL 02"),  # REEL (substitui card avulso)
+    "2026-08-06": (["13_aumentai-a-minha-fe.mp4"], "lote-reels-fundos", "REEL 13"),  # REEL (substitui card avulso)
     "2026-08-07": (["d4_capa.png", "d4_s2.png", "d4_s3.png", "d4_s4.png"], "lote-ago1-palavra", "QUI 07/08"),
-    "2026-08-08": (["d5_post.png"], "lote-ago1-palavra", "SEX 08/08"),
-    "2026-08-09": (["d6_post.png"], "lote-ago1-palavra", "SÁB 09/08"),
+    "2026-08-08": (["18_se-deus-e-por-nos.mp4"], "lote-reels-fundos", "REEL 18"),  # REEL (substitui card avulso)
+    "2026-08-09": (["20_tudo-e-graca.mp4"], "lote-reels-fundos", "REEL 20"),  # REEL (substitui card avulso)
     "2026-08-10": (["d7_capa.png", "d7_s2.png", "d7_s3.png", "d7_s4.png"], "lote-ago1-palavra", "DOM 10/08"),
     "2026-08-11": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-ago2-transforma", "SEG 11/08"),
-    "2026-08-12": (["d2_post.png"], "lote-ago2-transforma", "TER 12/08"),
-    "2026-08-13": (["d3_post.png"], "lote-ago2-transforma", "QUA 13/08"),
+    "2026-08-12": (["03_determinada-determinacao.mp4"], "lote-reels-fundos", "REEL 03"),  # REEL (substitui card avulso)
+    "2026-08-13": (["12_deus-nao-muda.mp4"], "lote-reels-fundos", "REEL 12"),  # REEL (substitui card avulso)
     "2026-08-14": (["d4_capa.png", "d4_s2.png", "d4_s3.png", "d4_s4.png"], "lote-ago2-transforma", "QUI 14/08"),
-    "2026-08-15": (["d5_post.png"], "lote-ago2-transforma", "SEX 15/08"),
-    "2026-08-16": (["d6_post.png"], "lote-ago2-transforma", "SÁB 16/08"),
+    "2026-08-15": (["16_onde-nao-ha-amor.mp4"], "lote-reels-fundos", "REEL 16"),  # REEL (substitui card avulso)
+    "2026-08-16": (["09_alma-que-anda-em-amor.mp4"], "lote-reels-fundos", "REEL 09"),  # REEL (substitui card avulso)
     "2026-08-17": (["d7_capa.png", "d7_s2.png", "d7_s3.png", "d7_s4.png"], "lote-ago2-transforma", "DOM 17/08"),
     "2026-08-18": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-ago3-fundo", "SEG 18/08"),
-    "2026-08-19": (["d2_post.png"], "lote-ago3-fundo", "TER 19/08"),
-    "2026-08-20": (["d3_post.png"], "lote-ago3-fundo", "QUA 20/08"),
+    "2026-08-19": (["05_porta-do-castelo.mp4"], "lote-reels-fundos", "REEL 05"),  # REEL (substitui card avulso)
+    "2026-08-20": (["10_oracao-rega-o-jardim.mp4"], "lote-reels-fundos", "REEL 10"),  # REEL (substitui card avulso)
     "2026-08-21": (["d4_capa.png", "d4_s2.png", "d4_s3.png", "d4_s4.png"], "lote-ago3-fundo", "QUI 21/08"),
-    "2026-08-22": (["d5_post.png"], "lote-ago3-fundo", "SEX 22/08"),
-    "2026-08-23": (["d6_post.png"], "lote-ago3-fundo", "SÁB 23/08"),
+    "2026-08-22": (["15_abandono-me-em-ti.mp4"], "lote-reels-fundos", "REEL 15"),  # REEL (substitui card avulso)
+    "2026-08-23": (["19_gracas-pelos-teus-dons.mp4"], "lote-reels-fundos", "REEL 19"),  # REEL (substitui card avulso)
     "2026-08-24": (["d7_capa.png", "d7_s2.png", "d7_s3.png", "d7_s4.png"], "lote-ago3-fundo", "DOM 24/08"),
     "2026-08-25": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-ago4-vida", "SEG 25/08"),
-    "2026-08-26": (["d2_post.png"], "lote-ago4-vida", "TER 26/08"),
-    "2026-08-27": (["d3_post.png"], "lote-ago4-vida", "QUA 27/08"),
+    "2026-08-26": (["17_entardecer-da-vida.mp4"], "lote-reels-fundos", "REEL 17"),  # REEL (substitui card avulso)
+    "2026-08-27": (["04_deus-meu-e-meu-tudo.mp4"], "lote-reels-fundos", "REEL 04"),  # REEL (substitui card avulso)
     "2026-08-28": (["d4_capa.png", "d4_s2.png", "d4_s3.png", "d4_s4.png"], "lote-ago4-vida", "QUI 28/08"),
-    "2026-08-29": (["d5_post.png"], "lote-ago4-vida", "SEX 29/08"),
+    "2026-08-29": (["23_chuva-de-rosas.mp4"], "lote-reels-fundos", "REEL 23"),  # REEL (substitui card avulso)
     "2026-08-30": (["d6_post.png"], "lote-ago4-vida", "SÁB 30/08"),
     "2026-08-31": (["d7_capa.png", "d7_s2.png", "d7_s3.png", "d7_s4.png"], "lote-ago4-vida", "DOM 31/08"),
     "2026-07-02": (["ter07_post_sono.png"], "lote-06-12-jul", "TER 07/07"),
@@ -90,10 +90,10 @@ CAL = {
     # --- Série Santos do Carmelo (arte + mini bio) ---
     "2026-07-21": (["teresa_final.png"], "serie-santos-carmelo", "STA TERESA 21/07"),
     "2026-07-22": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-09", "Legenda do post"),  # CARROSSEL #9 secura (bumpou JAC2 FICA COMIGO)
-    "2026-07-23": (["jac2_compaixao.png"], "lote-frases-santo", "JAC2 COMPAIXAO"),
-    "2026-07-25": (["jac2_aquem_iremos.png"], "lote-frases-santo", "JAC2 A QUEM IREMOS"),
+    "2026-07-23": (["14_meu-jesus-misericordia.mp4"], "lote-reels-fundos", "REEL 14"),  # REEL (substitui card avulso)
+    "2026-07-25": (["22_rezar-com-filho-no-colo.mp4"], "lote-reels-fundos", "REEL 22"),  # REEL (substitui card avulso)
     "2026-07-26": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-15", "Legenda do post"),  # CARROSSEL #15 microrrezas (bumpou JAC2 CORCA)
-    "2026-07-28": (["jac2_arroz.png"], "lote-frases-santo", "JAC2 ARROZ"),
+    "2026-07-28": (["21_seja-feita-a-vossa-vontade.mp4"], "lote-reels-fundos", "REEL 21"),  # REEL (substitui card avulso)
     "2026-07-24": (["joao_final.png"], "serie-santos-carmelo", "SAO JOAO 24/07"),
     "2026-07-27": (["teresinha_final.png"], "serie-santos-carmelo", "STA TERESINHA 27/07"),
     # --- Carrossel "Jaculatorias pra rezar o dia inteiro" (para guardar) ---
@@ -200,7 +200,11 @@ def main():
         return
     try:
         legenda = extrair_legenda(lote, secao)
-        media_id = publish(secrets["IG_USER_ID"], imgs, legenda, secrets)
+        eh_reel = len(imgs) == 1 and imgs[0].lower().endswith((".mp4", ".mov"))
+        if eh_reel:
+            media_id = publish_reel(secrets["IG_USER_ID"], imgs[0], legenda, secrets, share_to_feed=True)
+        else:
+            media_id = publish(secrets["IG_USER_ID"], imgs, legenda, secrets)
         marcar_postado(hoje, media_id)
         registrar(f"OK {hoje}: publicado ({len(imgs)} img) media_id={media_id}")
         _alerta_ok(f"Feed {hoje} ({secao})", media_id)
