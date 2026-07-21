@@ -8,7 +8,8 @@ Rodar via run_poster.bat (a tarefa do Windows chama esse .bat todo dia).
 Nao republica se o dia ja foi postado (guarda em posted.json).
 Depois de 14/07 nao ha conteudo aqui (o novo vem do programa de terca).
 """
-import json, sys, datetime, os
+import json
+import re, sys, datetime, os
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -116,7 +117,22 @@ def extrair_legenda(lote, secao):
     start = j + len("**Legenda:**")
     ends = [x for x in (md.find("**Stories:**", start), md.find("\n---", start), md.find("\n## ", start)) if x != -1]
     end = min(ends) if ends else len(md)
-    return md[start:end].strip()
+    bruto = md[start:end].strip()
+    # anotacoes internas do LEGENDAS.md NUNCA vao pro Instagram:
+    # linhas de citacao (>) e linhas de marcacao (**Nota:**, **Obs:**) sao editoriais.
+    limpas = []
+    for linha in bruto.split("\n"):
+        s = linha.strip()
+        if s.startswith(">"):
+            continue
+        if re.match(r"^\*\*(nota|obs|observacao|observação|interno|lembrete)\b", s, re.I):
+            continue
+        limpas.append(linha)
+    legenda = "\n".join(limpas).strip()
+    legenda = re.sub(r"\n{3,}", "\n\n", legenda)
+    if not legenda:
+        raise RuntimeError(f"legenda vazia apos limpeza em {lote} / {secao}")
+    return legenda
 
 
 def registrar(status):

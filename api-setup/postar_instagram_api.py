@@ -238,6 +238,49 @@ def wait_ready(container_id, token, tries=40, delay=3):
     raise RuntimeError(f"container {container_id} nao ficou pronto a tempo.")
 
 
+def container_reel(ig_id, path, token, caption, secrets=None, share_to_feed=True):
+    """Igual ao container de imagem, mas para VIDEO/REEL: usa media_type=REELS +
+    video_url e espera mais tempo (o processamento de video na Meta e mais lento).
+    Reaproveita a mesma cadeia de hosts (github na frente, anonimos de fallback)."""
+    secrets = secrets or {}
+    base = {"media_type": "REELS", "caption": caption,
+            "share_to_feed": "true" if share_to_feed else "false"}
+    if secrets.get("HOST") == "github":
+        url = host_github(Path(path), secrets.get("GITHUB", {}))
+        cid = _post(f"{ig_id}/media", dict(base, video_url=url), token)["id"]
+        wait_ready(cid, token, tries=90, delay=4)
+        return cid
+    ultimo = None
+    for nome, fn in hosts_chain(secrets):
+        try:
+            url = fn(Path(path))
+        except Exception as e:
+            print(f"  host {nome} falhou no upload: {e}")
+            ultimo = e
+            continue
+        print(f"  hospedado em {nome}: ok")
+        try:
+            cid = _post(f"{ig_id}/media", dict(base, video_url=url), token)["id"]
+            wait_ready(cid, token, tries=90, delay=4)
+            return cid
+        except Exception as e:
+            if _erro_de_download(e):
+                print(f"  Meta nao baixou o video de {nome}; tentando outro host...")
+                ultimo = e
+                continue
+            raise
+    raise RuntimeError(f"nenhum host serviu o video para a Meta (ultimo erro: {ultimo})")
+
+
+def publish_reel(ig_id, video, legenda, secrets, share_to_feed=True):
+    token = secrets["ACCESS_TOKEN"]
+    print("Hospedando reel...")
+    cid = container_reel(ig_id, video, token, legenda, secrets, share_to_feed)
+    res = _post(f"{ig_id}/media_publish", {"creation_id": cid}, token)
+    print(f"REEL PUBLICADO. media id: {res.get('id')}")
+    return res.get("id")
+
+
 def publish(ig_id, imagens, legenda, secrets):
     token = secrets["ACCESS_TOKEN"]
     print(f"Hospedando {len(imagens)} imagem(ns)...")
@@ -260,7 +303,9 @@ def publish(ig_id, imagens, legenda, secrets):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--imagens", nargs="+", required=True, help="caminhos das imagens, em ordem")
+    ap.add_argument("--imagens", nargs="+", help="caminhos das imagens, em ordem")
+    ap.add_argument("--video", default=None, help="mp4 de um REEL (em vez de imagens)")
+    ap.add_argument("--nao-feed", action="store_true", help="reel NAO aparece na grade do feed")
     ap.add_argument("--legenda", default=None)
     ap.add_argument("--legenda-arquivo", default=None)
     a = ap.parse_args()
@@ -269,6 +314,16 @@ def main():
     if a.legenda_arquivo:
         legenda = Path(a.legenda_arquivo).read_text(encoding="utf-8").strip()
 
+    if a.video:
+        if not Path(a.video).exists():
+            sys.exit(f"ERRO: video nao encontrado: {a.video}")
+        secrets = load_secrets()
+        publish_reel(secrets["IG_USER_ID"], a.video, legenda, secrets,
+                     share_to_feed=not a.nao_feed)
+        return
+
+    if not a.imagens:
+        sys.exit("ERRO: informe --imagens ou --video.")
     for p in a.imagens:
         if not Path(p).exists():
             sys.exit(f"ERRO: imagem nao encontrada: {p}")
