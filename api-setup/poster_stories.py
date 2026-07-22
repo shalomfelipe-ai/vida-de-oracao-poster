@@ -68,7 +68,7 @@ CAL_S = {
     "2026-07-18": ("sex10_story1.png", "sex10_story2.png", "lote-06-12-jul"),
     "2026-07-19": ("lote-extra/s1.png", "story_jac_sede.png", "lote-frases-santo"),
     "2026-07-20": ("lote-extra/s2.png", "story_jac_tusabes.png", "lote-frases-santo"),
-    "2026-07-22": ("lote-extra/s3.png", "story_jac2_fica_comigo.png", "lote-frases-santo"),
+    "2026-07-22": (None, "madalena_story.png", "lote-santo-madalena"),  # SANTO DO DIA Maria Madalena: so tarde (convite a rezar); manha sem story
     "2026-07-23": ("lote-extra/s4.png", "story_jac2_compaixao.png", "lote-frases-santo"),
     "2026-07-25": ("lote-extra/s5.png", "story_jac2_aquem_iremos.png", "lote-frases-santo"),
     "2026-07-26": ("lote-extra/s6.png", "story_jac2_corca.png", "lote-frases-santo"),
@@ -85,10 +85,10 @@ CAL_S = {
     "2026-07-17": ("sex17_story1.png", "sex17_story2.png", "lote-13-19-jul"),
     "2026-07-13": ("sab18_story1.png", "sab18_story2.png", "lote-13-19-jul"),
     "2026-07-14": ("dom19_story1.png", "dom19_story2.png", "lote-13-19-jul"),    # --- Serie "Jaculatoria de hoje" (stories, jul) ---
-    "2026-07-21": ("jac_04_que_eu_veja.png", "jac_05_abba.png", "lote-jaculatorias"),
+    "2026-07-21": ("jac_04_que_eu_veja.png", None, "lote-jaculatorias"),  # jac_05_abba guardada p/ 29/07 (Felipe 21/07)
     "2026-07-24": ("jac_06_meu_senhor.png", "jac_07_espirito.png", "lote-jaculatorias"),
     "2026-07-27": ("jac_08_vossa_vontade.png", "jac_09_mae.png", "lote-jaculatorias"),
-    "2026-07-29": ("jac_10_sao_jose.png", "lote-extra/s8.png", "lote-jaculatorias"),
+    "2026-07-29": ("jac_10_sao_jose.png", "jac_05_abba.png", "lote-jaculatorias"),  # tarde era enchimento s8; recebe jac_05_abba guardada de 21/07
     "2026-07-30": ("jac_11_misericordia.png", "lote-extra/s9.png", "lote-jaculatorias"),
     "2026-07-31": ("jac_12_tudo_bem.png", "lote-extra/s10.png", "lote-jaculatorias"),
 }

@@ -89,8 +89,9 @@ CAL = {
     # "2026-07-20": (["frase06_teresinha.png"], "lote-frases-santo", "FRASE 06 20/07"),
     # --- Série Santos do Carmelo (arte + mini bio) ---
     "2026-07-21": (["teresa_final.png"], "serie-santos-carmelo", "STA TERESA 21/07"),
-    "2026-07-22": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-09", "Legenda do post"),  # CARROSSEL #9 secura (bumpou JAC2 FICA COMIGO)
-    "2026-07-23": (["14_meu-jesus-misericordia.mp4"], "lote-reels-fundos", "REEL 14"),  # REEL (substitui card avulso)
+    "2026-07-22": (["madalena_card.png"], "lote-santo-madalena", "MADALENA 22/07"),  # SANTO DO DIA Maria Madalena (double exposure aprovado Felipe 22/07; empurrou carrossel #9 secura -> 23/07)
+    "2026-07-23": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-09", "Legenda do post"),  # CARROSSEL #9 secura (movido de 22/07 pela Madalena)
+    "2026-09-01": (["14_meu-jesus-misericordia.mp4"], "lote-reels-fundos", "REEL 14"),  # REEL 14 misericordia (deslocado de 23/07 pela Madalena; realocar quando reconciliar setembro)
     "2026-07-25": (["22_rezar-com-filho-no-colo.mp4"], "lote-reels-fundos", "REEL 22"),  # REEL (substitui card avulso)
     "2026-07-26": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-15", "Legenda do post"),  # CARROSSEL #15 microrrezas (bumpou JAC2 CORCA)
     "2026-07-28": (["21_seja-feita-a-vossa-vontade.mp4"], "lote-reels-fundos", "REEL 21"),  # REEL (substitui card avulso)
