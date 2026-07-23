@@ -44,3 +44,4 @@
 [2026-07-21 21:02:23] 2026-07-21-manha: story do slot ja esta no ar backup nao precisou agir.
 [2026-07-22 17:03:14] 2026-07-22-tarde: story do slot ja esta no ar backup nao precisou agir.
 [2026-07-22 21:14:41] 2026-07-22-manha: sem story neste slot — nada postado.
+[2026-07-23 17:04:46] OK 2026-07-23-tarde: story publicado (story_jac2_compaixao.png) media_id=18210759082346506
