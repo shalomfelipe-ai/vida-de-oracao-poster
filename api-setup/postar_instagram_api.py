@@ -67,6 +67,19 @@ def host_github(path: Path, cfg: dict) -> str:
     return f"{base}/{sub}/{path.name}" if sub else f"{base}/{path.name}"
 
 
+def host_jsdelivr(path: Path, cfg: dict) -> str:
+    """Mesmo repo publico do host_github, mas servido pelo CDN jsDelivr — feito
+    para hotlink em volume, sem os rate-limits que a Meta as vezes bate no
+    raw.githubusercontent. So funciona com repo PUBLICO."""
+    branch = cfg.get("branch", "main")
+    sub = cfg.get("dir")
+    if sub is None:
+        sub = Path(path).resolve().parent.name
+    sub = str(sub).strip("/")
+    base = f"https://cdn.jsdelivr.net/gh/{cfg['user']}/{cfg['repo']}@{branch}"
+    return f"{base}/{sub}/{path.name}" if sub else f"{base}/{path.name}"
+
+
 def host_litterbox(path: Path) -> str:
     """Irmao do catbox (litterbox, arquivo expira em 24h) — outro dominio/CDN."""
     with open(path, "rb") as f:
@@ -118,7 +131,8 @@ def hosts_chain(secrets=None):
     chain = nuvem if os.environ.get("GITHUB_ACTIONS") else padrao
     cfg = (secrets or {}).get("GITHUB")
     if cfg:
-        chain = [("github", lambda p, c=cfg: host_github(Path(p), c))] + chain
+        chain = [("github", lambda p, c=cfg: host_github(Path(p), c)),
+                 ("jsdelivr", lambda p, c=cfg: host_jsdelivr(Path(p), c))] + chain
     return chain
 
 
