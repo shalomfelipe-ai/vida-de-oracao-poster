@@ -196,16 +196,42 @@ def _ts_brt(s):
     return datetime.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z").astimezone(BRT)
 
 
-def feed_ja_hoje(ig_id, token, hoje):
-    """True se ja existe post de FEED com data (BRT) == hoje ('YYYY-MM-DD')."""
+def feed_hoje_ids_brt(ig_id, token, hoje):
+    """[(id, ts_brt)] dos posts de FEED cuja data (BRT) == hoje."""
     d = _get(f"{ig_id}/media", {"fields": "id,timestamp", "limit": 10}, token)
-    return any(_ts_brt(m["timestamp"]).strftime("%Y-%m-%d") == hoje for m in d.get("data", []))
+    out = []
+    for m in d.get("data", []):
+        t = _ts_brt(m["timestamp"])
+        if t.strftime("%Y-%m-%d") == hoje:
+            out.append((m["id"], t))
+    return out
+
+
+def feed_ja_hoje(ig_id, token, hoje, so_apos_hora=None, excluir_ids=None):
+    """True se ja existe post de FEED com data (BRT) == hoje.
+    so_apos_hora: se dado, so conta feeds publicados a partir dessa hora (BRT) —
+        serve pra ignorar a peca EXTRA de 'santo do dia' postada de manha.
+    excluir_ids: ids de media a desconsiderar (ex.: o reel do santo do dia)."""
+    excluir_ids = set(excluir_ids or [])
+    for mid, t in feed_hoje_ids_brt(ig_id, token, hoje):
+        if mid in excluir_ids:
+            continue
+        if so_apos_hora is not None and t.hour < so_apos_hora:
+            continue
+        return True
+    return False
 
 
 def stories_hoje_brt(ig_id, token):
     """Horarios (BRT) dos stories AO VIVO publicados hoje nao entra o que ja expirou."""
     d = _get(f"{ig_id}/stories", {"fields": "id,timestamp"}, token)
     return [_ts_brt(m["timestamp"]) for m in d.get("data", [])]
+
+
+def stories_hoje_ids_brt(ig_id, token):
+    """[(id, ts_brt)] dos stories AO VIVO (ainda nao expirados)."""
+    d = _get(f"{ig_id}/stories", {"fields": "id,timestamp"}, token)
+    return [(m["id"], _ts_brt(m["timestamp"])) for m in d.get("data", [])]
 
 
 # ---------- Graph API ----------

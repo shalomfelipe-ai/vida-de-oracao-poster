@@ -15,7 +15,13 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 INSTA = HERE.parent
 sys.path.insert(0, str(HERE))
-from postar_instagram_api import container_com_fallback, _post, wait_ready, load_secrets, stories_hoje_brt  # noqa
+from postar_instagram_api import container_com_fallback, _post, wait_ready, load_secrets, stories_hoje_brt, stories_hoje_ids_brt  # noqa
+try:
+    from poster_santo import CAL_SANTO_DATES, santo_story_id_hoje  # santo do dia = peca EXTRA
+except Exception:
+    CAL_SANTO_DATES = set()
+    def santo_story_id_hoje(_h):
+        return None
 try:
     from alerta_telegram import alertar_falha as _alerta_falha, alertar_sucesso as _alerta_ok
 except Exception:
@@ -160,6 +166,19 @@ def _stories_hoje_com_retry(ig_id, token, tentativas=3, espera=6):
     raise ultimo
 
 
+def _stories_ids_hoje_com_retry(ig_id, token, tentativas=3, espera=6):
+    ultimo = None
+    for i in range(tentativas):
+        try:
+            return stories_hoje_ids_brt(ig_id, token)
+        except Exception as e:
+            ultimo = e
+            registrar(f"checagem 'ja no ar' (ids) tentativa {i+1}/{tentativas} falhou ({repr(e)[:120]})")
+            if i < tentativas - 1:
+                time.sleep(espera)
+    raise ultimo
+
+
 def main():
     slot = (sys.argv[1] if len(sys.argv) > 1 else "").lower()
     if slot not in ("manha", "tarde"):
@@ -182,8 +201,11 @@ def main():
     # manha = qualquer story de hoje antes das 14h BRT; tarde = das 14h em diante.
     try:
         secrets = load_secrets()
-        de_hoje = [t for t in _stories_hoje_com_retry(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"])
-                   if t.strftime("%Y-%m-%d") == hoje]
+        # Nos dias com santo do dia, o story do santo (postado cedo) NAO pode bloquear
+        # o story regular da manha: desconsideramos o id dele na checagem "ja no ar".
+        _santo_sid = santo_story_id_hoje(hoje) if hoje in CAL_SANTO_DATES else None
+        de_hoje = [t for (mid, t) in _stories_ids_hoje_com_retry(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"])
+                   if t.strftime("%Y-%m-%d") == hoje and mid != _santo_sid]
         ja = any(t.hour < 14 for t in de_hoje) if slot == "manha" else any(t.hour >= 14 for t in de_hoje)
         if ja:
             marcar(chave, "ja-no-ar (PC ou manual)")

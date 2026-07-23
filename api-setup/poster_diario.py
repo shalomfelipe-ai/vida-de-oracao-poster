@@ -17,6 +17,12 @@ INSTA = HERE.parent  # .../instagram
 sys.path.insert(0, str(HERE))
 from postar_instagram_api import publish, publish_reel, load_secrets, feed_ja_hoje  # noqa
 try:
+    from poster_santo import CAL_SANTO_DATES, santo_feed_ids_hoje  # santo do dia = peca EXTRA
+except Exception:
+    CAL_SANTO_DATES = set()
+    def santo_feed_ids_hoje(_h):
+        return []
+try:
     from alerta_telegram import alertar_falha as _alerta_falha, alertar_sucesso as _alerta_ok
 except Exception:
     def _alerta_falha(*a, **k):
@@ -91,7 +97,6 @@ CAL = {
     "2026-07-21": (["teresa_final.png"], "serie-santos-carmelo", "STA TERESA 21/07"),
     "2026-07-22": (["madalena_card.png"], "lote-santo-madalena", "MADALENA 22/07"),  # SANTO DO DIA Maria Madalena (double exposure aprovado Felipe 22/07; empurrou carrossel #9 secura -> 23/07)
     "2026-07-23": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-09", "Legenda do post"),  # CARROSSEL #9 secura (movido de 22/07 pela Madalena)
-    "2026-09-01": (["14_meu-jesus-misericordia.mp4"], "lote-reels-fundos", "REEL 14"),  # REEL 14 misericordia (deslocado de 23/07 pela Madalena; realocar quando reconciliar setembro)
     "2026-07-25": (["22_rezar-com-filho-no-colo.mp4"], "lote-reels-fundos", "REEL 22"),  # REEL (substitui card avulso)
     "2026-07-26": (["s1_capa.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png"], "lote-carrossel-15", "Legenda do post"),  # CARROSSEL #15 microrrezas (bumpou JAC2 CORCA)
     "2026-07-28": (["21_seja-feita-a-vossa-vontade.mp4"], "lote-reels-fundos", "REEL 21"),  # REEL (substitui card avulso)
@@ -185,7 +190,12 @@ def main():
     # ou foi manual), registra e sai. Se a checagem falhar, NAO posta (nunca duplicar).
     try:
         secrets = load_secrets()
-        if feed_ja_hoje(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"], hoje):
+        # Santo do dia e peca EXTRA da manha: nao pode bloquear o feed regular das 12h.
+        # Nos dias com santo, so conta como "ja no ar" um feed publicado a partir das 11h BRT
+        # (o regular), ignorando o reel do santo postado cedo; e desconsidera o id do santo.
+        _so_apos = 11 if hoje in CAL_SANTO_DATES else None
+        _excl = santo_feed_ids_hoje(hoje)
+        if feed_ja_hoje(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"], hoje, so_apos_hora=_so_apos, excluir_ids=_excl):
             marcar_postado(hoje, "ja-no-ar (PC ou manual)")
             registrar(f"{hoje}: feed do dia ja esta no ar backup nao precisou agir.")
             return

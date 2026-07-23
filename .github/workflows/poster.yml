@@ -54,6 +54,8 @@ jobs:
         working-directory: api-setup
         run: |
           MODO="${{ steps.modo.outputs.modo }}"
+          # Santo do dia e peca EXTRA da manha (roda ANTES do story regular; nao bloqueia a fila).
+          if [ "$MODO" = "manha" ]; then python poster_santo.py || true; fi
           if [ "$MODO" = "feed" ]; then python poster_diario.py; else python poster_stories.py "$MODO"; fi
 
       - name: Guardar estado e logs no repo
