@@ -19,7 +19,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 INSTA = HERE.parent
 sys.path.insert(0, str(HERE))
-from postar_instagram_api import (publish_reel, load_secrets, feed_hoje_ids_brt,  # noqa
+from postar_instagram_api import (publish_reel, publish, load_secrets, feed_hoje_ids_brt,  # noqa
                                   container_com_fallback, _post)
 try:
     from alerta_telegram import alertar_falha as _alerta_falha, alertar_sucesso as _alerta_ok
@@ -36,6 +36,11 @@ CAL_SANTO = {
         "feed": ["santa_ana_reel_music.mp4"], "feed_lote": "lote-santo-ana",
         "feed_secao": "Legenda do post",
         "story": "santa_ana_story.png", "story_lote": "lote-santo-ana",
+    },
+    "2026-07-29": {
+        "feed": ["marta_reel.mp4"], "feed_lote": "lote-santo-marta",
+        "feed_secao": "## FEED",
+        "story": "marta_story.png", "story_lote": "lote-santo-marta",
     },
 }
 CAL_SANTO_DATES = set(CAL_SANTO)
@@ -155,10 +160,13 @@ def main():
         else:
             try:
                 legenda = extrair_legenda(cfg["feed_lote"], cfg["feed_secao"])
-                mid = publish_reel(secrets["IG_USER_ID"], imgs[0], legenda, secrets, share_to_feed=True)
+                if imgs[0].lower().endswith((".mp4", ".mov", ".m4v")):
+                    mid = publish_reel(secrets["IG_USER_ID"], imgs[0], legenda, secrets, share_to_feed=True)
+                else:
+                    mid = publish(secrets["IG_USER_ID"], imgs, legenda, secrets)
                 state[feed_key] = {"quando": now(), "media_id": mid}
                 _save_state(STATE, state)
-                registrar(f"OK {hoje}: reel do santo publicado media_id={mid}")
+                registrar(f"OK {hoje}: feed do santo publicado media_id={mid}")
                 _alerta_ok(f"Santo {hoje} (feed)", mid)
             except Exception as e:
                 registrar(f"ERRO {hoje} (feed): {repr(e)[:300]}")
