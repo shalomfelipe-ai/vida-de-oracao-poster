@@ -42,6 +42,11 @@ CAL_SANTO = {
         "feed_secao": "## FEED",
         "story": "marta_story.png", "story_lote": "lote-santo-marta",
     },
+    "2026-07-31": {
+        "feed": ["inacio_card_reel.mp4"], "feed_lote": "lote-santo-inacio",
+        "feed_secao": "## FEED",
+        "story": "inacio_story.png", "story_lote": "lote-santo-inacio",
+    },
 }
 CAL_SANTO_DATES = set(CAL_SANTO)
 
