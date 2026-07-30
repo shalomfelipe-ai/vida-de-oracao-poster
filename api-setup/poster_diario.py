@@ -42,11 +42,11 @@ CAL = {
     "2026-08-03": (["11_senhor-que-eu-veja.mp4"], "lote-reels-fundos", "REEL 11"),  # REEL (substitui card avulso)
     # ===== AGOSTO (4 semanas tematicas geradas 07/07) =====
     "2026-08-04": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-ago1-palavra", "SEG 04/08"),
-    "2026-08-05": (["02_tudo-concorre-para-o-bem.mp4"], "lote-reels-fundos", "REEL 02"),  # REEL (substitui card avulso)
+    "2026-08-05": (["cachoeira_rm828.mp4"], "lote-reels-jaculatoria2", "CACHOEIRA"),  # REEL Rm 8,28 fundo cachoeira (aposenta REEL 02 duplicado)
     "2026-08-06": (["13_aumentai-a-minha-fe.mp4"], "lote-reels-fundos", "REEL 13"),  # REEL (substitui card avulso)
     "2026-08-07": (["d4_capa.png", "d4_s2.png", "d4_s3.png", "d4_s4.png"], "lote-ago1-palavra", "QUI 07/08"),
     "2026-08-08": (["18_se-deus-e-por-nos.mp4"], "lote-reels-fundos", "REEL 18"),  # REEL (substitui card avulso)
-    "2026-08-09": (["20_tudo-e-graca.mp4"], "lote-reels-fundos", "REEL 20"),  # REEL (substitui card avulso)
+    "2026-08-09": (["flor_1ts518.mp4"], "lote-reels-jaculatoria2", "FLOR COM ORVALHO"),  # REEL 1 Ts 5,18 flor com orvalho (REEL 20 volta ao pool)
     "2026-08-10": (["d7_capa.png", "d7_s2.png", "d7_s3.png", "d7_s4.png"], "lote-ago1-palavra", "DOM 10/08"),
     "2026-08-11": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-ago2-transforma", "SEG 11/08"),
     "2026-08-12": (["03_determinada-determinacao.mp4"], "lote-reels-fundos", "REEL 03"),  # REEL (substitui card avulso)
