@@ -64,3 +64,4 @@
 [2026-07-30 17:23:25] 2026-07-30-tarde: story do slot ja esta no ar backup nao precisou agir.
 [2026-07-30 21:17:39] 2026-07-30-manha: story do slot ja esta no ar backup nao precisou agir.
 [2026-07-31 15:11:25] OK 2026-07-31-tarde: story publicado (lote-extra/s10.png) media_id=18108671462155871
+[2026-07-31 17:49:27] 2026-07-31-tarde ja foi postado — pulando.
