@@ -162,5 +162,9 @@
   "2026-08-01-tarde": {
     "quando": "2026-08-01 17:02:34",
     "media_id": "ja-no-ar (PC ou manual)"
+  },
+  "2026-08-01-manha": {
+    "quando": "2026-08-01 21:18:05",
+    "media_id": "ja-no-ar (PC ou manual)"
   }
 }
