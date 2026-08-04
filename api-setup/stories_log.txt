@@ -73,3 +73,4 @@
 [2026-08-03 15:59:17] OK 2026-08-03-tarde: story publicado (lote-extra/s13.png) media_id=18001903262985731
 [2026-08-03 17:41:25] 2026-08-03-tarde ja foi postado — pulando.
 [2026-08-03 18:49:15] 2026-08-03-tarde ja foi postado — pulando.
+[2026-08-04 18:57:38] 2026-08-04-tarde: story do slot ja esta no ar backup nao precisou agir.
