@@ -61,7 +61,7 @@ CAL_S = {
     "2026-08-24": ("d7_story1.png", "d7_story2.png", "lote-ago3-fundo"),
     "2026-08-25": ("d1_story1.png", "d1_story2.png", "lote-ago4-vida"),
     "2026-08-26": ("d2_story1.png", "d2_story2.png", "lote-ago4-vida"),
-    "2026-08-27": ("d3_story2.png", "d3_story1.png", "lote-ago4-vida"),  # swap: manha standalone; tarde (offender) cita infografico "4 passos"
+    "2026-08-27": ("d3_story1.png", "d3_story2.png", "lote-ago4-vida"),
     "2026-08-28": ("d4_story1.png", "d4_story2.png", "lote-ago4-vida"),
     "2026-08-29": ("d5_story1.png", "d5_story2.png", "lote-ago4-vida"),
     "2026-08-30": ("d6_story2.png", "d6_story1.png", "lote-ago4-vida"),  # swap: manha standalone; tarde (offender) cita infografico
