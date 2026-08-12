@@ -31,3 +31,4 @@
 [2026-08-10 13:31:23] 2026-08-10: feed do dia ja esta no ar backup nao precisou agir.
 [2026-08-11 11:06:30] OK 2026-08-11: publicado (4 img) media_id=17998824089793364
 [2026-08-11 13:35:28] 2026-08-11 ja foi postado antes — pulando (sem republicar).
+[2026-08-12 11:06:38] ERRO 2026-08-12: RuntimeError('container 18613952314050895 deu ERROR: {"status_code":"ERROR","id":"18613952314050895"}')
