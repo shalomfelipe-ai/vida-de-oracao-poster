@@ -32,6 +32,11 @@ except Exception:
 
 # data -> dict(feed=[arquivos], feed_lote, feed_secao, story=arquivo|None, story_lote)
 CAL_SANTO = {
+    "2026-08-13": {
+        "feed": ["edith_card.png"], "feed_lote": "lote-santo-edith",
+        "feed_secao": "## FEED",
+        "story": "edith_story.png", "story_lote": "lote-santo-edith",
+    },
     "2026-08-11": {
         "feed": ["clara_card.png", "clara_slide2.png"], "feed_lote": "lote-santo-clara",
         "feed_secao": "## FEED",
