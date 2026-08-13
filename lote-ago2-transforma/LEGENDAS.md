@@ -39,7 +39,9 @@ Olhar pro próprio pecado é necessário, mas tem um jeito errado de fazer isso:
 
 Reconhecer: chame a coisa pelo nome, sem maquiar e sem apelido bonito. Sem se justificar: não invente desculpa, mas também não faça drama nem novela. Levar à misericórdia: mostre a ferida pra Deus, que já sabia dela antes de você contar. Agradecer e seguir: receba o perdão e levante. Culpa que te deixa parado não vem de Deus. O que vem dele te levanta e te move pra frente.
 
-Experimenta hoje: reze um exame de consciência que termina em gratidão, não em desânimo.
+E o alívio de ser perdoado tem um lugar próprio pra acontecer por inteiro: a confissão. Se faz tempo que você não vai, deixa eu te dizer com carinho: vá se confessar. Você entra carregando o peso e sai leve, ouvindo com todas as letras que Deus te perdoou. Não precisa esperar se sentir digno nem ensaiar as palavras bonitas; vá do jeito que está, que a graça faz o resto.
+
+Experimenta essa semana: reze um exame de consciência que termina em gratidão e marque uma confissão.
 
 Você já sentiu o alívio de ser perdoado por Deus?
 
