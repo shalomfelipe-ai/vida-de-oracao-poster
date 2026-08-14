@@ -36,3 +36,4 @@
 [2026-08-13 11:08:20] OK 2026-08-13: publicado (1 img) media_id=17903922498494501
 [2026-08-13 13:34:44] 2026-08-13 ja foi postado antes — pulando (sem republicar).
 [2026-08-14 11:03:38] OK 2026-08-14: publicado (4 img) media_id=18030660929662153
+[2026-08-14 13:31:57] 2026-08-14 ja foi postado antes — pulando (sem republicar).
