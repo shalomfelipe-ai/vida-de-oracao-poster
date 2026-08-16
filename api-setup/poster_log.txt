@@ -38,3 +38,4 @@
 [2026-08-14 11:03:38] OK 2026-08-14: publicado (4 img) media_id=18030660929662153
 [2026-08-14 13:31:57] 2026-08-14 ja foi postado antes — pulando (sem republicar).
 [2026-08-15 12:56:51] 2026-08-15: feed do dia ja esta no ar backup nao precisou agir.
+[2026-08-16 12:57:35] OK 2026-08-16: publicado (1 img) media_id=18110908003817309
