@@ -3,6 +3,7 @@
 Arte: double exposure (foto de domínio público de 1936, Wikimedia) do rosto de Kolbe fundido com o campo de Auschwitz ao amanhecer. Card feed 1080x1350 + story 1080x1920, com o nome em dourado (série Carmelo). Fonte da foto: File:Fr.Maximilian Kolbe in 1936.jpg (PD-Poland / PD-anon-70-EU).
 
 ## FEED
+**Legenda:**
 
 Um homem deu um passo à frente na fila da morte para morrer no lugar de um estranho. E o que sustentou uma decisão dessas não nasceu naquele instante.
 
