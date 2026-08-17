@@ -254,5 +254,9 @@
   "2026-08-17-manha": {
     "quando": "2026-08-17 10:26:35",
     "media_id": "ja-no-ar (PC ou manual)"
+  },
+  "2026-08-17-tarde": {
+    "quando": "2026-08-17 18:04:05",
+    "media_id": "ja-no-ar (PC ou manual)"
   }
 }
