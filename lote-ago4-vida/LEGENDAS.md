@@ -65,7 +65,7 @@ Você tem alguém com quem conversar sobre a sua oração?
 
 ## SEX 29/08 · Card (Pilar 5) · `d5_post`
 **Legenda:**
-A gente às vezes reza como se fosse só um cérebro flutuando. Mas você não é só alma: é corpo e alma juntos, e Deus quer os dois na oração.
+A gente às vezes reza como se fosse só um cérebro flutuando. Mas você é corpo e alma juntos, e Deus quer os dois na oração.
 
 Ajoelhar, fazer o sinal da cruz bem devagar sentindo cada gesto, jejuar, inclinar a cabeça, abrir as mãos, ficar de pé diante do sacrário. Nada disso é encenação. O corpo ajuda a alma a rezar, e a alma reza melhor quando o corpo participa. Foi Deus que nos fez assim, inteiros. A fé cristã não é uma espiritualidade desencarnada, de ideias soltas. Ela desce até os joelhos.
 
@@ -83,7 +83,7 @@ Que gesto do corpo ajuda você a rezar melhor?
 
 Ofereça de manhã: antes de começar o dia, entregue tudo a Deus numa frase. Fica valendo o dia inteiro. Uma jaculatória: entre uma tarefa e outra, uma frase curta que traz o coração de volta pra Ele. Sirva bem: fazer o comum com amor e capricho já é, em si, uma oração. Agradeça à noite: reveja o dia e diga obrigado por três coisas concretas.
 
-Assim o dia inteiro vira oração, sem você largar as suas obrigações. A vida de oração não é fugir da vida, é rezar dentro dela.
+Assim o dia inteiro vira oração, sem você largar as suas obrigações. A vida de oração acontece dentro da vida que você já tem.
 
 Qual desses quatro você vai testar amanhã?
 

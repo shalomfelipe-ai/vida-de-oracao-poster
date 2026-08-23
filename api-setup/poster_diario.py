@@ -33,6 +33,30 @@ except Exception:
 
 # data -> (lista de arquivos de imagem, pasta do lote, rotulo da secao no LEGENDAS.md)
 CAL = {
+    "2026-09-06": (["convite_novena_feed.png"], "lote-cta", "## NOVENA"),
+    "2026-09-13": (["convite_site_feed.png"], "lote-cta", "## SITE"),
+    "2026-09-20": (["convite_novena_feed.png"], "lote-cta", "## NOVENA"),
+    "2026-09-27": (["convite_site_feed.png"], "lote-cta", "## SITE"),
+    # ===== SETEMBRO Semana 1 - Castelo Interior (1a Morada) =====
+    "2026-09-01": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-set1-castelo", "## 01/09 CARROSSEL"),
+    "2026-09-02": (["reel_rezar_entrar.mp4"], "lote-set1-castelo", "## 02/09 REEL REZAR"),  # REEL (substitui card)
+    "2026-09-03": (["d3_card.png"], "lote-set1-castelo", "## 03/09 CARD 1A MORADA"),
+    "2026-09-04": (["reel_humildade.mp4"], "lote-set1-castelo", "## 04/09 REEL HUMILDADE"),  # REEL (substitui card)
+    "2026-09-05": (["d5_card.png"], "lote-set1-castelo", "## 05/09 CARD RECAP"),
+    # ===== SETEMBRO Semana 2 - Perseverar (2a/3a Moradas) =====
+    "2026-09-07": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-set2-perseveranca", "## 07/09 CARROSSEL"),
+    "2026-09-08": (["d2_card.png"], "lote-set2-perseveranca", "## 08/09 CARD MARIANO"),
+    "2026-09-09": (["reel_seara.mp4"], "lote-set2-perseveranca", "## 09/09 REEL SEARA"),  # REEL
+    "2026-09-10": (["d4_card.png"], "lote-set2-perseveranca", "## 10/09 CARD CONFORTO"),
+    "2026-09-11": (["d5_card.png"], "lote-set2-perseveranca", "## 11/09 CARD ESTACIONOU"),
+    "2026-09-12": (["reel_nao_perfeito.mp4"], "lote-set2-perseveranca", "## 12/09 REEL RECAP"),  # REEL
+    # ===== SETEMBRO Semana 3 - 4a Morada =====
+    "2026-09-14": (["d1_card.png"], "lote-set3-quarta-morada", "## 14/09 CARD CRUZ"),
+    "2026-09-15": (["d2_card.png"], "lote-set3-quarta-morada", "## 15/09 CARD DORES"),
+    "2026-09-16": (["reel_agua.mp4"], "lote-set3-quarta-morada", "## 16/09 REEL AGUA"),  # REEL
+    "2026-09-17": (["d4_capa.png", "d4_s2.png", "d4_s3.png", "d4_s4.png"], "lote-set3-quarta-morada", "## 17/09 CARROSSEL"),
+    "2026-09-18": (["reel_jardim.mp4"], "lote-set3-quarta-morada", "## 18/09 REEL JARDIM"),  # REEL
+    "2026-09-19": (["d6_card.png"], "lote-set3-quarta-morada", "## 19/09 CARD QUIETUDE"),
     # ===== EXTRA feeds 29-30/07 (dias que estavam sem feed) =====
     "2026-07-29": (["06_jesus-eu-confio-em-vos.mp4"], "lote-reels-fundos", "REEL 06"),  # REEL (substitui card avulso)
     "2026-07-30": (["07_em-tuas-maos-pai.mp4"], "lote-reels-fundos", "REEL 07"),  # REEL (substitui card avulso)

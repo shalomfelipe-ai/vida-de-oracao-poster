@@ -66,6 +66,26 @@ CAL_S = {
     "2026-08-29": ("d5_story1.png", "d5_story2.png", "lote-ago4-vida"),
     "2026-08-30": ("d6_story2.png", "d6_story1.png", "lote-ago4-vida"),  # swap: manha standalone; tarde (offender) cita infografico
     "2026-08-31": ("d7_story1.png", "d7_story2.png", "lote-ago4-vida"),
+    # ===== SETEMBRO Semana 1 (stories) =====
+    "2026-09-01": ("d1_story1.png", "d1_story2.png", "lote-set1-castelo"),
+    "2026-09-02": ("d2_story1.png", "d2_story2.png", "lote-set1-castelo"),
+    "2026-09-03": ("d3_story1.png", "d3_story2.png", "lote-set1-castelo"),
+    "2026-09-04": ("d4_story1.png", "d4_story2.png", "lote-set1-castelo"),
+    "2026-09-05": ("d5_story1.png", "d5_story2.png", "lote-set1-castelo"),
+    # ===== SETEMBRO Semana 2 (stories) =====
+    "2026-09-07": ("d1_story1.png", "d1_story2.png", "lote-set2-perseveranca"),
+    "2026-09-08": ("d2_story1.png", "d2_story2.png", "lote-set2-perseveranca"),
+    "2026-09-09": ("d3_story1.png", "d3_story2.png", "lote-set2-perseveranca"),
+    "2026-09-10": ("d4_story1.png", "d4_story2.png", "lote-set2-perseveranca"),
+    "2026-09-11": ("d5_story1.png", "d5_story2.png", "lote-set2-perseveranca"),
+    "2026-09-12": ("d6_story1.png", "d6_story2.png", "lote-set2-perseveranca"),
+    # ===== SETEMBRO Semana 3 (stories) =====
+    "2026-09-14": ("d1_story1.png", "d1_story2.png", "lote-set3-quarta-morada"),
+    "2026-09-15": ("d2_story1.png", "d2_story2.png", "lote-set3-quarta-morada"),
+    "2026-09-16": ("d3_story1.png", "d3_story2.png", "lote-set3-quarta-morada"),
+    "2026-09-17": ("d4_story1.png", "d4_story2.png", "lote-set3-quarta-morada"),
+    "2026-09-18": ("d5_story1.png", "d5_story2.png", "lote-set3-quarta-morada"),
+    "2026-09-19": ("d6_story1.png", "d6_story2.png", "lote-set3-quarta-morada"),
     "2026-07-01": ("seg06_story1.png", "seg06_story2.png", "lote-06-12-jul"),
     "2026-07-02": ("ter07_story1.png", "ter07_story2.png", "lote-06-12-jul"),
     "2026-07-03": ("qua08_story1.png", "qua08_story2.png", "lote-06-12-jul"),
