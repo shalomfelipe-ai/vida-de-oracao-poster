@@ -36,3 +36,5 @@
 [2026-08-28 01:34:06] ERRO 2026-08-28 (story): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
 [2026-08-28 21:07:15] 2026-08-28-feed ja postado antes — pulando feed.
 [2026-08-28 21:07:15] 2026-08-28: story do santo ja no ar (outra maquina) — nao republico.
+[2026-08-28 23:55:30] 2026-08-28-feed ja postado antes — pulando feed.
+[2026-08-28 23:55:30] 2026-08-28-story ja postado antes — pulando story.
