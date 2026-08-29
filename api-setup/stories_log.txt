@@ -117,3 +117,4 @@
 [2026-08-28 19:40:35] 2026-08-28-tarde: story do slot ja esta no ar backup nao precisou agir.
 [2026-08-28 21:07:16] 2026-08-28-manha: story do slot ja esta no ar backup nao precisou agir.
 [2026-08-28 23:55:30] 2026-08-28-manha ja foi postado — pulando.
+[2026-08-29 15:52:55] OK 2026-08-29-tarde: story publicado (d5_story2.png) media_id=17944690758314177
