@@ -64,7 +64,7 @@ No começo, cuidar desse jardim dá trabalho. É você carregando água no balde
 
 O seu papel continua o mesmo: cuidar do jardim com carinho, e ao mesmo tempo abrir mão da ideia de que tudo depende da sua rega. O melhor da colheita é obra d'Ele.
 
-Como está o seu jardim hoje, mais no esforço do balde ou já sentindo alguma chuva?
+O que já cresceu no seu jardim desde que você começou a rezar todo dia?
 
 #quartamorada #jardimdaalma #santateresadeavila #castelointerior #oração #vidadeoração #espiritualidade #católico
 

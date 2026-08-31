@@ -35,21 +35,15 @@ jobs:
       - name: Dependencias
         run: pip install --quiet requests
 
-      - name: Decidir modo pelo cron que disparou
+      - name: Decidir modo pelo horario
         id: modo
         run: |
           MODO="${{ github.event.inputs.modo || 'auto' }}"
           if [ "$MODO" = "auto" ]; then
-            case "${{ github.event.schedule }}" in
-              "45 12 * * *") MODO=manha ;;
-              "45 15 * * *") MODO=feed  ;;
-              "45 20 * * *") MODO=tarde ;;
-              *)
-                H=$(date -u +%H)
-                if [ "$H" -lt 14 ]; then MODO=manha
-                elif [ "$H" -lt 18 ]; then MODO=feed
-                else MODO=tarde; fi ;;
-            esac
+            H=$(date -u +%H)
+            if [ "$H" -lt 14 ]; then MODO=manha
+            elif [ "$H" -lt 18 ]; then MODO=feed
+            else MODO=tarde; fi
           fi
           echo "modo=$MODO" | tee -a "$GITHUB_OUTPUT"
 
