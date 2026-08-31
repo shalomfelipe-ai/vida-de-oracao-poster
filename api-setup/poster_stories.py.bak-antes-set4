@@ -33,21 +33,6 @@ except Exception:
 
 # data -> (story_manha, story_tarde, lote)
 CAL_S = {
-    # ===== SETEMBRO domingos de CTA (stories, aprovado 31/08) =====
-    "2026-09-06": ("dom06_story1.png", "cta_novena_story.png", "lote-cta"),
-    "2026-09-13": ("dom13_story1.png", "cta_site_story.png", "lote-cta"),
-    # ===== SETEMBRO Semana 11 (stories 20 a 30/09, aprovado 31/08) =====
-    "2026-09-20": ("dom20_story1.png", "dom20_story2.png", "lote-set4-gula"),
-    "2026-09-21": ("d1_story1.png", "d1_story2.png", "lote-set4-gula"),
-    "2026-09-22": ("d2_story1.png", "d2_story2.png", "lote-set4-gula"),
-    "2026-09-23": ("d3_story1.png", "d3_story2.png", "lote-set4-gula"),
-    "2026-09-24": ("d4_story1.png", "d4_story2.png", "lote-set4-gula"),
-    "2026-09-25": ("d5_story1.png", "d5_story2.png", "lote-set4-gula"),
-    "2026-09-26": ("d6_story1.png", "d6_story2.png", "lote-set4-gula"),
-    "2026-09-27": ("dom27_story1.png", "dom27_story2.png", "lote-set4-gula"),
-    "2026-09-28": ("p1_story1.png", "p1_story2.png", "lote-set4-gula"),
-    "2026-09-29": ("p2_story1.png", "p2_story2.png", "lote-set4-gula"),
-    "2026-09-30": ("p3_story1.png", "p3_story2.png", "lote-set4-gula"),
     # ===== PONTE 01-03/08 (stories jaculatoria manha) =====
     "2026-08-01": ("p1_story.png", "lote-extra/s11.png", "lote-ponte-ago"),
     "2026-08-02": ("p2_story.png", "lote-extra/s12.png", "lote-ponte-ago"),

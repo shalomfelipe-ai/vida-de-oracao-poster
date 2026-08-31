@@ -33,16 +33,6 @@ except Exception:
 
 # data -> (lista de arquivos de imagem, pasta do lote, rotulo da secao no LEGENDAS.md)
 CAL = {
-    # ===== SETEMBRO Semana 11 - "Quando a oracao comeca a ir bem" (aprovado 31/08) =====
-    "2026-09-21": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-set4-gula", "## 21/09 CARROSSEL GULA"),
-    "2026-09-22": (["d2_post.png"], "lote-set4-gula", "## 22/09 INFOGRAFICO 3 FORMAS"),
-    "2026-09-23": (["reel_setimas_moradas.mp4"], "lote-set4-gula", "## 23/09 REEL SETIMAS"),  # REEL (substitui card)
-    "2026-09-24": (["d4_capa.png", "d4_s2.png", "d4_s3.png", "d4_s4.png"], "lote-set4-gula", "## 24/09 CARROSSEL CASTELO"),
-    "2026-09-25": (["reel_olha_que_te_olha.mp4"], "lote-set4-gula", "## 25/09 REEL OLHA"),  # REEL (substitui card)
-    "2026-09-26": (["d6_post.png"], "lote-set4-gula", "## 26/09 INFOGRAFICO GOSTO"),
-    "2026-09-28": (["reel_quer_obras.mp4"], "lote-set4-gula", "## 28/09 REEL OBRAS"),  # REEL (substitui card)
-    "2026-09-29": (["reel_tudo_e_bom.mp4"], "lote-set4-gula", "## 29/09 REEL TUDO E BOM"),  # REEL (substitui card)
-    "2026-09-30": (["reel_mes_carmelita.mp4"], "lote-set4-gula", "## 30/09 REEL OUTUBRO"),  # REEL (substitui card)
     "2026-09-06": (["convite_novena_feed.png"], "lote-cta", "## NOVENA"),
     "2026-09-13": (["convite_site_feed.png"], "lote-cta", "## SITE"),
     "2026-09-20": (["convite_novena_feed.png"], "lote-cta", "## NOVENA"),

@@ -1,0 +1,44 @@
+# PROPOSTA DE CORREÇÃO (NÃO APLICADA) — github-poster/.github/workflows/poster.yml
+# Problema: o modo é decidido pela HORA DE EXECUÇÃO (date -u +%H). Quando o GitHub
+# Actions atrasa a execução agendada, o run cai na janela do modo seguinte.
+# Em 29/08 o cron do FEED (15:45 UTC) rodou às 18:52 UTC e foi rotulado "tarde":
+# publicou o story da tarde (d5_story2) às 15:52 BRT, cerca de 1h antes do slot do PC.
+# Em 28/08 o mesmo defeito publicou o feed do Santo Agostinho às 01:32 BRT.
+# Correção: decidir pelo CRON QUE DISPAROU (github.event.schedule), com o relógio
+# só como reserva para workflow_dispatch em modo auto.
+
+--- trecho atual (linhas 38 a 48)
+      - name: Decidir modo pelo horario
+        id: modo
+        run: |
+          MODO="${{ github.event.inputs.modo || 'auto' }}"
+          if [ "$MODO" = "auto" ]; then
+            H=$(date -u +%H)
+            if [ "$H" -lt 14 ]; then MODO=manha
+            elif [ "$H" -lt 18 ]; then MODO=feed
+            else MODO=tarde; fi
+          fi
+          echo "modo=$MODO" | tee -a "$GITHUB_OUTPUT"
+
++++ trecho proposto
+      - name: Decidir modo pelo cron que disparou
+        id: modo
+        run: |
+          MODO="${{ github.event.inputs.modo || 'auto' }}"
+          if [ "$MODO" = "auto" ]; then
+            case "${{ github.event.schedule }}" in
+              "45 12 * * *") MODO=manha ;;
+              "45 15 * * *") MODO=feed  ;;
+              "45 20 * * *") MODO=tarde ;;
+              *)
+                H=$(date -u +%H)
+                if [ "$H" -lt 14 ]; then MODO=manha
+                elif [ "$H" -lt 18 ]; then MODO=feed
+                else MODO=tarde; fi ;;
+            esac
+          fi
+          echo "modo=$MODO" | tee -a "$GITHUB_OUTPUT"
+
+# Efeito: um run atrasado do cron do feed continua rodando em modo "feed";
+# encontra o feed já no ar e não faz nada, em vez de invadir o slot da tarde.
+# Aplicar em github-poster e depois rodar ATUALIZAR_NUVEM.cmd (ou commitar direto).
