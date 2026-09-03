@@ -113,7 +113,7 @@ CAL_S = {
     "2026-10-09": ("d09_story1.png", "d09_story2.png", "lote-outubro"),
     "2026-10-10": ("d10_story1.png", "d10_story2.png", "lote-outubro"),
     "2026-10-11": ("d11_story1.png", "d11_story2.png", "lote-outubro"),
-    "2026-10-12": ("d12_story1.png", "d12_story2.png", "lote-outubro"),
+    "2026-10-12": ("d12_story1_MARIANO.png", "d12_story2_MARIANO.png", "lote-outubro"),
     "2026-10-13": ("d13_story1.png", "d13_story2.png", "lote-outubro"),
     "2026-10-14": ("d14_story1.png", "d14_story2.png", "lote-outubro"),
     "2026-10-15": ("d15_story1.png", "d15_story2.png", "lote-outubro"),
