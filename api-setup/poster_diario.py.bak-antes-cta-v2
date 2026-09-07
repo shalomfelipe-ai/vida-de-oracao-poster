@@ -45,8 +45,8 @@ CAL = {
     "2026-09-30": (["reel_mes_carmelita.mp4"], "lote-set4-gula", "## 30/09 REEL OUTUBRO"),  # REEL (substitui card)
     "2026-09-06": (["convite_novena_feed.png"], "lote-cta", "## NOVENA"),
     "2026-09-13": (["convite_site_feed.png"], "lote-cta", "## SITE"),
-    "2026-09-20": (["convite_novena_feed_v2.png"], "lote-cta", "## NOVENA 2"),
-    "2026-09-27": (["convite_site_feed_v2.png"], "lote-cta", "## SITE 2"),
+    "2026-09-20": (["convite_novena_feed.png"], "lote-cta", "## NOVENA"),
+    "2026-09-27": (["convite_site_feed.png"], "lote-cta", "## SITE"),
     # ===== SETEMBRO Semana 1 - Castelo Interior (1a Morada) =====
     "2026-09-01": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-set1-castelo", "## 01/09 CARROSSEL"),
     "2026-09-02": (["reel_rezar_entrar.mp4"], "lote-set1-castelo", "## 02/09 REEL REZAR"),  # REEL (substitui card)
