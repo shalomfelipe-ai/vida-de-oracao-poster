@@ -63,3 +63,4 @@
 [2026-09-09 15:51:56] 2026-09-09: feed do dia ja esta no ar backup nao precisou agir.
 [2026-09-10 15:41:54] 2026-09-10: feed do dia ja esta no ar backup nao precisou agir.
 [2026-09-11 15:45:35] 2026-09-11: feed do dia ja esta no ar backup nao precisou agir.
+[2026-09-12 14:51:31] ERRO 2026-09-12: RuntimeError('container 18625021420050895 deu ERROR: {"status_code":"ERROR","id":"18625021420050895"}')
