@@ -131,7 +131,7 @@ Me conta nos comentários: qual fruto pequeno a oração já deixou no seu dia e
 
 ---
 
-## DOM 27/09 · feed JÁ PLUGADO (`lote-cta`, `convite_site_feed.png`). Não mexer.
+## DOM 27/09 · feed JÁ PLUGADO (`lote-cta`, `convite_site_feed_v2.png`, seção `## SITE 2`). Não mexer.
 
 ---
 

@@ -30,13 +30,17 @@ Entregue a ela hoje a dor que você está carregando.
 
 ## 16/09 REEL AGUA
 **Legenda:**
-A partir da quarta morada, acontece uma virada na oração. Até aqui, era muito esforço seu: buscar, puxar, trabalhar pra rezar. Agora começa a entrar em cena algo que não vem de você.
+"Eu rezo há anos e continuo puxando tudo no braço." Já ouvi isso mais de uma vez, quase sempre de gente que está mais adiantada do que imagina.
 
-Teresa usa a imagem da água. Antes, era como tirar água do poço no braço, cansativo. Agora a água começa a brotar de dentro, sem você bombear. É Deus quem toma a iniciativa, e o seu papel muda: parar de forçar e aprender a receber.
+Teresa explica a vida de oração com água. No começo você tira do poço com o balde, na mão, e cansa mesmo: você senta, medita, pensa, se esforça, e sai de lá suado. Depois vem a roda com os canos, que dá mais água com menos braço. Mais adiante a água vem do rio. E por último é chuva, que cai sem você fazer nada. Quatro jeitos de molhar a mesma terra, e repare no desenho: o trabalho vai diminuindo enquanto a água aumenta.
 
-Ninguém fabrica esse dom; a gente só acolhe, de coração aberto. Você prepara o coração com fidelidade e fica em silêncio, deixando Ele agir.
+Da quarta morada em diante começa essa virada. A água passa a brotar de dentro sem você bombear, e o seu serviço muda de natureza: sai de produzir e entra em receber. Para quem passou anos no braço, receber custa mais do que puxar.
 
-Você já sentiu algum momento assim, de graça, quase sem esforço, na sua oração?
+Não estou dizendo que agora é esperar sentado. A fidelidade continua igualzinha, mesmo horário, mesmo lugar, mesmo tempo. O que muda é a gente parar de medir a oração pelo esforço que ela custou.
+
+Experimenta hoje: nos três primeiros minutos da sua oração, não faça nada. Sem leitura, sem pedido, sem palavra. Só fica. Depois reza como você reza sempre.
+
+Me conta nos comentários: o que já te ajudou a ficar quieto depois de sentar?
 
 #quartamorada #oraçãodequietude #santateresadeavila #castelointerior #oração #vidadeoração #espiritualidade #católico
 
@@ -44,13 +48,17 @@ Você já sentiu algum momento assim, de graça, quase sem esforço, na sua ora�
 
 ## 17/09 CARROSSEL
 **Legenda:**
-A quarta morada é a fronteira do castelo. Dela em diante, a oração deixa de depender tanto do seu esforço e passa a ser cada vez mais obra de Deus em você.
+Tem uma distinção fina de Santa Teresa que muda o jeito da gente olhar pra própria oração, e ela cabe numa linha: o gosto parte de mim; a consolação parte de Deus.
 
-Teresa faz uma distinção fina aqui. Existe a alegria que a gente mesmo constrói rezando, fruto do nosso empenho. E existe outra, mais profunda e serena, que ninguém consegue provocar: ela simplesmente é dada, quando e como Deus quer. É o começo da oração de quietude.
+Funciona assim. Imagine que eu sento pra meditar a Paixão. Enquanto olho pro Senhor que sofre, o meu coração se enche de dor, de compaixão. Esse sentimento é bom, mas brota de mim, do meu esforço de me colocar diante da cena. Isso é o gosto. Agora, quando é o próprio Deus quem põe ali dentro o amor, a compaixão, a união com Jesus, sem que eu tenha fabricado nada, isso é a consolação. Teresa diz que a segunda vale mais, e vale justamente porque vem d'Ele e não do meu empenho.
 
-Diante disso o seu trabalho fica mais simples e mais difícil ao mesmo tempo: parar de correr atrás de sensações, preparar o coração com fidelidade, e ficar quieto, deixando Ele agir. É a hora de confiar.
+Aqui entra São João da Cruz, que é bem mais severo com as duas. O perigo, diz ele, é colocar nos gostos e nas consolações o sentido da oração. Porque o gosto não é Deus. A consolação não é Deus. Dá pra ficar viciado nesse sentimento bom e acabar rezando pelo que a oração faz sentir, em vez de rezar por Deus mesmo.
 
-Você sente que a sua oração ainda é mais trabalho seu, ou já tem momentos de puro receber?
+Não estou dizendo que emoção seja ruim. Às vezes o Senhor dá emoção, sentimento, até lágrima, e é bom quando dá. Só não é por ali que se mede.
+
+Experimenta hoje: no fim da oração, em vez de perguntar "senti alguma coisa?", pergunta "o que eu entendi hoje sobre quem Ele é?". Uma linha de resposta já basta.
+
+Me conta nos comentários: você já reparou na diferença entre um sentimento que você mesmo produziu e um que simplesmente veio?
 
 #quartamorada #oraçãodequietude #santateresadeavila #castelointerior #oração #vidadeoração #oraçãopessoal #espiritualidade
 
@@ -58,24 +66,36 @@ Você sente que a sua oração ainda é mais trabalho seu, ou já tem momentos d
 
 ## 18/09 REEL JARDIM
 **Legenda:**
-Santa Teresa tinha uma imagem linda pra vida de oração: a alma é um jardim, e Deus quer passear nele.
+Teresa diz que a alma é um jardim e que o Senhor desce pra passear nele. Eu gosto dessa imagem por um detalhe que quase sempre passa batido: o jardim não foi feito pra você ficar olhando. Foi feito pra Ele andar dentro.
 
-No começo, cuidar desse jardim dá trabalho. É você carregando água no balde, arrancando mato, plantando sem ver muito resultado. Mas conforme a oração amadurece, chega a quarta morada, e algo muda: começa a cair uma chuva mansa que você não produziu. É Deus regando o que você só conseguia molhar com esforço.
+Quem já cuidou de planta sabe que o serviço tem duas partes, e a chata é a segunda. Plantar é gostoso. Arrancar mato é que é o trabalho. E o mato não vem de fora, não: é o que nasce sozinho na terra que a gente não revirou.
 
-O seu papel continua o mesmo: cuidar do jardim com carinho, e ao mesmo tempo abrir mão da ideia de que tudo depende da sua rega. O melhor da colheita é obra d'Ele.
+Por isso eu desconfio um pouco quando alguém me diz que a oração está ótima porque está cheia de flor. Eu pergunto é pelo mato. Teresa viveu as maiores perseguições e humilhações da vida dela já no auge, e não foi por falta de jardim.
 
-O que já cresceu no seu jardim desde que você começou a rezar todo dia?
+E tem a parte que consola: chuva não depende de jardineiro. Chega uma hora em que cai uma água mansa que você não carregou no balde, e o melhor da colheita é obra d'Ele. O seu serviço continua o mesmo de sempre. Muda que agora você sabe de quem é a horta.
+
+Experimenta hoje: escolhe um mato só. Uma coisa pequena que você sabe que atrapalha a sua oração, o celular do lado, a pressa de terminar, aquele assunto que você evita levar pra lá. Arranca esse hoje e deixa os outros pra depois.
+
+Me conta nos comentários: qual mato pequeno você já arrancou e fez diferença?
 
 #quartamorada #jardimdaalma #santateresadeavila #castelointerior #oração #vidadeoração #espiritualidade #católico
 
----## 19/09 CARD QUIETUDE
+---
+
+## 19/09 CARD QUIETUDE
 **Legenda:**
-Oração de quietude assusta pelo nome, mas é mais simples do que parece. É um jeito de estar com Deus em que você fala menos e recebe mais.
+"Eu fico em silêncio e não acontece nada. Acho que eu não sei fazer isso."
 
-Imagine ficar em silêncio ao lado de alguém que você ama, sem precisar dizer nada. É mais ou menos isso. A vontade se aquieta, o coração se aquece devagar, e você percebe que não precisa preencher o tempo todo com palavras e esforço. Basta estar ali, atento e entregue.
+Ouço essa frase bastante, e quase sempre a pessoa está descrevendo a oração de quietude sem saber o nome dela.
 
-O único cuidado que Teresa pede: não tente forçar esse estado nem correr atrás dele. Quando vier, acolha com gratidão. Quando não vier, continue fiel do mesmo jeito, rezando com o que você tem.
+Quietude é quando a vontade se aquieta e a gente percebe que não precisa preencher o tempo com palavra nem com esforço. Lembra de ficar calado ao lado de alguém que você ama, no carro, na cozinha, sem nenhum dos dois precisar dizer nada? É por aí. Com uma diferença: ali você não está aguentando o silêncio, você está sendo olhado dentro dele.
 
-Você consegue ficar em silêncio com Deus, sem sentir que precisa dizer alguma coisa?
+Agora o principal, e é o que quase ninguém diz na hora de explicar isso: quietude é graça. Quem dá é Deus, e Ele dá a quem quer e quando quer. Não tem técnica que produza, não tem quantidade de minuto que compre, e no dia em que vier não vai ser porque você acertou a fórmula. O cuidado que Teresa pede nas Quartas Moradas é justamente esse, e é o contrário do que a gente faria: não corre atrás.
+
+Não estou dizendo que a sua parte não existe. Existe, e é uma só: aparecer. Sentar no horário combinado e ficar ali com o que você tem na mão naquele dia, seco ou não.
+
+E se hoje não veio nada, você não falhou. Sentar ali já é ato de fé, e ato de fé toca a Deus do mesmo jeito. É impossível pôr a mão numa bacia cheia d'água sem molhar a mão.
+
+Me conta nos comentários: o que o silêncio com Deus já te ensinou?
 
 #oraçãodequietude #quartamorada #santateresadeavila #castelointerior #oração #vidadeoração #oraçãopessoal #espiritualidade
