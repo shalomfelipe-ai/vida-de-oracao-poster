@@ -37,11 +37,6 @@ CAL_SANTO = {
         "feed_secao": "## FEED",
         "story": "jp2_story.png", "story_lote": "lote-santo-jp2",
     },
-    "2026-10-12": {
-        "feed": ["aparecida_card.png"], "feed_lote": "lote-santo-aparecida",
-        "feed_secao": "## FEED",
-        "story": "aparecida_story.png", "story_lote": "lote-santo-aparecida",
-    },
     "2026-10-07": {
         "feed": ["rosario_card.png"], "feed_lote": "lote-santo-rosario",
         "feed_secao": "## FEED",
