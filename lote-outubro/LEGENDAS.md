@@ -12,6 +12,21 @@ Qual seu pequeno gesto de amor hoje?
 
 ---
 
+## 02/10 REEL ANJOS
+*(sex 02/10 · reel gravado pelo Felipe · arquivo `reel_anjos.mp4` · o card d02 fica de reserva)*
+**Legenda:**
+Hoje é a festa dos Santos Anjos da Guarda.
+
+O Catecismo ensina que "cada fiel é ladeado por um anjo, como protetor e pastor, para conduzi-lo à vida" (CIC 336). Desde o começo da vida até a hora da morte.
+
+Hoje é o dia de agradecer a Deus pelo seu e pedir a intercessão dele.
+
+Você é amigo do seu anjo da guarda?
+
+#anjodaguarda #santosanjos #vidadeoração #fécatólica #espiritualidadecatólica #catolicismo
+
+---
+
 ## 02/10 ANJOS
 **Legenda:**
 Hoje a Igreja lembra os Santos Anjos da Guarda. Isso me consola muito na minha vida de oração: a gente nunca reza sozinho.
