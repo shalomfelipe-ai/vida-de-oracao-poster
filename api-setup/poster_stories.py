@@ -17,11 +17,11 @@ INSTA = HERE.parent
 sys.path.insert(0, str(HERE))
 from postar_instagram_api import container_com_fallback, _post, wait_ready, load_secrets, stories_hoje_brt, stories_hoje_ids_brt  # noqa
 try:
-    from poster_santo import CAL_SANTO_DATES, santo_story_id_hoje  # santo do dia = peca EXTRA
+    from poster_santo import CAL_SANTO_DATES, santo_story_ids_hoje  # santo do dia = peca EXTRA
 except Exception:
     CAL_SANTO_DATES = set()
-    def santo_story_id_hoje(_h):
-        return None
+    def santo_story_ids_hoje(_h):
+        return []
 try:
     from alerta_telegram import alertar_falha as _alerta_falha, alertar_sucesso as _alerta_ok
 except Exception:
@@ -270,9 +270,9 @@ def main():
         secrets = load_secrets()
         # Nos dias com santo do dia, o story do santo (postado cedo) NAO pode bloquear
         # o story regular da manha: desconsideramos o id dele na checagem "ja no ar".
-        _santo_sid = santo_story_id_hoje(hoje) if hoje in CAL_SANTO_DATES else None
+        _santo_sid = santo_story_ids_hoje(hoje) if hoje in CAL_SANTO_DATES else []
         de_hoje = [t for (mid, t) in _stories_ids_hoje_com_retry(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"])
-                   if t.strftime("%Y-%m-%d") == hoje and mid != _santo_sid]
+                   if t.strftime("%Y-%m-%d") == hoje and mid not in _santo_sid]
         ja = any(t.hour < 14 for t in de_hoje) if slot == "manha" else any(t.hour >= 14 for t in de_hoje)
         if ja:
             marcar(chave, "ja-no-ar (PC ou manual)")

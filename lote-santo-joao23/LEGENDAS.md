@@ -9,15 +9,15 @@
 
 Foi assim que João XXIII terminou a noite de 11 de outubro de 1962. De manhã ele tinha aberto o Concílio, com toda a pompa que a Igreja sabe fazer. À noite a praça encheu de gente com tochas, ele apareceu na janela sem nada preparado, comentou que até a lua tinha vindo ver aquilo, e despediu a multidão mandando cada um levar um carinho pra casa.
 
-Repare no que ele escolheu dizer quando podia dizer qualquer coisa. Nada sobre doutrina, nada sobre a história que estava fazendo naquele dia. Mandou todo mundo ir ser carinhoso em casa.
+Repare no que ele escolheu dizer quando podia dizer qualquer coisa. Não escolheu fazer uma catequese nem falou solenemente sobre o dia histórico que tinha vivido. Mandou todo mundo ir ser carinhoso em casa.
 
-Hoje é a festa dele, e a data é essa por causa daquela abertura, não do dia da morte. Chamavam ele de papa bom. Do bom humor dele circulam dezenas de histórias, quase todas de autoria duvidosa, então não vou repetir nenhuma. Essa noite está registrada.
+Hoje é a festa dele. Normalmente a gente celebra um santo no dia da sua morte, que é quando ele entra na eternidade, mas a festa dele é hoje por causa daquela data histórica. Chamavam ele de papa bom. Do bom humor dele circulam dezenas de histórias, quase todas de autoria duvidosa, então não vou repetir nenhuma. Essa noite está registrada.
 
 O que interessa pra quem reza é de onde vinha aquela leveza. Ele escreveu num caderno espiritual desde adolescente, no seminário, até morrer papa. Lendo tudo junto, o que aparece é a mesma meia dúzia de propósitos, refeita ano após ano, sem drama nenhum por estar recomeçando sempre do mesmo lugar. Quem reza assim por sessenta anos aprende no corpo que a obra não é sua. E quem sabe que a obra não é sua consegue rir de si mesmo e sobra ternura pro resto.
 
 Levar Deus a sério e levar a si mesmo de leve crescem juntos. Uma coisa sustenta a outra.
 
-Experimenta hoje: reze cinco minutos e termine fazendo o que ele mandou. Vá até alguém da sua casa e dê um carinho, sem anunciar nada.
+Experimenta hoje: reze cinco minutos e termine fazendo o que ele mandou. Vá até alguém e faça um carinho. Esse é o carinho do Papa.
 
 Quem é a pessoa que vai receber o seu carinho hoje?
 

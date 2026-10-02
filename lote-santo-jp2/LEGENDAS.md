@@ -8,13 +8,13 @@
 **Legenda:**
 "Rezar o Terço cansa. É sempre a mesma coisa."
 
-Já ouvi isso muitas vezes, e tem razão de ser: oração repetida cansa quando a gente não põe o coração nela. Só que eu rezo o Terço desde menino, e tem dia em que nem preciso pensar nas palavras.
+Acho que todo mundo já ouviu isso de alguém, e em um primeiro momento a gente pode até pensar que é mesmo... a oração repetida cansa quando a gente não põe o coração nela. Só que eu rezo o Terço desde menino, e tem dia em que nem preciso pensar nas palavras.
 
 João Paulo II escreveu uma carta inteira sobre isso, a Rosarium Virginis Mariae. E ele diz uma coisa que vira o assunto do avesso: o que ocupa a mente e o coração de quem reza o Rosário não são exatamente as palavras, é a presença de Nossa Senhora. As palavras saem quase sozinhas da boca, e é isso que deixa o coração livre para contemplar a cena.
 
 Repara no que ele está dizendo. A repetição está ali de propósito. Ela é o mecanismo. É como aquela música que você sabe de cor: você canta dirigindo, sem pensar em nenhuma sílaba, e enquanto canta está lembrando da pessoa com quem você ouvia aquilo. A boca faz o trabalho pesado, o coração fica solto.
 
-Não estou dizendo que o Terço toma o lugar do tempo a sós com Jesus. São duas coisas, e as duas cabem no dia. Estou dizendo uma coisa bem melhor: quem reza o Terço há anos já vem sendo treinado no silêncio e nem reparou. Você não começa do zero.
+Não estou dizendo que o Terço toma o lugar do tempo a sós com Jesus. São duas coisas, e as duas coisas cabem no nosso dia. Estou dizendo uma coisa bem melhor: quem reza o Terço há anos já vem sendo treinado no silêncio e nem reparou. Você não começa do zero.
 
 E quando o texto ficar cansativo, para de tentar focar nas palavras. Deixa a cena se formar na tua frente. Eu tenho um mistério que me pega de um jeito que nem sei explicar, e quando chego nele tudo se acende. Cada um tem o seu.
 

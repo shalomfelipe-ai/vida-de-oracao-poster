@@ -113,15 +113,7 @@ CAL_SANTO = {
         "story": "inacio_story.png", "story_lote": "lote-santo-inacio",
     },
 }
-# SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
-CAL_SANTO_2 = {
-    "2026-10-12": {
-        "feed": ["carlo_acutis_card.png"], "feed_lote": "lote-santo-carlo-acutis",
-        "feed_secao": "## FEED",
-        "story": "carlo_acutis_story.png", "story_lote": "lote-santo-carlo-acutis",
-    },
-}
-CAL_SANTO_DATES = set(CAL_SANTO) | set(CAL_SANTO_2)
+CAL_SANTO_DATES = set(CAL_SANTO)
 
 STATE = HERE / "posted_santo.json"
 
@@ -170,18 +162,6 @@ def santo_story_id_hoje(hoje):
     return mid if mid and mid != "ja-no-ar" else None
 
 
-def santo_story_ids_hoje(hoje):
-    """Ids dos stories de santo de hoje (1a e 2a peca) pra poster_stories desconsiderar."""
-    st = _load_state(STATE)
-    out = []
-    for k in (f"{hoje}-story", f"{hoje}-story2"):
-        v = st.get(k)
-        mid = v.get("media_id") if isinstance(v, dict) else None
-        if mid and mid != "ja-no-ar":
-            out.append(mid)
-    return out
-
-
 def extrair_legenda(lote, secao):
     """Le .../instagram/<lote>/LEGENDAS.md e extrai a legenda da secao dada."""
     md = (INSTA / lote / "LEGENDAS.md").read_text(encoding="utf-8")
@@ -216,7 +196,7 @@ def publish_story(ig_id, img_path, secrets):
     return _post(f"{ig_id}/media_publish", {"creation_id": cid}, token).get("id")
 
 
-def main1():
+def main():
     hoje = datetime.date.today().strftime("%Y-%m-%d")
     if hoje not in CAL_SANTO:
         registrar(f"sem santo do dia para hoje ({hoje}) — nada postado.")
@@ -233,10 +213,7 @@ def main1():
         _alerta_falha(f"Santo {hoje} (checagem)", e)
         return
     # Se ja ha feed de MANHA (hora < 11 BRT), o santo ja saiu (PC ou nuvem): nao republica.
-    _v2 = state.get(f"{hoje}-feed2")
-    _mid2 = _v2.get("media_id") if isinstance(_v2, dict) else None
-    feeds_outros = [(m, t) for (m, t) in feeds if m != _mid2]
-    manha_no_ar = any(t.hour < 11 for _mid, t in feeds_outros)
+    manha_no_ar = any(t.hour < 11 for _mid, t in feeds)
 
     # ---------- FEED (reel) ----------
     if feed_key in state:
@@ -290,89 +267,6 @@ def main1():
     except Exception as e:
         registrar(f"ERRO {hoje} (story): {repr(e)[:300]}")
         _alerta_falha(f"Santo {hoje} (story)", e)
-
-
-def main2():
-    """Segunda peca de santo no mesmo dia (CAL_SANTO_2). Nunca duplica: se a 1a peca ja
-    estava no ar por outra maquina ('ja-no-ar') ou ha outro feed de manha alem das nossas, pula."""
-    hoje = datetime.date.today().strftime("%Y-%m-%d")
-    if hoje not in CAL_SANTO_2:
-        return
-    cfg = CAL_SANTO_2[hoje]
-    state = _load_state(STATE)
-    fk, sk = f"{hoje}-feed2", f"{hoje}-story2"
-    if fk in state and (not cfg.get("story") or sk in state):
-        return
-    v1 = state.get(f"{hoje}-feed")
-    if not isinstance(v1, dict):
-        return  # 1a peca ainda nao resolvida (falha transitoria): tenta de novo na proxima
-    if v1.get("media_id") in (None, "ja-no-ar"):
-        for k in (fk, sk):
-            if k not in state:
-                state[k] = {"quando": now(), "media_id": "ja-no-ar"}
-        _save_state(STATE, state)
-        registrar(f"{hoje}: 2a peca do santo pulada (1a nao foi postada por esta maquina).")
-        return
-    try:
-        secrets = load_secrets()
-        feeds = feed_hoje_ids_brt(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"], hoje)
-    except Exception as e:
-        registrar(f"AVISO {hoje}: checagem 2a peca falhou ({repr(e)[:150]}) NAO posto.")
-        _alerta_falha(f"Santo {hoje} 2a (checagem)", e)
-        return
-    v2 = state.get(fk)
-    nossos = {v1.get("media_id"), v2.get("media_id") if isinstance(v2, dict) else None}
-    if any(t.hour < 11 and m not in nossos for m, t in feeds):
-        for k in (fk, sk):
-            if k not in state:
-                state[k] = {"quando": now(), "media_id": "ja-no-ar"}
-        _save_state(STATE, state)
-        registrar(f"{hoje}: ha feed de manha de outra origem — 2a peca nao republicada.")
-        return
-    if fk not in state:
-        imgs = [str(INSTA / cfg["feed_lote"] / n) for n in cfg["feed"]]
-        faltando = [p for p in imgs if not Path(p).exists()]
-        if faltando:
-            registrar(f"ERRO {hoje}: arquivos do feed 2 faltando: {faltando}")
-        else:
-            try:
-                legenda = extrair_legenda(cfg["feed_lote"], cfg["feed_secao"])
-                mid = publish(secrets["IG_USER_ID"], imgs, legenda, secrets)
-                state[fk] = {"quando": now(), "media_id": mid}
-                _save_state(STATE, state)
-                registrar(f"OK {hoje}: feed 2 do santo publicado media_id={mid}")
-                _alerta_ok(f"Santo {hoje} (feed 2)", mid)
-            except Exception as e:
-                registrar(f"ERRO {hoje} (feed 2): {repr(e)[:300]}")
-                _alerta_falha(f"Santo {hoje} (feed 2)", e)
-    nome = cfg.get("story")
-    if nome and sk not in state:
-        v1s = state.get(f"{hoje}-story")
-        if not isinstance(v1s, dict):
-            return
-        if v1s.get("media_id") in (None, "ja-no-ar"):
-            state[sk] = {"quando": now(), "media_id": "ja-no-ar"}
-            _save_state(STATE, state)
-            registrar(f"{hoje}: story 2 pulado (story 1 nao foi nosso).")
-            return
-        img = (INSTA / nome) if "/" in nome else (INSTA / cfg["story_lote"] / nome)
-        if not img.exists():
-            registrar(f"ERRO {hoje}: story 2 faltando: {img}")
-            return
-        try:
-            mid = publish_story(secrets["IG_USER_ID"], str(img), secrets)
-            state[sk] = {"quando": now(), "media_id": mid}
-            _save_state(STATE, state)
-            registrar(f"OK {hoje}: story 2 do santo publicado ({nome}) media_id={mid}")
-            _alerta_ok(f"Santo {hoje} (story 2)", mid)
-        except Exception as e:
-            registrar(f"ERRO {hoje} (story 2): {repr(e)[:300]}")
-            _alerta_falha(f"Santo {hoje} (story 2)", e)
-
-
-def main():
-    main1()
-    main2()
 
 
 if __name__ == "__main__":

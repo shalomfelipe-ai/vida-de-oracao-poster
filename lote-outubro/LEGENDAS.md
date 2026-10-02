@@ -6,7 +6,7 @@ Hoje é dia de Santa Teresinha, a santa da pequena via. Ela descobriu que não p
 
 Se a sua oração parece miúda demais, ela te diz: é exatamente por aí. Reze hoje o seu pouco, com o coração de filho.
 
-Qual gesto pequeno você pode oferecer a Deus hoje?
+Qual seu pequeno gesto de amor hoje?
 
 #teresinha #pequenavia #oração #vidadeoração #santos #católico #espiritualidade
 
