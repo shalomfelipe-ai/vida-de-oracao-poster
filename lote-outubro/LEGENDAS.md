@@ -13,7 +13,7 @@ Qual seu pequeno gesto de amor hoje?
 ---
 
 ## 02/10 REEL ANJOS
-*(sex 02/10 · reel gravado pelo Felipe · arquivo `reel_anjos.mp4` · o card d02 fica de reserva)*
+*(sex 02/10 · reel gravado pelo Felipe, entra como SANTO DO DIA pelo CAL_SANTO · arquivo `reel_anjos.mp4` · o card d02 segue normal às 12h)*
 **Legenda:**
 Hoje é a festa dos Santos Anjos da Guarda.
 

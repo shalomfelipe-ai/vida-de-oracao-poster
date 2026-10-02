@@ -69,7 +69,7 @@ CAL = {
     "2026-09-19": (["d6_card.png"], "lote-set3-quarta-morada", "## 19/09 CARD QUIETUDE"),
     # ===== OUTUBRO - Mes de Santa Teresa de Avila =====
     "2026-10-01": (["d01_card.png"], "lote-outubro", "## 01/10 TERESINHA"),
-    "2026-10-02": (["reel_anjos.mp4"], "lote-outubro", "## 02/10 REEL ANJOS"),  # REEL (Felipe gravou; o card d02 fica de reserva)
+    "2026-10-02": (["d02_card.png"], "lote-outubro", "## 02/10 ANJOS"),
     "2026-10-03": (["d03_card.png"], "lote-outubro", "## 03/10 TEASER"),
     "2026-10-04": (["d04_card.png"], "lote-outubro", "## 04/10 FRANCISCO"),
     "2026-10-05": (["d05_card.png"], "lote-outubro", "## 05/10 AMANHA"),
