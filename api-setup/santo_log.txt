@@ -83,3 +83,6 @@
 [2026-10-10 14:28:53] sem santo do dia para hoje (2026-10-10) — nada postado.
 [2026-10-11 14:48:11] 2026-10-11: feed do santo ja esta no ar (outra maquina) — nao republico.
 [2026-10-11 14:48:11] 2026-10-11: story do santo ja no ar (outra maquina) — nao republico.
+[2026-10-12 18:25:12] 2026-10-12: feed do santo ja esta no ar (outra maquina) — nao republico.
+[2026-10-12 18:25:12] 2026-10-12: story do santo ja no ar (outra maquina) — nao republico.
+[2026-10-12 18:25:12] 2026-10-12: 2a peca do santo pulada (1a nao foi postada por esta maquina).
