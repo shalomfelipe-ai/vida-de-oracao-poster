@@ -95,3 +95,4 @@
 [2026-10-11 16:43:45] 2026-10-11: feed do dia ja esta no ar backup nao precisou agir.
 [2026-10-12 19:36:27] 2026-10-12: feed do dia ja esta no ar backup nao precisou agir.
 [2026-10-13 17:49:50] 2026-10-13: feed do dia ja esta no ar backup nao precisou agir.
+[2026-10-14 16:42:54] ERRO 2026-10-14: RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
