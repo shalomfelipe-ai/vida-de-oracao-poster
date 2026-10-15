@@ -386,3 +386,63 @@ A santidade é pra você também, e o caminho dela começa numa oração simples
 Você já pensou que a santidade também é pra você?
 
 #todosossantos #santidade #oração #vidadeoração #católico #espiritualidade
+
+---
+
+## 01/10 REEL TERESINHA
+*(qui 01/10 · reel gravado pelo Felipe, sem cortes · arquivo `reel_teresinha.mp4`)*
+**Legenda:**
+Os santos não são só nomes no calendário. Este mês a gente celebra vários deles, e eu queria te contar uma coisa que aconteceu comigo com Santa Teresinha.
+
+Anos atrás eu era missionário, sem dinheiro nenhum, e ia ter um retiro sobre São João da Cruz onde eu morava. Só uma pessoa da casa foi escolhida, e não fui eu. Aí pedi a ela, do jeito mais informal possível: "Ô Teresinha, eu queria tanto ir."
+
+No dia seguinte cheguei um pouquinho atrasado à Missa, morrendo de vergonha, e o formador me chamou depois: "Felipe, arruma as suas coisas, você vai pro retiro." Quando perguntei a quem ia me levar como ela sabia que eu queria ir, ela só me olhou e disse: "Nós temos uma amiga em comum. A Teresinha me contou."
+
+Eu chamo isso de piscadela de olho dos santos. Eles são nossos amigos e intercedem por nós no céu, mas a gente costuma tratar como balcão: novena formal, pedir, receber. Amizade de verdade abre o coração, do mesmo jeito que a gente abre com um amigo aqui na terra.
+
+Experimenta hoje: escolhe um santo de que você gosta e conversa com ele por um minuto, sem fórmula e sem pedir nada. Conta como foi o seu dia.
+
+Hoje é dia de Santa Teresinha, a santa da pequena via. Qual seu pequeno gesto de amor hoje?
+
+#santateresinha #santos #vidadeoração #oração #catolico #carmelo #intercessão #espiritualidade #jovenscatolicos
+
+
+---
+
+## 09/10 REEL CASTELO (extra)
+*(sex 09/10 · reel extra · arquivo: `reel_sair_do_castelo.mp4`)*
+**Legenda:**
+Você não sai do castelo interior num descuido.
+
+Quando se pergunta o que seria preciso para sair do castelo, a resposta mais comum é “pecado mortal”, e logo depois “basta querer”. As duas subestimam a coisa.
+
+Estar no castelo é viver com a consciência de que Jesus mora dentro de você, com os olhos voltados para o centro. Para sair de verdade seria preciso viver de fora por muito tempo, ignorando Deus, praticamente vivendo como quem não crê. Não acontece por distração.
+
+E o pecado grave? Ele impermeabiliza. É como entrar no chuveiro vestindo capa de chuva: a água cai e você não se lava, e ainda sua por baixo. Teresa e João da Cruz falam de um pano denso colocado sobre a luz do cristal que está no centro. Por isso a saída é imediata: ato de contrição e confissão, e a graça volta a molhar. Vale saber, e é bonito, que mesmo assim quem continua rezando todo dia fica seguro ali dentro até conseguir se confessar.
+
+E faltar um dia? O Padre Marie-Eugène compara a vida de oração a uma planta. Um dia sem água mata a sementinha e não mata a árvore. Quanto mais funda a sua oração, mais ela aguenta os seus tropeços. E há dias em que você deixa de rezar para servir, para amar, para cuidar de alguém: isso é transbordamento da oração, e continua sendo estar no castelo.
+
+Experimenta hoje: se você parou de rezar há um tempo, volte hoje pelos mesmos dez minutos de sempre, sem tentar compensar os dias que faltaram.
+
+Me conta nos comentários: o que já te trouxe de volta depois de um tempo longe da oração?
+
+---
+
+## REEL SAIR DO CASTELO
+*(extra 09/10 · reel 50 s · arquivo `reel_sair_do_castelo.mp4` · legenda do carrossel de 24/09)*
+**Legenda:**
+Você não sai do castelo interior num descuido.
+
+Quando se pergunta o que seria preciso para sair do castelo, a resposta mais comum é “pecado mortal”, e logo depois “basta querer”. As duas subestimam a coisa.
+
+Estar no castelo é viver com a consciência de que Jesus mora dentro de você, com os olhos voltados para o centro. Para sair de verdade seria preciso viver de fora por muito tempo, ignorando Deus, praticamente vivendo como quem não crê. Não acontece por distração.
+
+E o pecado grave? Ele impermeabiliza. É como entrar no chuveiro vestindo capa de chuva: a água cai e você não se lava, e ainda sua por baixo. Teresa e João da Cruz falam de um pano denso colocado sobre a luz do cristal que está no centro. Por isso a saída é imediata: ato de contrição e confissão, e a graça volta a molhar. Vale saber, e é bonito, que mesmo assim quem continua rezando todo dia fica seguro ali dentro até conseguir se confessar.
+
+E faltar um dia? O Padre Marie-Eugène compara a vida de oração a uma planta. Um dia sem água mata a sementinha e não mata a árvore. Quanto mais funda a sua oração, mais ela aguenta os seus tropeços. E há dias em que você deixa de rezar para servir, para amar, para cuidar de alguém: isso é transbordamento da oração, e continua sendo estar no castelo.
+
+Experimenta hoje: se você parou de rezar há um tempo, volte hoje pelos mesmos dez minutos de sempre, sem tentar compensar os dias que faltaram.
+
+Me conta nos comentários: o que já te trouxe de volta depois de um tempo longe da oração?
+
+#vidadeoração #castelointerior #santateresadávila #carmelo #oraçãomental #misericórdia #confissão #vidainterior #oraçãopessoal #fécatólica #marieeugène #catolicismo

@@ -16,6 +16,7 @@ HERE = Path(__file__).resolve().parent
 INSTA = HERE.parent
 sys.path.insert(0, str(HERE))
 from postar_instagram_api import container_com_fallback, _post, wait_ready, load_secrets, stories_hoje_brt, stories_hoje_ids_brt  # noqa
+from postar_instagram_api import host_github, hosts_chain, _erro_de_download  # noqa  (story em video)
 try:
     from poster_santo import CAL_SANTO_DATES, santo_story_ids_hoje  # santo do dia = peca EXTRA
 except Exception:
@@ -118,21 +119,21 @@ CAL_S = {
     "2026-10-14": ("d14_story1.png", "d14_story2.png", "lote-outubro"),
     "2026-10-15": ("d15_story1.png", "d15_story2.png", "lote-outubro"),
     "2026-10-16": ("d16_story1.png", "d16_story2.png", "lote-outubro"),
-    "2026-10-17": ("d17_story1.png", "d17_story2.png", "lote-outubro"),
+    "2026-10-17": ("d17_story1.png", "lote-teresa-stories/t01_17-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-10-18": ("d18_story1.png", "d18_story2.png", "lote-outubro"),
-    "2026-10-19": ("d19_story1.png", "d19_story2.png", "lote-outubro"),
+    "2026-10-19": ("d19_story1.png", "lote-teresa-stories/t02_19-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-10-20": ("d20_story1.png", "d20_story2.png", "lote-outubro"),
-    "2026-10-21": ("d21_story1.png", "d21_story2.png", "lote-outubro"),
+    "2026-10-21": ("d21_story1.png", "lote-teresa-stories/t03_21-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-10-22": ("d22_story1.png", "d22_story2.png", "lote-outubro"),
-    "2026-10-23": ("d23_story1.png", "d23_story2.png", "lote-outubro"),
+    "2026-10-23": ("d23_story1.png", "lote-teresa-stories/t04_23-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-10-24": ("d24_story1.png", "d24_story2.png", "lote-outubro"),
-    "2026-10-25": ("d25_story1.png", "d25_story2.png", "lote-outubro"),
+    "2026-10-25": ("d25_story1.png", "lote-teresa-stories/t05_25-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-10-26": ("d26_story1.png", "d26_story2.png", "lote-outubro"),
-    "2026-10-27": ("d27_story1.png", "d27_story2.png", "lote-outubro"),
+    "2026-10-27": ("d27_story1.png", "lote-teresa-stories/t06_27-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-10-28": ("d28_story1.png", "d28_story2.png", "lote-outubro"),
-    "2026-10-29": ("d29_story1.png", "d29_story2.png", "lote-outubro"),
+    "2026-10-29": ("d29_story1.png", "lote-teresa-stories/t07_29-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-10-30": ("d30_story1.png", "d30_story2.png", "lote-outubro"),
-    "2026-10-31": ("d31_story1.png", "d31_story2.png", "lote-outubro"),
+    "2026-10-31": ("d31_story1.png", "lote-teresa-stories/t08_31-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-07-01": ("seg06_story1.png", "seg06_story2.png", "lote-06-12-jul"),
     "2026-07-02": ("ter07_story1.png", "ter07_story2.png", "lote-06-12-jul"),
     "2026-07-03": ("qua08_story1.png", "qua08_story2.png", "lote-06-12-jul"),
@@ -211,10 +212,43 @@ def marcar(chave, media_id):
     _save_state(p, d)
 
 
+def container_story_video(ig_id, path, token, secrets=None):
+    """Story em VIDEO (.mp4 9:16, H.264, ate 60s): media_type=STORIES + video_url.
+    Mesma cadeia de hosts do reel e espera maior pelo processamento da Meta."""
+    secrets = secrets or {}
+    base = {"media_type": "STORIES"}
+    if secrets.get("HOST") == "github":
+        url = host_github(Path(path), secrets.get("GITHUB", {}))
+        cid = _post(f"{ig_id}/media", dict(base, video_url=url), token)["id"]
+        wait_ready(cid, token, tries=90, delay=4)
+        return cid
+    ultimo = None
+    for nome, fn in hosts_chain(secrets):
+        try:
+            url = fn(Path(path))
+        except Exception as e:
+            print(f"  host {nome} falhou no upload: {e}")
+            ultimo = e
+            continue
+        try:
+            cid = _post(f"{ig_id}/media", dict(base, video_url=url), token)["id"]
+            wait_ready(cid, token, tries=90, delay=4)
+            return cid
+        except Exception as e:
+            if _erro_de_download(e):
+                ultimo = e
+                continue
+            raise
+    raise RuntimeError(f"nenhum host serviu o video do story para a Meta (ultimo erro: {ultimo})")
+
+
 def publish_story(ig_id, img_path, secrets):
     token = secrets["ACCESS_TOKEN"]
-    cid = container_com_fallback(ig_id, img_path, token,
-                                 {"media_type": "STORIES"}, secrets)
+    if str(img_path).lower().endswith(".mp4"):
+        cid = container_story_video(ig_id, img_path, token, secrets)
+    else:
+        cid = container_com_fallback(ig_id, img_path, token,
+                                     {"media_type": "STORIES"}, secrets)
     return _post(f"{ig_id}/media_publish", {"creation_id": cid}, token).get("id")
 
 

@@ -32,6 +32,26 @@ except Exception:
 
 # data -> dict(feed=[arquivos], feed_lote, feed_secao, story=arquivo|None, story_lote)
 CAL_SANTO = {
+    "2026-11-01": {
+        "feed": ["todos_santos_card.png"], "feed_lote": "lote-santo-todos-santos",
+        "feed_secao": "## FEED",
+        "story": "todos_santos_story.png", "story_lote": "lote-santo-todos-santos",
+    },
+    "2026-11-02": {
+        "feed": ["finados_card.png"], "feed_lote": "lote-santo-finados",
+        "feed_secao": "## FEED",
+        "story": "finados_story.png", "story_lote": "lote-santo-finados",
+    },
+    "2026-11-08": {
+        "feed": ["elisabete_card.png"], "feed_lote": "lote-santo-elisabete",
+        "feed_secao": "## FEED",
+        "story": "elisabete_story.png", "story_lote": "lote-santo-elisabete",
+    },
+    "2026-11-21": {
+        "feed": ["apresentacao_card.png"], "feed_lote": "lote-santo-apresentacao",
+        "feed_secao": "## FEED",
+        "story": "apresentacao_story.png", "story_lote": "lote-santo-apresentacao",
+    },
     "2026-10-02": {
         "feed": ["reel_anjos.mp4"], "feed_lote": "lote-outubro",
         "feed_secao": "## 02/10 REEL ANJOS",

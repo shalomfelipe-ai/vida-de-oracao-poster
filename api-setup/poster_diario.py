@@ -170,6 +170,8 @@ CAL = {
     "2026-07-27": (["teresinha_final.png"], "serie-santos-carmelo", "STA TERESINHA 27/07"),
     # --- Carrossel "Jaculatorias pra rezar o dia inteiro" (para guardar) ---
     "2026-07-31": (["carrossel/01_capa.png", "carrossel/02_confio.png", "carrossel/03_aumentai_fe.png", "carrossel/04_abba.png", "carrossel/05_espirito.png", "carrossel/06_mae.png", "carrossel/07_sao_jose.png", "carrossel/08_misericordia.png", "carrossel/09_tudo_bem.png", "carrossel/10_fim.png"], "lote-jaculatorias", "CARROSSEL JACULATORIAS"),
+    # --- Reel animado Remotion (extra de novembro) ---
+    "2026-11-01": (["reel_so_deus_basta.mp4"], "lote-reels-animados", "## 01/11 REEL SO DEUS BASTA"),  # REEL
 }
 
 
