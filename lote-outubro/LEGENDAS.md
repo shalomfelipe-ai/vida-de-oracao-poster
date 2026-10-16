@@ -203,9 +203,9 @@ Escreve "amém" aqui nos comentários se você pede essa graça comigo, e me con
 
 ## 16/10 FRUTO1
 **Legenda:**
-Passada a festa, vale recolher o que Teresa nos deixou. O primeiro fruto é enorme: a oração mental é pra todos. É pra mãe cansada, pra trabalhador, pra quem tem pouco tempo, e não só pra freira, pra padre ou pra gente sábia.
+Passada a festa de Santa Teresa, o primeiro fruto que eu quero recolher é este: a oração mental é para todos. Não precisa ser freira, nem enclausurado, nem missionário. Todo mundo só precisa querer, porque a contemplação é um dom de Deus, e Deus dá a quem Ele quer, do jeito que Ele quer.
 
-Precisa só querer estar com Deus e reservar um cantinho do dia. Teresa garante que você é capaz.
+Teresa era uma freira comum, de oração morna, e foi chamada assim mesmo. Hoje, reserva um cantinho do seu dia, uns cinco minutos, e fica a sós com Ele.
 
 O que ainda te faz achar que oração não é pra você?
 
@@ -215,11 +215,13 @@ O que ainda te faz achar que oração não é pra você?
 
 ## 17/10 FRUTO2
 **Legenda:**
-Outro fruto de Teresa: a paz não depende de tudo estar calmo. O só Deus basta cabe no meio do trânsito, da casa cheia, do trabalho apertado. A paz dela era a presença de Deus dentro do problema, não a ausência de problema.
+“Quando a minha vida acalmar, aí eu volto a rezar com paz.” Quem nunca pensou assim? Só que a vida quase nunca acalma, e a paz de Santa Teresa também não veio de uma vida calma. Ela viajou por estradas ruins para fundar mosteiro, muitas vezes sem dinheiro, enfrentou muita gente contra ela, e foi ela quem escreveu aquele versinho que a gente repete até hoje: só Deus basta.
 
-Hoje, quando apertar, respire e repita: só Deus basta.
+O segredo dela estava em saber onde Deus mora. Se Nosso Senhor habita no centro da alma, como ela ensina no Castelo Interior, então Ele está com você também no meio do trânsito, da casa cheia, do trabalho apertado. O problema continua lá fora, mas por dentro a gente tem para onde voltar.
 
-Onde você mais precisa dessa paz hoje?
+Por isso a sugestão de hoje é bem simples. Escolhe o momento mais apertado do seu dia, pode ser às três da tarde ou na hora do engarrafamento, e ali, sem parar o que está fazendo, diz baixinho três vezes: só Deus basta.
+
+Em que hora do seu dia você mais precisa lembrar disso?
 
 #santateresadeavila #sodeusbasta #oração #vidadeoração #católico #paz
 
@@ -227,9 +229,13 @@ Onde você mais precisa dessa paz hoje?
 
 ## 18/10 SITE
 **Legenda:**
-Domingo de convite. Se esse mês te animou a rezar, tem um lugar que reúne tudo pra você não parar: meditações do Evangelho, o podcast e materiais gratuitos.
+Se este mês com Santa Teresa acendeu em você uma vontade de rezar, essa fagulha precisa de cuidado, porque fagulha que ninguém alimenta apaga rápido. Foi pensando nisso que nasceu o vidadeoracao.com: lá estão as meditações do Evangelho do dia, o podcast e materiais gratuitos para quem quer aprender a rezar sem ficar perdido.
 
-É o vidadeoracao.com, e o link está na bio. Passa por lá e leva um amigo junto.
+A gente aprende a rezar rezando, mas ninguém precisa caminhar sozinho. E um pouquinho de Palavra todo dia sustenta mais do que muita coisa de vez em quando, assim como a colherzinha de óleo que se dá a uma criança desnutrida: é pouca coisa de engolir, mas alimenta de verdade.
+
+O link está na bio. Hoje, antes de dormir, abre a meditação do Evangelho de amanhã e lê com calma, uns cinco minutos, e manda o link para uma pessoa que anda querendo rezar.
+
+Quem é a primeira pessoa que te vem à cabeça para receber esse convite?
 
 #vidadeoração #oração #site #católico #espiritualidade
 
@@ -237,11 +243,13 @@ Domingo de convite. Se esse mês te animou a rezar, tem um lugar que reúne tudo
 
 ## 19/10 CARROSSEL VIVER
 **Legenda:**
-Depois da festa, a pergunta que fica: como levar Teresa pro dia comum, sem convento e sem duas horas por dia? Ela mesma responde de um jeito simples.
+“Santa Teresa vivia num convento, mas eu tenho filho, trabalho e trânsito.” Eu entendo, e por isso mesmo vale lembrar que Teresa passou muitos anos num mosteiro cheio de visita e de conversa, onde ela quase não conseguia rezar, e foi ali, do jeito que dava, que ela começou.
 
-Escolha um cantinho e um tempo curto, só de Deus. Leve uma frase no bolso do dia, tipo só Deus basta, e repita quando apertar. E, acima de tudo, volte sempre: faltou hoje, amanhã você volta. A amizade com Deus se refaz em cada retorno.
+O que ela nos deixa para o dia comum cabe em três passos, e eles estão no carrossel. O primeiro é escolher um lugar e um horário fixo, mesmo curto, porque com uma Bíblia qualquer metro quadrado vira capela. O segundo é levar uma frase dela no bolso, como o só Deus basta, e repetir quando o dia apertar. O terceiro é o mais importante: voltar sempre. Faltou hoje? Amanhã você volta, sem se xingar, porque a amizade com Nosso Senhor se refaz em cada retorno.
 
-Qual desses três passos você começa hoje?
+Para começar, marca agora no celular um lembrete para amanhã, no horário que você escolher, com cinco minutos só para Ele.
+
+Qual desses três passos você quer começar amanhã?
 
 #santateresadeavila #oração #vidadeoração #oraçãopessoal #católico #espiritualidade
 
@@ -249,11 +257,13 @@ Qual desses três passos você começa hoje?
 
 ## 20/10 TRABALHO
 **Legenda:**
-Teresa dizia que Deus anda também entre as panelas. Dá pra rezar lavando louça, dirigindo, entre um e-mail e outro: é só voltar o coração pra Ele por um instante.
+No Livro das Fundações, Santa Teresa escreve uma das frases mais simpáticas dela: entre as panelas também anda o Senhor. Ela estava falando com as irmãs que ficavam tristes porque a obediência mandava para a cozinha quando elas queriam estar na capela, e Teresa garante que Nosso Senhor está ali no meio do serviço, ajudando por dentro e por fora.
 
-A oração do dia comum não substitui o tempo a sós com Deus, mas prolonga ele pelas suas horas. Escolha uma tarefa de hoje pra fazer rezando.
+Isso vale para a louça de casa, para o volante do carro, para a planilha do trabalho. Dá para voltar o coração para Jesus por um instante no meio da tarefa, com um “Jesus, eu Te amo” dito por dentro, e seguir fazendo o que estava fazendo. Só que essa oração do dia comum precisa do tempo a sós com Ele, porque é dali que ela tira força, assim como a água que a gente tira do poço de manhã é a que rega o jardim o dia inteiro.
 
-Em que momento do seu dia é mais fácil lembrar de Deus?
+Hoje escolhe uma tarefa só, por exemplo lavar a louça do jantar, e faz ela inteira oferecendo a Nosso Senhor.
+
+Em que tarefa do seu dia fica mais fácil lembrar d'Ele?
 
 #santateresadeavila #oração #vidadeoração #católico #oraçãopessoal
 
@@ -261,11 +271,13 @@ Em que momento do seu dia é mais fácil lembrar de Deus?
 
 ## 21/10 METODO
 **Legenda:**
-Cinco minutos, do jeito de Teresa. Escolha um trecho do Evangelho e leia bem devagar. Pare no que tocou e pense um pouco. Fale com Deus sobre isso, como amigo. E fique um tempinho em silêncio, só com Ele.
+“Cinco minutos não dão para nada.” Dão sim, e Santa Teresa ensina como. O jeito dela de rezar, que é o que a gente segue no Shalom, começa com uma cena do Evangelho. Ela gostava muito da Samaritana: se colocava no lugar daquela mulher junto ao poço, ouvia Jesus pedir água e respondia como ela responderia.
 
-É simples assim, e cabe antes de dormir ou no café da manhã.
+Faz assim. No primeiro minuto você se recolhe e lembra com quem vai falar, que é Nosso Senhor, o Rei e ao mesmo tempo o amigo. Nos dois minutos seguintes lê bem devagarinho um trecho do Evangelho do dia e se coloca dentro da cena. Depois fala com Jesus sobre o que te tocou, do jeito que você falaria com um amigo, sem precisar de frase bonita. E no último minuto fica quietinho, só com Ele.
 
-Você topa testar esses cinco minutos hoje?
+Cabe antes do café da manhã ou antes de dormir. Se amanhã der seis minutos, ótimo, e depois de uma semana você já vai querer quinze.
+
+Qual cena do Evangelho você escolheria para começar?
 
 #santateresadeavila #oração #vidadeoração #oraçãomental #católico
 
@@ -273,11 +285,13 @@ Você topa testar esses cinco minutos hoje?
 
 ## 22/10 HERANCA
 **Legenda:**
-Teresa não deixou só livros, deixou uma família inteira de oração. João da Cruz, que ela ajudou a formar. Teresinha, que séculos depois viveu o caminho pequeno. O Carmelo espalhado pelo mundo até hoje.
+Quando Santa Teresa conheceu São João da Cruz, ele estava pensando em deixar o Carmelo para virar cartuxo, porque queria uma vida ainda mais austera. Ela conversou com ele, convenceu ele a ficar, e o Carmelo descalço ganhou um dos maiores santos da Igreja. Teresa deixou livros, e deixou também pessoas.
 
-Uma escola que atravessa quatro séculos e chega em você, agora, lendo isso. Você faz parte dessa história.
+Três séculos depois, uma menina de Lisieux entrou no Carmelo aos quinze anos e ensinou a pequena via, a de quem levanta os braços e pede ao Pai que a carregue escada acima, como ela conta na História de uma Alma. E no século vinte uma filósofa judia, Edith Stein, passou uma noite inteira lendo o Livro da Vida e, quando fechou o livro, disse que aquilo era a verdade. Virou carmelita e santa.
 
-Você já conhecia algum outro santo do Carmelo?
+No Shalom, o nosso modo de fazer oração pessoal segue em grande parte o método de Teresa, e é por isso que eu falo tanto dela aqui. Essa escola chega até você agora. Hoje, reza cinco minutos pedindo a um desses santos que reze com você.
+
+Qual deles você quer conhecer melhor?
 
 #santateresadeavila #carmelo #joãodacruz #teresinha #oração #vidadeoração #católico
 
@@ -285,11 +299,13 @@ Você já conhecia algum outro santo do Carmelo?
 
 ## 23/10 POEMA
 **Legenda:**
-Pra guardar e reler num dia difícil, o poema de Teresa: nada te perturbe, nada te espante. Tudo passa, Deus não muda. A paciência tudo alcança. Quem tem a Deus nada lhe falta. Só Deus basta.
+Esse poema foi encontrado no breviário de Santa Teresa depois da morte dela, num papelzinho guardado entre as páginas do livro que ela rezava todo dia. Em português ele fica assim: nada te perturbe, nada te espante, tudo passa, Deus não muda, a paciência tudo alcança, quem a Deus tem nada lhe falta, só Deus basta.
 
-Salve este post pra quando a ansiedade bater.
+Repara que quem escreveu isso viveu doença, perseguição e muita viagem difícil, então é palavra de quem passou pelo aperto e encontrou chão firme. Coisa difícil continua acontecendo na vida de qualquer um, e o que ela ensina é que nada disso precisa tomar conta do coração, porque tudo passa e só Nosso Senhor fica.
 
-Qual dessas linhas fala mais com você hoje?
+Salva este post para o dia em que a ansiedade bater. E hoje, antes de dormir, reza o poema inteiro bem devagar, uma linha por respiração, umas duas ou três vezes.
+
+Qual dessas linhas você mais precisa ouvir hoje?
 
 #santateresadeavila #nadateperturbe #oração #vidadeoração #católico #paz
 
@@ -297,11 +313,13 @@ Qual dessas linhas fala mais com você hoje?
 
 ## 24/10 RECOMECAR
 **Legenda:**
-Um recado que Teresa daria pra você hoje: sempre dá pra recomeçar. Não importa quanto tempo faz que você parou de rezar, nem quantas vezes já tentou. A porta do castelo continua aberta agora, do jeitinho que você está.
+Eu sou procurado por muita gente que me diz a mesma coisa: “eu parei de rezar e não consigo voltar.” Quase sempre a vida se desorganizou, veio trabalho, casamento, filho, e a oração foi ficando para trás sem ninguém perceber.
 
-Não espere o momento perfeito. Comece hoje, com cinco minutos.
+Santa Teresa conhece bem esse caminho. Ela mesma conta no Livro da Vida que passou quase vinte anos nesse vai e volta, rezando um tempo, largando, voltando de novo, e mesmo assim Nosso Senhor não desistiu dela. A porta do castelo continua aberta, e Ele continua morando lá dentro.
 
-O que te impede de recomeçar hoje?
+Para recomeçar, não adianta querer horas de oração de uma vez, assim como uma criança desnutrida não dá conta de um prato cheio. O que ajuda é uma colherzinha por dia: hoje cinco minutos, amanhã dez, e na outra semana quinze. Se você vai à Missa, fica cinco minutos a sós com Jesus depois da comunhão.
+
+Qual horário de amanhã você vai separar para esses cinco minutos?
 
 #santateresadeavila #recomeçar #oração #vidadeoração #católico #espiritualidade
 
@@ -309,9 +327,13 @@ O que te impede de recomeçar hoje?
 
 ## 25/10 SITE
 **Legenda:**
-Outubro está acabando, mas a oração é pra vida toda. Pra você continuar depois desse mês, o vidadeoracao.com reúne meditações, podcast e materiais grátis pra rezar. O link está na bio.
+Outubro está acabando, e eu queria muito que a oração que começou ou recomeçou nestas semanas não acabasse junto com o mês. A gente tem mania de dizer que segunda-feira começa a dieta, e com a oração acontece igual: termina a novena, termina a festa, e a gente vai deixando para depois.
 
-Não pare agora que você pegou o ritmo.
+Por isso deixo de novo o convite para o vidadeoracao.com, que está no link da bio. Lá tem a meditação do Evangelho de cada dia, o podcast e materiais gratuitos, justamente para quem quer continuar e não sabe por onde. Quando você estiver perdido, tem para onde voltar.
+
+Escolhe agora um horário fixo para a semana que vem, pode ser às sete da manhã ou às dez da noite, e combina com você mesmo de abrir a meditação do dia nesse horário.
+
+O que mais te ajuda a manter a oração depois que a novidade passa?
 
 #vidadeoração #oração #site #católico #perseverança
 
@@ -319,11 +341,13 @@ Não pare agora que você pegou o ritmo.
 
 ## 26/10 O QUE FICA
 **Legenda:**
-Um mês inteiro com Santa Teresa. O que fica de tudo isso? Fica o castelo, as moradas, o só Deus basta. Fica a certeza de que Deus mora dentro de você e espera você entrar.
+Um mês inteiro com Santa Teresa, e agora vale a pena parar e perguntar o que ficou. Para mim, fica antes de tudo quem ela é: Teresa de Jesus, uma mulher apaixonada por Nosso Senhor, que tratava Ele de Sua Majestade e ao mesmo tempo falava com Ele com a liberdade de quem fala com um amigo.
 
-E fica um convite simples: não parar. A oração não era um tema de outubro, é uma amizade pra vida.
+Fica também o castelo, essa certeza de que Deus mora no centro da alma e espera a gente entrar, e fica o só Deus basta para os dias apertados. E fica, principalmente, que a oração mental é para todos, porque Teresa foi por muitos anos uma freira que rezava muito pouco, e Nosso Senhor chamou ela assim mesmo.
 
-O que desse mês tocou mais o seu coração?
+O mês acaba, e a amizade continua. Hoje pega um papel, escreve uma frase só sobre o que mais te tocou neste mês e guarda dentro da sua Bíblia para reler no dia 15 de novembro.
+
+O que deste mês com Teresa você quer levar para a vida?
 
 #santateresadeavila #oração #vidadeoração #católico #espiritualidade
 
@@ -331,11 +355,13 @@ O que desse mês tocou mais o seu coração?
 
 ## 27/10 MUDA
 **Legenda:**
-Como saber se a oração está fazendo efeito? Teresa responde: olhe o amor. Quem reza de verdade começa, aos poucos, a amar diferente onde pisa: mais paciência em casa, mais bondade no trabalho, mais perdão.
+“Como é que eu sei se a minha oração está dando certo?” A tentação é medir pelo sentimento, pelo que a gente sentiu ou deixou de sentir na hora de rezar. Só que, quanto mais perto de Deus, menos coisa sensível a gente costuma sentir, então essa régua engana.
 
-Esse é o fruto que importa, mais do que qualquer sentimento na hora de rezar.
+Santa Teresa dá uma régua melhor. No Castelo Interior ela diz que o sinal mais certo de que a gente ama a Deus é o amor ao próximo. O fruto concreto da oração são as obras: mais paciência com quem mora com você, mais bondade com o colega difícil do trabalho, mais facilidade para perdoar. E isso cresce devagar, como o feijãozinho no algodão que a gente plantava na escola, que quando a gente percebe já brotou.
 
-Onde você tem notado o amor crescer em você?
+Hoje faz um gesto escondido por amor a Jesus, um só, como arrumar uma coisa que não era sua obrigação, sem contar para ninguém.
+
+Onde você tem visto o amor crescer na sua vida?
 
 #santateresadeavila #oração #vidadeoração #católico #espiritualidade
 
@@ -343,11 +369,13 @@ Onde você tem notado o amor crescer em você?
 
 ## 28/10 NAO DESISTA
 **Legenda:**
-O resumo de tudo o que Teresa ensina cabe numa frase: não desista de entrar. Você não precisa ser perfeito, nem sentir coisas extraordinárias. Precisa só voltar, um dia de cada vez, mesmo depois de faltar.
+Uma expressão de Santa Teresa me acompanha há muito tempo: a determinada determinação. No Caminho de Perfeição ela diz que quem começa a rezar precisa de uma determinação muito determinada de não parar até chegar, venha o que vier, custe o que custar.
 
-O castelo é casa, e casa é lugar pra onde a gente sempre pode voltar.
+Isso não quer dizer que a gente nunca vai falhar. A nossa vontade é fraca, e a gente sabe que podia ter rezado naquela hora e acabou no celular. Só que a determinação vai se alimentando dela mesma: quanto mais a gente se decide por rezar, mais força ganha para rezar. É como o soldado no seu posto, que fica ali esteja se sentindo bem ou não.
 
-O que te ajuda a não desistir da oração?
+E quando falhar, volta. O castelo é casa, e casa é o lugar para onde a gente sempre pode voltar. Hoje põe um despertador no celular para o seu horário de oração de amanhã, com o nome Jesus, e quando ele tocar, vai.
+
+O que te ajuda a continuar quando a oração fica seca?
 
 #castelointerior #santateresadeavila #oração #vidadeoração #católico #perseverança
 
@@ -355,11 +383,13 @@ O que te ajuda a não desistir da oração?
 
 ## 29/10 CONVITE
 **Legenda:**
-A novena passou, a festa passou, mas o essencial continua: a oração é pra vida toda, e ela pode começar hoje. Não precisa esperar um outubro novo.
+“Eu vou começar a rezar quando a minha vida estiver mais organizada.” A gente fala assim do mesmo jeito que fala da dieta que começa na segunda-feira, e a segunda-feira nunca chega. O melhor momento para começar a rezar é agora, porque, se o desejo está aí, ele já é graça de Deus.
 
-Escolha um horário, um cantinho, cinco minutos, e comece. Deus está esperando, do jeito que você está.
+A novena passou, a festa de Santa Teresa passou, e a oração continua sendo para a vida inteira, do jeito que você está hoje. Tempo você tem; o que falta, quase sempre, é sentar e decidir. Pega um papel, escreve a sua rotina, que horas acorda, que horas almoça, quanto tempo fica no trânsito, e aponta ali o momento em que vai parar para Nosso Senhor.
 
-Que horário do seu dia pode virar o seu tempo com Deus?
+Começa com cinco minutos hoje. Se der, antes de dormir reza mais dez, e amanhã você já chega aos quinze.
+
+Que horário do seu dia vai virar o seu tempo com Deus?
 
 #oração #vidadeoração #santateresadeavila #católico #espiritualidade
 
@@ -367,11 +397,13 @@ Que horário do seu dia pode virar o seu tempo com Deus?
 
 ## 30/10 SANTOS
 **Legenda:**
-Amanhã é véspera de Todos os Santos, e depois vem o dia deles. Vale lembrar: os santos foram gente como a gente. Erraram, recomeçaram, tiveram dias secos e dias de luz.
+Amanhã é a véspera e depois de amanhã é a Solenidade de Todos os Santos, e eu gosto de lembrar uma coisa nesses dias: os santos foram gente como a gente. Santa Teresa entrou no Carmelo quase por cálculo, achando que era o caminho mais seguro para o céu, e passou anos como uma freira que rezava muito pouco antes de se converter de verdade.
 
-O que os fez santos não foi serem perfeitos, foi não terem desistido de Deus. Teresa é uma deles, e te chama pra mesma aventura.
+A santidade que eles viveram foi viver a virtude, amar e crescer no bem dia após dia, e a perfeição de não pecar mais a gente só vai ter no céu. Quem coloca a meta em parar de pecar vive olhando para o próprio pecado; quem coloca a meta na virtude vive olhando para Jesus.
 
-Qual santo mais te inspira a rezar?
+Os santos que a Igreja celebra no dia primeiro são esses: gente que caiu, levantou e não largou a mão de Nosso Senhor. Hoje escolhe um santo e reza cinco minutos com ele, pedindo a graça de não desistir.
+
+Qual santo te inspira a rezar mais?
 
 #todosossantos #santos #oração #vidadeoração #católico #espiritualidade
 
@@ -379,11 +411,13 @@ Qual santo mais te inspira a rezar?
 
 ## 31/10 VESPERA SANTOS
 **Legenda:**
-Hoje é véspera de Todos os Santos. Em vez de medo e fantasia, a Igreja oferece uma festa de luz: gente comum que chegou perto de Deus.
+Hoje à noite muita rua vai se encher de fantasia de bruxa e de caveira, e a Igreja, nessa mesma noite, já está olhando para outra coisa: amanhã é a festa de todos os santos, aquela multidão que ninguém consegue contar, gente comum que chegou perto de Deus.
 
-A santidade é pra você também, e o caminho dela começa numa oração simples, feita hoje.
+A santidade é para você também. Ela começa por dentro, no coração que se entrega a Jesus, e só depois vai mudando as atitudes, de dentro para fora, assim como a planta cresce primeiro na raiz e só depois aparece a flor. E o lugar onde esse coração se entrega todo dia é a oração.
 
-Você já pensou que a santidade também é pra você?
+Por isso o convite para esta véspera é simples: hoje, antes de dormir, desliga o celular e fica cinco minutos em silêncio com Nosso Senhor, pedindo a intercessão do santo do seu nome ou do seu batismo.
+
+Você sabe quem é o santo do seu nome?
 
 #todosossantos #santidade #oração #vidadeoração #católico #espiritualidade
 

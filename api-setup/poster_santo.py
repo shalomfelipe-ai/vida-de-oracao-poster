@@ -137,6 +137,21 @@ CAL_SANTO = {
         "feed_secao": "## FEED",
         "story": "inacio_story.png", "story_lote": "lote-santo-inacio",
     },
+    "2026-12-14": {
+        "feed": ["joao_card.png"], "feed_lote": "lote-santo-joao-cruz",
+        "feed_secao": "## SANTO CARD",
+        "story": "joao_story.png", "story_lote": "lote-santo-joao-cruz",
+    },
+    "2026-12-08": {
+        "feed": ["d08_santo.png"], "feed_lote": "lote-dezembro-b",
+        "feed_secao": "## SANTO IMACULADA",
+        "story": "d08_santo_story.png", "story_lote": "lote-dezembro-b",
+    },
+    "2026-12-12": {
+        "feed": ["d12_santo.png"], "feed_lote": "lote-dezembro-b",
+        "feed_secao": "## SANTO GUADALUPE",
+        "story": "d12_santo_story.png", "story_lote": "lote-dezembro-b",
+    },
 }
 # SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
 CAL_SANTO_2 = {
@@ -144,6 +159,11 @@ CAL_SANTO_2 = {
         "feed": ["carlo_acutis_card.png"], "feed_lote": "lote-santo-carlo-acutis",
         "feed_secao": "## FEED",
         "story": "carlo_acutis_story.png", "story_lote": "lote-santo-carlo-acutis",
+    },
+    "2026-12-14": {
+        "feed": ["joao_f_capa.png", "joao_f_s2.png", "joao_f_s3.png", "joao_f_s4.png", "joao_f_s5.png"], "feed_lote": "lote-santo-joao-cruz",
+        "feed_secao": "## SANTO FRASES",
+        "story": "joao_story2.png", "story_lote": "lote-santo-joao-cruz",
     },
 }
 CAL_SANTO_DATES = set(CAL_SANTO) | set(CAL_SANTO_2)
