@@ -4,17 +4,15 @@
 
 ## FEED
 **Legenda:**
-Se o Evangelho não conta, como é que a Igreja faz festa?
+"Felipe, se o Evangelho não conta essa história, por que a Igreja faz festa?" É uma pergunta boa, e eu gosto de responder com honestidade.
 
-A Apresentação de Nossa Senhora vem de uma tradição antiga, que fala de Maria menina sendo levada ao Templo. A Escritura não registra a cena, e a Igreja não esconde isso. O que ela guarda neste dia é o que veio depois: anos e anos de uma moça rezando sem plateia, sem ninguém anotar, sem ninguém aplaudir.
+A Apresentação de Nossa Senhora vem de uma tradição muito antiga, que fala de Maria ainda menina sendo levada ao Templo, e a Igreja nunca escondeu que a Escritura não registra essa cena. O que ela celebra neste dia é a entrega de Maria a Deus desde pequena, e eu gosto de pensar nos anos de oração escondida que vieram depois, sem plateia, sem ninguém anotar e sem ninguém aplaudir.
 
-Penso muito na raiz de uma árvore. Ninguém fotografa raiz, ninguém elogia raiz. E é ela que segura a árvore inteira quando o vento vem. A oração escondida faz esse trabalho na gente.
+Eu penso muito na raiz de uma árvore. Ninguém fotografa raiz e ninguém elogia raiz, só que é ela que segura a árvore inteira quando o vento vem forte, e a oração escondida faz esse mesmo trabalho na gente.
 
-Só que a gente aprende a rezar querendo ser visto, ou pelo menos querendo sentir que valeu a pena. E acaba achando que a oração que ninguém soube vale menos. Vale o mesmo. A sua oração é só sua, ninguém mais vai rezar aquilo que você reza do jeito que você reza.
+A gente, às vezes, aprende a rezar querendo ser visto, ou pelo menos querendo sentir que valeu a pena, e acaba achando que a oração que ninguém soube vale menos. Vale a mesma coisa, porque a sua oração é só sua, e ninguém mais vai rezar aquilo que você reza do jeito que você reza.
 
-Hoje, reza cinco minutos que ninguém vai saber que você rezou. Não conta para ninguém, nem para quem mora com você.
-
-Qual foi a última oração sua que ninguém ficou sabendo?
+Vale experimentar cinco minutos em silêncio com Jesus sem que ninguém fique sabendo, nem quem mora com você. Qual foi a última oração sua que ninguém ficou sabendo?
 
 #apresentaçãodenossasenhora #maria #vidadeoração #oraçãomental #oraçãopessoal #vidaescondida #fécatólica #espiritualidadecatólica #vidainterior #catolicismo
 

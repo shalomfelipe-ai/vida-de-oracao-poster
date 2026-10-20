@@ -15,7 +15,7 @@
 
 Eu gosto de explicar isso com a imagem de um livro. O papel é como a nossa carne: é ele que deixa as ideias tomarem forma, serem lidas e passarem adiante. É um pouco o que São João Paulo II ensina na teologia do corpo, que o corpo é aquilo que permite à alma amar. Quando você abraça uma pessoa querida, quem abraça é você inteiro.
 
-Na oração acontece a mesma coisa, por isso vale levar o corpo junto. Antes dos seus cinco minutos de hoje, senta direitinho, respira fundo três vezes e faz o sinal da cruz bem devagar, prestando atenção em cada palavra.
+Na oração acontece a mesma coisa, por isso vale levar o corpo junto. Na próxima vez que você for rezar, você pode fazer assim: antes dos cinco minutos, sentar direitinho, respirar fundo três vezes e fazer o sinal da cruz bem devagar, prestando atenção em cada palavra.
 
 Em que gesto simples do seu corpo você já sentiu Nosso Senhor mais perto?
 
@@ -31,9 +31,9 @@ Quase todo mundo aprende a rezar só com a cabeça, pensando, meditando, prestan
 
 Juntei aqui quatro jeitos bem simples. A postura, sentado com a coluna reta ou de joelhos, com as mãos abertas. A respiração, devagar, por um minuto, pra o corpo pousar. Os sentidos, uma vela acesa, uma imagem, o silêncio do quarto. E um gesto feito com atenção, como o sinal da cruz.
 
-E quando o sono vier? Muda o corpo de posição, levanta, reza andando pelo quarto, lava o rosto e volta. Santa Teresinha contava que dormia na oração, e nem por isso deixou de ser santa.
+E quando o sono vier? A dica que eu sempre dou é mudar o corpo de posição, levantar, rezar andando pelo quarto, lavar o rosto e voltar. Santa Teresinha contava que dormia na oração, e nem por isso deixou de ser santa.
 
-Ninguém precisa dos quatro de uma vez. Hoje, antes de rezar, escolhe só um e fica um minuto inteiro nele.
+Ninguém precisa dos quatro de uma vez. Uma ideia, se você quiser: antes de rezar, escolher só um deles e ficar um minuto inteiro ali.
 
 Qual desses quatro você vai testar primeiro?
 
@@ -51,7 +51,7 @@ Santa Teresa tinha um realismo santo pra essas coisas. Ela dizia que às vezes �
 
 Não estou dizendo que a gente só deva rezar quando tiver vontade, porque a decisão de rezar conta muito. Só que o corpo pesa, e quem já tentou rezar logo depois do almoço sabe bem do que eu estou falando. Quando o corpo está descansado, a alma reza melhor.
 
-Por isso, esta semana, repara em que hora do dia você chega mais desperto, pode ser às sete da manhã, pode ser às nove da noite, e coloca os seus cinco minutos ali.
+Pensa se não valeria a pena reparar, esta semana, em que hora do dia você chega mais desperto. Pode ser às sete da manhã, pode ser às nove da noite, e talvez seja ali que os seus cinco minutos encontrem o lugar deles.
 
 Em que hora do dia o seu corpo está mais desperto pra rezar?
 
@@ -67,7 +67,7 @@ Quando a gente fala de jejum, muita gente já imagina castigo, cara fechada, sof
 
 E o que isso tem a ver com a oração? Tudo. Pra rezar todo dia a gente precisa de uma vontade firme, aquela determinada determinação de que Santa Teresa fala no Caminho de Perfeição, e essa vontade se treina no corpo tanto quanto na alma. A gente promete que segunda começa a dieta e não resiste ao primeiro chocolate, e é a mesma vontade fraquinha que, de noite, diz que hoje não dá pra rezar.
 
-Um exercício que eu sempre sugiro: compra um chocolate, deixa em cima da mesa onde você trabalha e passa uma semana sem comer. Cada vez que der vontade, oferece aquilo a Jesus. Só não leva pra escola, senão alguém pega e acaba o seu treino.
+Tem um exercício que eu sempre sugiro, pra quem quiser tentar: comprar um chocolate, deixar em cima da mesa onde você trabalha e passar uma semana sem comer. Cada vez que der vontade, você oferece aquilo a Jesus. Só não vale levar pra escola, senão alguém pega e acaba o seu treino.
 
 Qual pequena renúncia já te ajudou a rezar com mais liberdade?
 
@@ -85,7 +85,7 @@ Lembra do Getsêmani? Jesus pede que os discípulos velem com Ele, e eles dormem
 
 Só que tem um detalhe que a gente esquece. Quem não dorme direito e ainda acha que vai rezar com vigor às cinco da manhã vai se frustrar. Cuidar da saúde, dormir e chegar descansado também fazem parte de rezar bem.
 
-Então, se hoje você está no limite, vai dormir meia hora mais cedo e oferece esse descanso pela oração de amanhã. E se amanhã o sono vier no meio, levanta, lava o rosto e volta, sem se xingar.
+Se você está no limite, quem sabe hoje à noite você vai dormir meia hora mais cedo e oferece esse descanso pela oração de amanhã? E se o sono vier no meio, dá pra levantar, lavar o rosto e voltar, sem se xingar.
 
 O que já te ajudou a chegar mais inteiro na oração?
 
@@ -103,7 +103,7 @@ Corpo, alma e mente formam um só todo, e eu só consigo separar os três pra ex
 
 Não estou dizendo que o sentimento de divisão seja invenção. Tem gente que sente isso de verdade, e esse sentimento merece acolhimento. Mas a verdade sobre quem você é continua de pé: você é inteiro, e Nosso Senhor te quer inteiro.
 
-Na oração de hoje, antes de começar, deixa as mãos abertas sobre os joelhos por um minuto e agradece por poder rezar assim, com o corpo junto.
+Se fizer sentido pra você, a oração pode começar com as mãos abertas sobre os joelhos, por um minuto, só agradecendo por poder rezar assim, com o corpo junto.
 
 O que no seu corpo você quer agradecer a Nosso Senhor hoje?
 
@@ -119,7 +119,7 @@ Esta semana a gente falou de postura, de sono, de descanso e de jejum, e talvez 
 
 E tem uma esperança guardada no seu próprio corpo. Toda vez que a gente reza o Credo, diz que crê na ressurreição da carne, e isso quer dizer que um dia o corpo volta a se unir à alma, pra sempre. Eu acho isso lindo, porque o corpo que hoje se ajoelha, que hoje cochila na oração, que hoje abre as mãos, tem um futuro com Nosso Senhor.
 
-Por isso o propósito desta semana é simples. Escolhe um dos gestos que a gente viu, a postura, a respiração, o descanso ou a pequena renúncia, e repete todos os dias nos seus cinco minutos a sós com Ele.
+Por isso a sugestão pra semana que começa é bem simples. E se você escolhesse um dos gestos que a gente viu, a postura, a respiração, o descanso ou a pequena renúncia, e repetisse todos os dias nos seus cinco minutos a sós com Ele?
 
 Qual desses gestos você leva pra sua semana?
 

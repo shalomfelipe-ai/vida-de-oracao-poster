@@ -11,11 +11,11 @@
 **Legenda:**
 "Felipe, eu não sei rezar." Já ouvi isso de tanta gente. E eu sempre volto à definição de Santa Teresa no Livro da Vida: a oração é um trato de amizade, um estar muitas vezes a sós com quem sabemos que nos ama.
 
-Repara em como ela fala de estar com Alguém, e em como técnica e horário nem aparecem na definição. É como ficar ao lado de uma pessoa muito querida, a sua mãe, a sua avó, alguém que você tem certeza de que te ama. Ninguém precisa de manual pra isso. A gente fica, conversa um pouquinho, se cala um pouquinho, e o tempo passa.
+Dá pra reparar como ela fala de estar com Alguém, e em como técnica e horário nem aparecem na definição. É como ficar ao lado de uma pessoa muito querida, a sua mãe, a sua avó, alguém que você tem certeza de que te ama. Ninguém precisa de manual pra isso. A gente fica, conversa um pouquinho, se cala um pouquinho, e o tempo passa.
 
 O horário e o silêncio continuam importantes, porque ajudam a gente a não faltar ao encontro, só que eles estão ali pra servir a amizade.
 
-Hoje, quando você sentar pros seus cinco minutos, começa dizendo a Jesus, com as suas palavras, que veio só pra ficar com Ele. E depois fica.
+Quando você sentar pros seus cinco minutos, você pode começar dizendo a Jesus, com as suas palavras, que veio só pra ficar com Ele. E depois ficar.
 
 O que já te fez sentir que Nosso Senhor é teu Amigo de verdade?
 
@@ -33,7 +33,7 @@ Com Deus é parecido, porque a intimidade também nasce do tempo junto, e quem c
 
 E é aí que muita gente desanima, porque esperava uma resposta imediata e ela não veio. Eu entendo, já passei por isso.
 
-Hoje à noite, antes de dormir, tira dois minutos e repassa o seu dia procurando por onde Nosso Senhor falou com você sem você perceber.
+Uma coisa que ajuda muito é, antes de dormir, tirar dois minutos pra repassar o dia procurando por onde Nosso Senhor falou com você sem você perceber.
 
 Por qual sinal Ele já te respondeu quando você menos esperava?
 
@@ -49,7 +49,7 @@ Por qual sinal Ele já te respondeu quando você menos esperava?
 
 Só depois Deus me deu enxergar a graça escondida naquele tempo. Assim como entre amigos é o tempo gasto junto que cria intimidade, com Nosso Senhor também é. Tempo com Ele é tempo investido, oferecido, mesmo quando parece que não aconteceu nada, porque Ele vê o coração que foi até Ele.
 
-Por isso, nos dias secos, ninguém precisa cobrar resultado da própria oração. Fica os seus cinco minutos, ou dez, e oferece esse tempo do jeito que ele está. A amizade vai acontecendo por dentro, devagarinho, mesmo sem a gente perceber.
+Por isso, nos dias secos, ninguém precisa cobrar resultado da própria oração. Se der, tenta ficar os seus cinco minutos, ou dez, e oferecer esse tempo do jeito que ele está. A amizade vai acontecendo por dentro, devagarinho, mesmo sem a gente perceber.
 
 Um tempo a sós com Deus que, olhando pra trás, valeu por muitos?
 
@@ -67,7 +67,7 @@ Claro que a gente está aqui pra servir. Jesus mesmo ensinou a dizer, no fim de 
 
 Eu gosto de lembrar que não importa se estou varrendo ou pregando, se estou aparecendo ou escondido, se alguém reconhece ou não. O que importa é amar ao Senhor.
 
-Amanhã cedo, antes de abrir o celular, fica três minutos com Jesus só pra estar com Ele, sem pedir nada e sem riscar nada da lista.
+Talvez amanhã cedo, antes de abrir o celular, você consiga ficar três minutos com Jesus só pra estar com Ele, sem pedir nada e sem riscar nada da lista.
 
 O que te lembra que você reza por amor?
 
@@ -85,7 +85,7 @@ Deus responde de outro jeito, sem a pressa de um amigo ali do lado, e às vezes 
 
 Quem tem um amigo de muitos anos conhece aquele silêncio de quem já se entende sem precisar falar. Os dois ficam ali, cada um no seu canto do sofá, e está tudo bem. Com Deus acontece algo parecido, e mais ainda, porque Ele nos conhece melhor do que nós mesmos.
 
-Então, quando vier o silêncio na sua oração de hoje, fica até o fim dos seus cinco minutos, e diz a Ele, uma vez só, que você confia mesmo sem entender.
+Quando vier o silêncio na sua oração, vale experimentar ficar até o fim dos cinco minutos e dizer a Ele, uma vez só, que você confia mesmo sem entender.
 
 O que te faz continuar a conversa com Deus mesmo no silêncio?
 
@@ -99,9 +99,9 @@ O que te faz continuar a conversa com Deus mesmo no silêncio?
 **Legenda:**
 "Eu queria ter mais intimidade com Deus, mas não sei por onde começar." É mais simples do que parece, porque essa amizade se cultiva do mesmo jeito que qualquer amizade de verdade.
 
-Primeiro, aparecer sempre. Cinco minutos todo dia valem mais que uma hora de vez em quando, assim como o amigo que liga toda semana fica mais perto do que aquele que aparece uma vez por ano com um presentão. Depois, falar do que é seu, sem fórmula, contando o que está pesando e o que está bom. Escutar também, porque é na Palavra que Ele responde, então lê devagarinho e fica na frase que te tocar. E voltar depois de sumir, sem vergonha, porque amigo de verdade recebe a gente de braços abertos.
+Primeiro, aparecer sempre. Cinco minutos todo dia valem mais que uma hora de vez em quando, assim como o amigo que liga toda semana fica mais perto do que aquele que aparece uma vez por ano com um presentão. Depois, falar do que é seu, sem fórmula, contando o que está pesando e o que está bom. Escutar também, porque é na Palavra que Ele responde, então a gente lê devagarinho e fica na frase que tocar. E voltar depois de sumir, sem vergonha, porque amigo de verdade recebe a gente de braços abertos.
 
-Hoje, escolhe só um dos quatro e faz ele bem feito, nem que seja por cinco minutos antes do almoço.
+Que tal escolher só um dos quatro e fazer ele bem feito, nem que seja por cinco minutos antes do almoço?
 
 Qual desses quatro você quer caprichar essa semana?
 
@@ -119,7 +119,7 @@ E quem começou essa amizade? Foi Ele. Foi Nosso Senhor quem se aproximou, quem 
 
 Quem tem anos de caminhada sabe que um dia a gente cansa, desanima, não vê fruto. É nessas horas que vale lembrar quem a gente é: filhos amados, amigos do Senhor.
 
-O propósito desta semana é aparecer pra esse Amigo todo dia, nem que seja por cinco minutos, no mesmo horário. Escolhe a hora hoje e marca no celular.
+Pra esta semana, eu deixo uma sugestão: aparecer pra esse Amigo todo dia, nem que seja por cinco minutos, sempre no mesmo horário. Se ajudar, dá pra deixar essa hora marcada no celular.
 
 Por onde você sente que Nosso Senhor te chamou primeiro?
 

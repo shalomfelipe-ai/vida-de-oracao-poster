@@ -4,19 +4,19 @@
 
 ## FEED
 **Legenda:**
-Quantos santos você sabe nomear de cabeça? Dez? Cinquenta?
+Quantos santos você consegue nomear de cabeça? Dez, vinte, talvez cinquenta?
 
-Os canonizados têm todos o seu dia no calendário, com nome, biografia e imagem. Então o primeiro de novembro sobra para quem? Para a multidão que chegou ao céu sem processo, sem milagre registrado, sem estátua, sem ninguém para contar a história.
+Os canonizados já têm cada um o seu dia no calendário, com nome, história e imagem no altar. Só que a Igreja reserva o primeiro de novembro para todos, e nesse "todos" entra uma multidão enorme de gente que chegou ao céu sem um processo, sem um milagre e sem ninguém para contar a história.
 
-Já reparou no chão das igrejas muito antigas? Muitas lajes são túmulos, e as inscrições foram sendo gastas por séculos de gente passando por cima, até não dar mais para ler nenhuma. A gente atravessa a nave pisando em nomes que ninguém mais sabe. Para mim, é o retrato mais exato desta festa.
+A pintura aí é o Allerheiligenbild, de Albrecht Dürer, feita em 1511 e guardada aqui em Viena. Repara na multidão lá embaixo: tem papa, rei, cavaleiro e muita gente simples, e quase ninguém ali leva o nome escrito na testa.
 
-Não estou dizendo que os santos de altar sejam menos santos. Estou dizendo que a maioria é do outro tipo: a avó que rezava o terço lavando louça, o sujeito que perdoou uma coisa que ninguém ficou sabendo, a mulher que criou os filhos na fé sem nunca ter lido um livro espiritual.
+Não estou dizendo que os santos de altar valham menos do que esses. Estou dizendo que a santidade quase sempre é escondida: é a avó que rezava o terço lavando a louça, é o pai que perdoou uma coisa que ninguém ficou sabendo, é aquela senhora da paróquia que nunca leu um livro de espiritualidade e rezava todo dia assim mesmo.
 
-Quem te ensinou a rezar? Provavelmente essa pessoa nunca vai aparecer em calendário nenhum. Hoje, reza cinco minutos por ela, dizendo o nome em voz alta. E me conta aqui embaixo quem foi.
+Que tal, antes de dormir, tirar cinco minutos para agradecer a Nosso Senhor por quem te ensinou a rezar, dizendo o nome dessa pessoa em voz alta? E quem foi que te ensinou a rezar?
 
 #todosossantos #santidade #vidadeoração #oraçãomental #oraçãopessoal #comunhãodossantos #fécatólica #espiritualidadecatólica #vidainterior #catolicismo
 
 ---
 
 ## STORY
-**Texto do story:** responde: quem te ensinou a rezar?
+**Texto do story:** responde: quem foi que te ensinou a rezar?

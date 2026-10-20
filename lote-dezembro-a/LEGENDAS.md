@@ -9,7 +9,7 @@ Repara no que ela faz. A madre tinha pedido que ela escrevesse a vida inteira, e
 
 Eu acho isso lindo, porque a nossa oração também tem esses dois lados. Tem o que a gente escreve pra não esquecer e tem o que a gente guarda pra não estragar, e nos próximos dois dias eu quero conversar com você sobre os dois.
 
-Hoje à noite, antes de dormir, tira dois minutos pra lembrar de uma coisa que Nosso Senhor te deu na oração e que você nunca contou a ninguém. Agradece por ela e deixa onde está.
+Quem sabe hoje à noite, antes de dormir, você tira dois minutos pra lembrar de uma coisa que Nosso Senhor te deu na oração e que nunca contou a ninguém, só pra agradecer e deixar onde está.
 
 Qual foi a última coisa que você entendeu na oração e queria poder reler?
 
@@ -26,7 +26,7 @@ Por isso eu sempre recomendo o caderno de oração pessoal. Ele não precisa ser
 
 E pra que serve isso? Serve pro mês de secura, porque aí você abre o caderno e relê o que Ele fazia quando a oração estava boa, e isso sustenta mais do que qualquer motivação. E serve pro que você não entendeu hoje, que muitas vezes faz sentido daqui a um ano, quando você relê e enxerga o fio. Muita coisa do caminho de Deus a gente só vê olhando pra trás.
 
-Pega hoje um caderno, qualquer um, e escreve a data e três linhas depois da sua oração.
+Eu conheço bem o dia em que a gente sai da oração sem saber nem o que escrever no caderno, de tão perdido. Mesmo nesse dia, a data e três linhas já bastam, e qualquer caderno serve pra começar.
 
 O que você já entendeu na oração e queria ter anotado?
 
@@ -43,9 +43,9 @@ No caderno entra o que você entendeu e o que não entendeu, as secas, as luzes,
 
 Agora, o que Nosso Senhor te disse no silêncio fica entre vocês dois. Tem coisa que, contada na hora, vira assunto, vira opinião dos outros, às vezes vira até vaidade, e perde o perfume. Guardar segredo com Ele é uma forma de amor, assim como ninguém sai mostrando pra todo mundo a carta que recebeu de quem ama.
 
-Só que isso vale pros outros, e o seu acompanhador espiritual fica de fora dessa regra. Leva o caderno pra ele, porque o segredo com Nosso Senhor convive muito bem com a transparência diante de quem te guia.
+Só que isso vale pros outros, e o seu acompanhador espiritual fica de fora dessa regra. O caderno pode ir com você até ele, porque o segredo com Nosso Senhor convive muito bem com a transparência diante de quem te guia.
 
-Hoje, depois dos seus cinco minutos, escreve a primeira página e, por dentro da capa, uma frase de lembrete: só entre mim e Ele.
+Na próxima vez que você for rezar, você pode fazer assim: depois dos cinco minutos, escrever a primeira página e, por dentro da capa, uma frase de lembrete: só entre mim e Ele.
 
 Que parte da sua oração você quer proteger do ar?
 

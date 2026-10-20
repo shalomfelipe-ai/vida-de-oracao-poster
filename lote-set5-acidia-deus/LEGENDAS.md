@@ -9,7 +9,7 @@ Rotulos curtos em ASCII, sem data. Voz de ensino do Felipe.
 
 Por isso eu gosto de dar três dicas que, curiosamente, nem falam da oração, porque acontecem fora dela. A primeira é o sacrifício escondido, como ceder o seu lugar no ônibus dizendo baixinho que é por amor a Ele. A segunda é o jejum, pequeno e concreto, como passar a semana sem o doce de que você gosta. E a terceira é ficar atento à caridade, porque é no irmão que a gente ama Aquele que tanto o ama.
 
-A nossa oração alimenta a nossa vida, e a nossa vida alimenta a nossa oração. Escolhe um dos três e faz antes das oito da noite, sem contar pra ninguém.
+A nossa oração alimenta a nossa vida, e a nossa vida alimenta a nossa oração. Se der, tenta um deles ainda hoje, antes das oito da noite, e sem contar pra ninguém, que o segredo também faz parte do remédio.
 
 Qual dos três você vai escolher?
 
@@ -26,7 +26,7 @@ Santa Teresa dizia que quem quer entrar no caminho da oração precisa se prepar
 
 Não estou dizendo que o consolo seja ruim, porque quando ele vem a gente agradece e segue. Só que consolo é presente, e presente a gente não encomenda.
 
-Hoje, nos seus cinco minutos, repara na hora em que você começa a conferir se está sentindo alguma coisa, e volta. Com doçura, sem se xingar.
+Nos seus cinco minutos, você pode ir reparando na hora em que começa a conferir se está sentindo alguma coisa, e aí é só voltar pra Ele, com doçura, sem se xingar.
 
 O que te ajuda a ficar quando a oração está seca?
 
@@ -60,7 +60,7 @@ Pode ser arrumar alguma coisa que estava fora do lugar, fazer o prato de alguém
 
 Esses gestos vão deixando o coração aquecido, de modo que, quando chega a hora de rezar, a gente não perde a oportunidade de estar com quem tanto ama.
 
-Escolhe hoje um gesto pequeno, faz antes do almoço e guarda segredo.
+Talvez hoje, antes do almoço, caiba um gesto pequeno desses, guardado em segredo entre você e Ele.
 
 Que gesto escondido você já fez e nunca contou pra ninguém?
 
@@ -77,7 +77,7 @@ Hoje é a solenidade de Cristo Rei, o último domingo do ano litúrgico, e por i
 
 O remédio é ter a Palavra diante dos olhos. Jesus precisou de quatro Evangelhos e ainda assim transborda, e cada santo se encontrou com um pedaço Dele: São Francisco encontrou o Jesus pobre, e Santa Teresa de Calcutá o Jesus que tem sede na cruz.
 
-Hoje, antes de começar os seus cinco minutos, chama Jesus pelo nome três vezes, bem devagar, e só depois fala o resto.
+Na próxima vez que você for rezar, você pode fazer assim: antes de qualquer outra coisa, chamar Jesus pelo nome três vezes, bem devagar, e só depois falar o resto.
 
 Como você descreveria Jesus numa frase só?
 
@@ -94,7 +94,7 @@ Daí nasce uma oração torta, em que a pessoa pensa assim: se eu concentrar bem
 
 Quando Ele se revelou a Moisés, foi num fogo que ardia e atraía sem consumir o arbusto, e chamou Moisés pelo nome. Quem chama pelo nome é Alguém, e com Alguém a gente conversa, sem precisar arrancar nada.
 
-Calma, pedir continua sendo ótimo. Hoje apresenta o seu pedido uma vez só, com as palavras que você tem, e deixa a resposta nas mãos Dele.
+Calma, pedir continua sendo ótimo. Uma ideia, se você quiser: apresentar o seu pedido uma vez só, com as palavras que você tem, e deixar a resposta nas mãos Dele.
 
 Qual pedido você vai soltar hoje?
 
@@ -111,7 +111,7 @@ Só que o coração de Deus é livre. Ele dá o que quer, quando quer, na hora q
 
 Não estou dizendo que o pecado não pese. Ele levanta, do nosso lado, uma barreira para a graça, e por isso a confissão faz tanta diferença. Mas isso é bem diferente de comprar a resposta de Deus.
 
-E ninguém precisa parar de pedir, pelo contrário. A gente pede como filho que sabe que o Pai ama, e por isso hoje, quando terminar o seu pedido, acrescenta uma frase só: seja feita a Tua vontade.
+E ninguém precisa parar de pedir, pelo contrário. A gente pede como filho que sabe que o Pai ama, e, se fizer sentido pra você, dá pra terminar cada pedido com uma frase só: seja feita a Tua vontade.
 
 Qual pedido seu está demorando mais pra ser atendido?
 
@@ -126,9 +126,9 @@ Existe uma definição antiga de verdade, que Santo Tomás de Aquino deixou form
 
 E isso tem consequência. Muita gente que se diz ateia, quando a gente vai ver, está rejeitando um deus que de fato não existe. Só que quem reza também monta o seu sem perceber, e eu me incluo nisso.
 
-Ninguém vai entender Deus por completo, porque Ele é infinitamente maior que nós, mas dá pra ir corrigindo a imagem aos poucos. Por isso deixei no infográfico três perguntas honestas. Responde só pra você, com calma, e se alguma pesar, leva pra conversa com quem te acompanha.
+Ninguém vai entender Deus por completo, porque Ele é infinitamente maior que nós, mas dá pra ir corrigindo a imagem aos poucos. Por isso deixei no infográfico três perguntas honestas. O melhor é responder só pra você, com calma, e se alguma pesar, levar pra conversa com quem te acompanha.
 
-Hoje abre o Evangelho do dia, lê devagar e pergunta se o Jesus que você imaginava faria aquilo que Ele faz ali.
+Pensa se não valeria a pena abrir o Evangelho do dia, ler devagar e perguntar se o Jesus que você imaginava faria aquilo que Ele faz ali.
 
 Qual das três perguntas mais te pegou?
 
@@ -147,7 +147,7 @@ Quando a oração parece uma noite sem peixe, a gente costuma procurar mais uma 
 
 Só tem um cuidado: a imaginação precisa se apoiar no Evangelho, pra gente encontrar o Jesus de verdade e não aquele docinho, todo enfeitado de flores, que a gente inventa.
 
-Hoje, antes de dormir, fica cinco minutos dentro desse barco. O que você diria a Ele?
+Quem sabe hoje à noite, antes de dormir, você fica cinco minutos dentro desse barco, sentado ali do lado de Pedro. O que você diria a Ele?
 
 #vidadeoração #oraçãopessoal #oração #oraçãomental #comorezar #espiritualidadecatólica #fé #vidaespiritual #silêncio #catolico #rezar
 
@@ -162,7 +162,7 @@ A gente não tem mais isso. Não tem nenhuma nuvem em cima da nossa cabeça apon
 
 É aí que a oração entra, porque ela vai treinando a gente a andar assim. Quem pede um sinal antes de rezar fica parado olhando pra cima, enquanto Ele continua guiando, de um jeito mais escondido que uma coluna de nuvem, mas guiando.
 
-Hoje reza cinco minutos sem pedir sinal nenhum, sentado numa cadeira, com o celular longe, e termina dizendo só: Senhor, eu confio.
+E se, só por uma vez, você rezasse cinco minutos sem pedir sinal nenhum, sentado numa cadeira, com o celular longe, terminando com uma frase só: Senhor, eu confio?
 
 Em que área da vida você mais gostaria de ter uma nuvem?
 
@@ -177,9 +177,9 @@ Uma coisa que eu acho bonita, e meio engraçada, é que a Igreja vira o ano em n
 
 Eu sempre insisto que a gente traga para a oração aquilo que a Igreja está vivendo, porque Advento e Quaresma são tempos fortes, cheios de recursos de graça que passam batido quando a gente reza sempre do mesmo jeito. Por isso hoje, que é véspera, vale fazer como quem vai receber visita e arruma a casa antes.
 
-Escolhe um cantinho, uma cadeira, uma mesinha, e põe ali a Bíblia e uma vela. Marca o horário dos seus cinco minutos, o mesmo todas as manhãs, e avisa a quem mora com você que esse tempinho é sagrado. Pode parecer pouco, só que é assim, com coisa pequena e concreta, que a determinação vai ganhando corpo.
+Eu gosto de sugerir um cantinho, pode ser uma cadeira ou uma mesinha, com a Bíblia e uma vela. Ajuda também marcar o horário dos seus cinco minutos, o mesmo todas as manhãs, e contar a quem mora com você que esse tempinho é sagrado. Pode parecer pouco, só que é assim, com coisa pequena e concreta, que a determinação vai ganhando corpo.
 
-Escreve o horário num papel e cola onde você vai ver amanhã cedo.
+Talvez valha até escrever o horário num papel e colar onde você vai ver amanhã cedo.
 
 Onde vai ficar o seu cantinho de oração?
 
@@ -196,7 +196,7 @@ Hoje é o primeiro domingo do Advento, e a Igreja recomeça o ano pedindo justam
 
 Novembro inteiro a gente passou olhando pra um Deus que é livre, que não se compra com bom comportamento e que guia sem coluna de nuvem. Quem aprendeu um pouquinho a esperar sem sinal chega ao Advento com a lição meio feita.
 
-Hoje, às oito da noite, acende uma vela, deixa a tela de lado e fica cinco minutos em silêncio dizendo devagar: vem, Senhor Jesus. E repete nos próximos domingos.
+Que tal, hoje às oito da noite, acender uma vela, deixar a tela de lado e ficar cinco minutos em silêncio dizendo devagar: vem, Senhor Jesus? Dá pra repetir nos próximos domingos.
 
 O que você está esperando de Nosso Senhor neste Advento?
 
@@ -213,7 +213,7 @@ Hoje é justamente essa festa. André foi o primeiro chamado, e repara no que el
 
 “Primeiro eu preciso me ajeitar, depois eu falo de Jesus.” A gente diz isso muitas vezes, e André não esperou ajeitar nada.
 
-Por isso eu gosto de trazer o santo do dia para os cinco minutos de oração, conversando com ele, porque aí a gente vive o dia inteiro à luz do que a Igreja está celebrando. Hoje, até a hora do almoço, manda uma mensagem simples pra uma pessoa que anda longe da fé, só perguntando como ela está.
+Por isso eu gosto de trazer o santo do dia para os cinco minutos de oração, conversando com ele, porque aí a gente vive o dia inteiro à luz do que a Igreja está celebrando. Fica uma ideia pra hoje, se você quiser: até a hora do almoço, mandar uma mensagem simples pra uma pessoa que anda longe da fé, só perguntando como ela está.
 
 Quem você gostaria de levar pra perto de Jesus?
 

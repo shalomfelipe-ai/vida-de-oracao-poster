@@ -152,6 +152,66 @@ CAL_SANTO = {
         "feed_secao": "## SANTO GUADALUPE",
         "story": "d12_santo_story.png", "story_lote": "lote-dezembro-b",
     },
+    "2026-10-25": {
+        "feed": ["livro01_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO APRESENTA",
+        "story": "livro01_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-04": {
+        "feed": ["livro02_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO TRECHO",
+        "story": "livro02_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-15": {
+        "feed": ["livro04_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO ORIGEM",
+        "story": "livro04_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-22": {
+        "feed": ["livro05_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO ADVENTO COMECA",
+        "story": "livro05_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-10-27": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s27_10.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-10-29": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s29_10.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-03": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s03_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-06": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s06_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-10": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s10_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-12": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s12_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-17": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s17_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-19": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s19_11.png", "story_lote": "lote-livro-advento",
+    },
 }
 # SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
 CAL_SANTO_2 = {
@@ -164,6 +224,11 @@ CAL_SANTO_2 = {
         "feed": ["joao_f_capa.png", "joao_f_s2.png", "joao_f_s3.png", "joao_f_s4.png", "joao_f_s5.png"], "feed_lote": "lote-santo-joao-cruz",
         "feed_secao": "## SANTO FRASES",
         "story": "joao_story2.png", "story_lote": "lote-santo-joao-cruz",
+    },
+    "2026-11-08": {
+        "feed": ["livro03_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO COMO USAR",
+        "story": "livro03_story.png", "story_lote": "lote-livro-advento",
     },
 }
 CAL_SANTO_DATES = set(CAL_SANTO) | set(CAL_SANTO_2)
@@ -286,6 +351,8 @@ def main1():
     # ---------- FEED (reel) ----------
     if feed_key in state:
         registrar(f"{feed_key} ja postado antes — pulando feed.")
+    elif not cfg.get("feed"):
+        pass  # peca so de story (ex.: divulgacao do livro): sem feed neste dia
     elif manha_no_ar:
         state[feed_key] = {"quando": now(), "media_id": "ja-no-ar"}
         _save_state(STATE, state)

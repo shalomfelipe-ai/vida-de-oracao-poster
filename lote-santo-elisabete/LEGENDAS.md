@@ -6,17 +6,15 @@
 
 ## FEED
 **Legenda:**
-Aos 21 anos, uma pianista premiada entrou num convento de clausura. Aos 26, estava morta. E hoje é santa.
+"Felipe, eu só consigo rezar quando a casa está em silêncio." Eu ouço isso muito, principalmente de pai e de mãe com filho pequeno, e entendo bem.
 
-Elisabete Catez nasceu na França, em 1880. Era uma criança de gênio forte, daquelas que arrancam o último fio de paciência da mãe. Tocava piano tão bem que podia seguir carreira. Em 1901 entrou no Carmelo de Dijon, adoeceu, e morreu em 1906, sem fundar nada e sem escrever tratado nenhum. O Papa Francisco a canonizou em 2016.
+Santa Elisabete da Trindade, que o Carmelo celebra hoje, nasceu na França em 1880. Era uma menina de gênio forte, daquelas que tiram a mãe do sério, e tocava piano tão bem que ganhou prêmio no conservatório ainda adolescente. Aos 21 anos entrou no Carmelo de Dijon, adoeceu, e morreu em 1906, com apenas 26 anos. O Papa Francisco a canonizou em 2016.
 
-O que ela deixou foi uma descoberta que a gente demora a levar a sério: Deus já mora dentro de quem reza. Ela não precisou de retiro nenhum, nem de saúde, nem de silêncio perfeito. A vida dela nunca acalmou, e ela rezou assim mesmo.
+O que ela deixou foi uma descoberta que a gente demora a levar a sério: pelo batismo, Nosso Senhor já mora dentro da gente, e por isso ninguém precisa esperar o lugar perfeito para encontrá-Lo. Em 21 de novembro de 1904 ela escreveu uma oração que começa assim: "Ó meu Deus, Trindade que adoro".
 
-A gente faz o contrário. Fica esperando o retiro, o lugar mais quieto, o dia em que tudo se acalmar, para só então procurar Deus. Como quem procura os óculos pela casa inteira com eles na cabeça.
+A gente, muitas vezes, fica esperando o retiro, o quarto mais quieto, o dia em que tudo acalmar, para só então procurar Nosso Senhor, como quem procura os óculos pela casa inteira e eles estão na cabeça.
 
-Hoje, antes de começar a rezar, gasta dez segundos só lembrando que Ele já está aí dentro. Dez segundos, antes de dizer qualquer palavra.
-
-Onde você costuma rezar em casa?
+Na próxima vez que você for rezar, você pode gastar os primeiros dez segundos só lembrando que Ele já está aí dentro, antes de dizer qualquer palavra. Onde você costuma rezar em casa?
 
 #santaelisabetedatrindade #carmelo #castelointerior #vidadeoração #oraçãomental #oraçãopessoal #vidainterior #fécatólica #espiritualidadecatólica #catolicismo
 

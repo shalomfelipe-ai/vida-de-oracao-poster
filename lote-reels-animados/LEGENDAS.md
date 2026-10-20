@@ -9,7 +9,7 @@ A própria Teresa resumia tudo numa frase curtinha, que está no poema Nada te t
 
 E o resto é voltar sempre. Faltou hoje? Amanhã você volta, com doçura, sem se xingar, porque a amizade com Deus se refaz a cada volta.
 
-Escolhe hoje um cantinho da casa e um horário fixo, cinco minutos depois do almoço ou antes de dormir, e fica ali a sós com Ele.
+Uma ideia, se você quiser: separar um cantinho da casa e um horário fixo, cinco minutos depois do almoço ou antes de dormir, pra ficar ali a sós com Ele.
 
 Qual desses dois horários cabe melhor no seu dia?
 

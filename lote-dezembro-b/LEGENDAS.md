@@ -9,7 +9,7 @@ Só que a Igreja não espera janeiro. O ano dela virou no último domingo de nov
 
 Janeiro costuma vir com aquela resolução enorme, que pesa por três semanas e cai. Dezembro aceita cinco minutos hoje, sem plano pro ano inteiro, e até o Natal são três semanas. Quem passa por elas rezando todo dia chega a janeiro com um hábito de verdade, porque quanto mais a gente se decide por rezar, mais força ganha pra rezar.
 
-Marca no relógio cinco minutos amanhã às sete da manhã, ou no horário que for o seu, e escreve na tela de bloqueio uma palavra só: vem.
+Uma ideia, se você quiser: marcar no relógio cinco minutos amanhã às sete da manhã, ou no horário que for o seu, e escrever na tela de bloqueio uma palavra só, vem.
 
 Que horário você vai defender pra esses cinco minutos?
 
@@ -26,7 +26,7 @@ Cinco minutos cabem em qualquer agenda, até na de quem tem criança pequena e d
 
 Eu vejo muita gente que começa querendo rezar quarenta minutos, para na terceira semana e cai naquele derrotismo de quem não consegue o muito e acaba não rezando nada. Rezar alguma coisa é melhor do que não rezar nada. Quem começa com cinco chega ao Natal rezando todo dia, e depois vai aumentando.
 
-Põe um timer de cinco minutos, senta numa cadeira e fica, sem música e sem leitura. Quando tocar, agradece e levanta.
+Uma palavra prática que eu aprendi é não terminar a oração antes da hora, e um timer ajuda muito nisso. Você pode pôr um de cinco minutos, sentar numa cadeira e ficar ali, sem música e sem leitura, e só quando ele tocar agradecer e levantar.
 
 Onde na sua casa cabe uma cadeira e cinco minutos de silêncio?
 
@@ -43,7 +43,7 @@ Hoje é o segundo domingo do Advento, e a liturgia leva a gente ao deserto com J
 
 Os dois preparam o caminho de outro sem aparecer, e eu acho que é isso que o Advento vai treinando em quem reza. O bem que ninguém vê forma o coração de um jeito que o bem que rende curtida não consegue, porque a gente aprende a agir só por Nosso Senhor.
 
-Faz hoje um gesto escondido, como pagar o café de quem está atrás de você na fila ou deixar um bilhete sem assinatura, e guarda segredo até a hora de dormir.
+E se, só por hoje, você fizesse um gesto escondido, como pagar o café de quem está atrás de você na fila ou deixar um bilhete sem assinatura, e guardasse segredo até a hora de dormir?
 
 Quem já te fez um bem que você nunca soube agradecer?
 
@@ -58,7 +58,7 @@ Amanhã é um dos dias mais mal explicados do calendário, por isso vale se prep
 
 Hoje a gente só deixa a porta aberta, sem gastar a festa antes da hora. Assim como na véspera de uma visita importante a gente arruma a casa com calma, uma coisinha de cada vez, dá pra preparar o coração com pouco: uma Ave-Maria rezada bem devagar, uma palavra por vez, já é o suficiente.
 
-Hoje à noite, já deitado e com a luz apagada, reza uma Ave-Maria só e diz a ela: prepara o meu coração pra amanhã.
+Quem sabe hoje à noite, já deitado e com a luz apagada, você reze uma Ave-Maria só e diga a ela: prepara o meu coração pra amanhã.
 
 Que pergunta sobre Maria você sempre quis fazer e nunca fez?
 
@@ -73,7 +73,7 @@ Que pergunta sobre Maria você sempre quis fazer e nunca fez?
 
 Hoje é a Imaculada Conceição, e eu acho esse o dogma mais prático do calendário, porque ele mostra que Nosso Senhor prepara a graça antes de a gente saber que vai precisar dela. Maria é o caso mais completo disso. A sua oração é um caso pequenininho do mesmo mistério, porque quando você senta pra rezar, Ele já estava ali esperando.
 
-Nos seus cinco minutos de hoje, em vez de começar pedindo, começa dizendo: Senhor, eu cheguei depois de Ti. E fica um minuto inteiro só nessa frase, repetindo devagar.
+Na próxima vez que você for rezar, você pode fazer assim: em vez de começar pedindo, começar dizendo Senhor, eu cheguei depois de Ti, e ficar um minuto inteiro só nessa frase, repetindo devagar.
 
 O que você mais agradece a Maria?
 
@@ -90,7 +90,7 @@ Eu gosto de pensar nisso como a mãe que arruma o quarto do bebê meses antes de
 
 Ao meio-dia sai um carrossel com o que isso muda na sua oração. Este card é pra você mandar pra quem tem devoção a ela.
 
-Reza hoje uma Ave-Maria bem devagar, agradecendo o sim que ela deu, e manda este card pra uma pessoa só.
+Se fizer sentido pra você, uma Ave-Maria rezada bem devagar hoje, agradecendo o sim que ela deu, já enche o dia, e este card pode ir pra uma pessoa só.
 
 Pra quem você vai mandar este card?
 
@@ -107,7 +107,7 @@ Imagina chegar à casa de um amigo e descobrir que a mesa já estava posta, com 
 
 Não estou dizendo que pedir seja errado, pedir é bom e o próprio Jesus mandou pedir. A diferença está no começo, e o começo muda o tom da oração inteira.
 
-Amanhã, no primeiro minuto dos seus cinco, não diz nada, só repara que Ele já está ali. Depois fala o que quiser.
+Vale experimentar amanhã ficar o primeiro minuto dos seus cinco sem dizer nada, só reparando que Ele já está ali. Depois você fala o que quiser.
 
 Como você costuma começar a sua oração?
 
@@ -122,13 +122,13 @@ Rezar sem sentir nada? Acontece com todo mundo que reza, e a primeira reação c
 
 Lembro de um jovem, num retiro de líderes, que veio chorando dizer que Deus não falava mais com ele. Via Deus agir na vida dos outros, e pra ele só silêncio. Respondi algo como: talvez você precise dar a Deus mais tempo pra não falar com você. Ele se assustou, mas o princípio é esse. Deus não é um sentimento, e não sentir nada não quer dizer que Ele saiu de perto.
 
-Por isso, três coisas. Fica os cinco minutos combinados, como um soldado no posto, sentindo ou não. Diz a Nosso Senhor: hoje não senti nada, e estou aqui. E volta pro Evangelho do dia, lido devagar, porque é por ele que o Senhor fala.
+Por isso, eu sugeriria três coisas. A primeira é ficar os cinco minutos combinados, como um soldado no posto, sentindo ou não. A segunda é dizer a Nosso Senhor: hoje não senti nada, e estou aqui. E a terceira é voltar ao Evangelho do dia, lido devagar, porque é por ele que o Senhor fala.
 
 Diante do Santíssimo, às vezes parece que uma pedra faria mais efeito no nosso sentimento. Só que, assim como é impossível pôr a mão numa bacia cheia d'água sem molhá-la, é impossível fazer um ato de fé sem tocar a Deus.
 
-Se a secura vier com tristeza pesada ou durar muito, fala com o seu acompanhador espiritual.
+Se a secura vier com tristeza pesada ou durar muito, vale conversar com o seu acompanhador espiritual.
 
-Experimenta hoje: reza cinco minutos, no mesmo horário de ontem, sentindo ou não, e anota uma linha no caderno.
+Houve um tempo em que eu rezava sozinho e sem sentir nada, e foi sendo fiel ali que a vontade ganhou músculo. Se der, tenta rezar hoje os cinco minutos no mesmo horário de ontem, sentindo ou não, e anotar uma linha no caderno.
 
 Quando você não sente nada, o que te ajuda a ficar?
 
@@ -143,7 +143,7 @@ O Padre Marie-Eugène dizia que entre os livros que a gente pode levar pra oraç
 
 Muita gente no comecinho da caminhada me pergunta por onde começar a ler Santa Teresa, e eu entendo o desejo, só que costumo responder que antes vale ler o catecismo. Primeiro a gente estuda, depois leva aquele mesmo texto pra oração e deixa ele descer da cabeça pro coração.
 
-Lê hoje um parágrafo do Evangelho do dia, devagar, e passa cinco minutos conversando com Ele sobre o que leu.
+Na época em que eu estudava, eu rezava na biblioteca: chegava, abria o computador, olhava a liturgia do dia e rezava em silêncio. Talvez ajude você também ler um parágrafo do Evangelho do dia, devagar, e passar cinco minutos conversando com Ele sobre o que leu.
 
 Que livro ou texto tem alimentado a sua oração?
 
@@ -160,7 +160,7 @@ Hoje é Nossa Senhora de Guadalupe, e a história tem um detalhe que me comove. 
 
 Maria escolheu justamente quem se achava pequeno, e na oração acontece a mesma coisa. Ninguém precisa ser freira nem santo pra sentar cinco minutos diante de Nosso Senhor, porque quem se acha pequeno demais já está na posição certa.
 
-Reza hoje cinco minutos com uma frase só: Senhor, eu sou pequeno, e estou aqui.
+Pensa se não valeria a pena passar cinco minutos hoje com uma frase só: Senhor, eu sou pequeno, e estou aqui.
 
 Que tarefa você anda achando grande demais pra você?
 
@@ -177,7 +177,7 @@ Eu acho essa uma das frases mais bonitas que a gente tem de Nossa Senhora, porqu
 
 Este card é pra mandar pra quem precisa de colo hoje, e ao meio-dia sai um carrossel com a história inteira.
 
-Reza hoje uma Ave-Maria devagar e deixa um medo, só um, no colo dela.
+Que tal rezar hoje uma Ave-Maria devagar e deixar um medo, só um, no colo dela?
 
 Pra quem você vai mandar este card?
 
@@ -194,7 +194,7 @@ A alegria que a Igreja pede hoje é a de quem já vê a luz acender lá no fim d
 
 Hoje também é Santa Luzia, cujo nome vem de luz, e uma vela acesa na mesa da oração é um jeito simples de lembrar dela e de lembrar que Ele vem.
 
-Acende hoje uma vela, fica cinco minutos olhando a chama e diz: eu me alegro porque Tu vens.
+Um irmão me disse uma vez que, com uma Bíblia, qualquer metro quadrado vira capela, e uma vela ajuda muito nisso. Se você tiver uma em casa, talvez valha acender hoje e ficar cinco minutos olhando a chama, dizendo baixinho: eu me alegro porque Tu vens.
 
 O que te dá alegria nessa espera?
 
@@ -211,7 +211,7 @@ Tem dois critérios objetivos. O primeiro é o tempo de caminhada: quem não tem
 
 E tem um sinal positivo que pesa muito: mesmo sem gosto nenhum, o desejo de estar com Ele continua. Só que quem discerne isso é o acompanhador espiritual, porque é muito difícil a gente saber sozinho.
 
-Se a secura está pesando, escreve hoje numa folha, em cinco linhas, o que você sente, e leva pro seu acompanhador na próxima conversa.
+Se a secura está pesando, pode ajudar escrever numa folha, em cinco linhas, o que você sente, e levar pro seu acompanhador na próxima conversa.
 
 Quem te acompanha na vida espiritual?
 

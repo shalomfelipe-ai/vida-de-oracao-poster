@@ -205,7 +205,7 @@ Escreve "amém" aqui nos comentários se você pede essa graça comigo, e me con
 **Legenda:**
 Passada a festa de Santa Teresa, o primeiro fruto que eu quero recolher é este: a oração mental é para todos. Não precisa ser freira, nem enclausurado, nem missionário. Todo mundo só precisa querer, porque a contemplação é um dom de Deus, e Deus dá a quem Ele quer, do jeito que Ele quer.
 
-Teresa era uma freira comum, de oração morna, e foi chamada assim mesmo. Hoje, reserva um cantinho do seu dia, uns cinco minutos, e fica a sós com Ele.
+Teresa era uma freira comum, de oração morna, e foi chamada assim mesmo. Se fizer sentido pra você, dá para começar com um cantinho do seu dia, uns cinco minutos, a sós com Ele.
 
 O que ainda te faz achar que oração não é pra você?
 
@@ -219,7 +219,7 @@ O que ainda te faz achar que oração não é pra você?
 
 O segredo dela estava em saber onde Deus mora. Se Nosso Senhor habita no centro da alma, como ela ensina no Castelo Interior, então Ele está com você também no meio do trânsito, da casa cheia, do trabalho apertado. O problema continua lá fora, mas por dentro a gente tem para onde voltar.
 
-Por isso a sugestão de hoje é bem simples. Escolhe o momento mais apertado do seu dia, pode ser às três da tarde ou na hora do engarrafamento, e ali, sem parar o que está fazendo, diz baixinho três vezes: só Deus basta.
+Uma ideia, se você quiser: no momento mais apertado do seu dia, pode ser às três da tarde ou na hora do engarrafamento, sem parar o que está fazendo, dizer baixinho três vezes: só Deus basta.
 
 Em que hora do seu dia você mais precisa lembrar disso?
 
@@ -233,7 +233,7 @@ Se este mês com Santa Teresa acendeu em você uma vontade de rezar, essa fagulh
 
 A gente aprende a rezar rezando, mas ninguém precisa caminhar sozinho. E um pouquinho de Palavra todo dia sustenta mais do que muita coisa de vez em quando, assim como a colherzinha de óleo que se dá a uma criança desnutrida: é pouca coisa de engolir, mas alimenta de verdade.
 
-O link está na bio. Hoje, antes de dormir, abre a meditação do Evangelho de amanhã e lê com calma, uns cinco minutos, e manda o link para uma pessoa que anda querendo rezar.
+O link está na bio. Quem sabe hoje, antes de dormir, você abre a meditação do Evangelho de amanhã e lê com calma, uns cinco minutos. E, se lembrar de alguém que anda querendo rezar, pode mandar o link para essa pessoa.
 
 Quem é a primeira pessoa que te vem à cabeça para receber esse convite?
 
@@ -247,7 +247,7 @@ Quem é a primeira pessoa que te vem à cabeça para receber esse convite?
 
 O que ela nos deixa para o dia comum cabe em três passos, e eles estão no carrossel. O primeiro é escolher um lugar e um horário fixo, mesmo curto, porque com uma Bíblia qualquer metro quadrado vira capela. O segundo é levar uma frase dela no bolso, como o só Deus basta, e repetir quando o dia apertar. O terceiro é o mais importante: voltar sempre. Faltou hoje? Amanhã você volta, sem se xingar, porque a amizade com Nosso Senhor se refaz em cada retorno.
 
-Para começar, marca agora no celular um lembrete para amanhã, no horário que você escolher, com cinco minutos só para Ele.
+Se der, tenta deixar marcado no celular um lembrete para amanhã, no horário que você escolher, com cinco minutos só para Ele.
 
 Qual desses três passos você quer começar amanhã?
 
@@ -261,7 +261,7 @@ No Livro das Fundações, Santa Teresa escreve uma das frases mais simpáticas d
 
 Isso vale para a louça de casa, para o volante do carro, para a planilha do trabalho. Dá para voltar o coração para Jesus por um instante no meio da tarefa, com um “Jesus, eu Te amo” dito por dentro, e seguir fazendo o que estava fazendo. Só que essa oração do dia comum precisa do tempo a sós com Ele, porque é dali que ela tira força, assim como a água que a gente tira do poço de manhã é a que rega o jardim o dia inteiro.
 
-Hoje escolhe uma tarefa só, por exemplo lavar a louça do jantar, e faz ela inteira oferecendo a Nosso Senhor.
+Talvez hoje à noite a louça do jantar possa ser essa tarefa: uma só, feita do começo ao fim oferecendo a Nosso Senhor.
 
 Em que tarefa do seu dia fica mais fácil lembrar d'Ele?
 
@@ -273,7 +273,7 @@ Em que tarefa do seu dia fica mais fácil lembrar d'Ele?
 **Legenda:**
 “Cinco minutos não dão para nada.” Dão sim, e Santa Teresa ensina como. O jeito dela de rezar, que é o que a gente segue no Shalom, começa com uma cena do Evangelho. Ela gostava muito da Samaritana: se colocava no lugar daquela mulher junto ao poço, ouvia Jesus pedir água e respondia como ela responderia.
 
-Faz assim. No primeiro minuto você se recolhe e lembra com quem vai falar, que é Nosso Senhor, o Rei e ao mesmo tempo o amigo. Nos dois minutos seguintes lê bem devagarinho um trecho do Evangelho do dia e se coloca dentro da cena. Depois fala com Jesus sobre o que te tocou, do jeito que você falaria com um amigo, sem precisar de frase bonita. E no último minuto fica quietinho, só com Ele.
+Na próxima vez que você for rezar, você pode fazer assim. No primeiro minuto você se recolhe e lembra com quem vai falar, que é Nosso Senhor, o Rei e ao mesmo tempo o amigo. Nos dois minutos seguintes você lê bem devagarinho um trecho do Evangelho do dia e se coloca dentro da cena. Depois fala com Jesus sobre o que te tocou, do jeito que você falaria com um amigo, sem precisar de frase bonita. E no último minuto fica quietinho, só com Ele.
 
 Cabe antes do café da manhã ou antes de dormir. Se amanhã der seis minutos, ótimo, e depois de uma semana você já vai querer quinze.
 
@@ -289,7 +289,7 @@ Quando Santa Teresa conheceu São João da Cruz, ele estava pensando em deixar o
 
 Três séculos depois, uma menina de Lisieux entrou no Carmelo aos quinze anos e ensinou a pequena via, a de quem levanta os braços e pede ao Pai que a carregue escada acima, como ela conta na História de uma Alma. E no século vinte uma filósofa judia, Edith Stein, passou uma noite inteira lendo o Livro da Vida e, quando fechou o livro, disse que aquilo era a verdade. Virou carmelita e santa.
 
-No Shalom, o nosso modo de fazer oração pessoal segue em grande parte o método de Teresa, e é por isso que eu falo tanto dela aqui. Essa escola chega até você agora. Hoje, reza cinco minutos pedindo a um desses santos que reze com você.
+No Shalom, o nosso modo de fazer oração pessoal segue em grande parte o método de Teresa, e é por isso que eu falo tanto dela aqui. Essa escola chega até você agora. Pensa se não valeria a pena, nos seus cinco minutos de hoje, pedir a um desses santos que reze com você.
 
 Qual deles você quer conhecer melhor?
 
@@ -303,7 +303,7 @@ Esse poema foi encontrado no breviário de Santa Teresa depois da morte dela, nu
 
 Repara que quem escreveu isso viveu doença, perseguição e muita viagem difícil, então é palavra de quem passou pelo aperto e encontrou chão firme. Coisa difícil continua acontecendo na vida de qualquer um, e o que ela ensina é que nada disso precisa tomar conta do coração, porque tudo passa e só Nosso Senhor fica.
 
-Salva este post para o dia em que a ansiedade bater. E hoje, antes de dormir, reza o poema inteiro bem devagar, uma linha por respiração, umas duas ou três vezes.
+Vale salvar este post para o dia em que a ansiedade bater. E, se quiser experimentar hoje antes de dormir, dá para rezar o poema inteiro bem devagar, uma linha por respiração, umas duas ou três vezes.
 
 Qual dessas linhas você mais precisa ouvir hoje?
 
@@ -317,9 +317,9 @@ Eu sou procurado por muita gente que me diz a mesma coisa: “eu parei de rezar 
 
 Santa Teresa conhece bem esse caminho. Ela mesma conta no Livro da Vida que passou quase vinte anos nesse vai e volta, rezando um tempo, largando, voltando de novo, e mesmo assim Nosso Senhor não desistiu dela. A porta do castelo continua aberta, e Ele continua morando lá dentro.
 
-Para recomeçar, não adianta querer horas de oração de uma vez, assim como uma criança desnutrida não dá conta de um prato cheio. O que ajuda é uma colherzinha por dia: hoje cinco minutos, amanhã dez, e na outra semana quinze. Se você vai à Missa, fica cinco minutos a sós com Jesus depois da comunhão.
+Para recomeçar, não adianta querer horas de oração de uma vez, assim como uma criança desnutrida não dá conta de um prato cheio. O que ajuda é uma colherzinha por dia: hoje cinco minutos, amanhã dez, e na outra semana quinze. Para mim é muito difícil não rezar logo depois de comungar, então, se você vai à Missa, que tal ficar cinco minutos a sós com Jesus depois da comunhão?
 
-Qual horário de amanhã você vai separar para esses cinco minutos?
+Qual horário de amanhã poderia ser o dos seus cinco minutos?
 
 #santateresadeavila #recomeçar #oração #vidadeoração #católico #espiritualidade
 
@@ -331,7 +331,7 @@ Outubro está acabando, e eu queria muito que a oração que começou ou recome�
 
 Por isso deixo de novo o convite para o vidadeoracao.com, que está no link da bio. Lá tem a meditação do Evangelho de cada dia, o podcast e materiais gratuitos, justamente para quem quer continuar e não sabe por onde. Quando você estiver perdido, tem para onde voltar.
 
-Escolhe agora um horário fixo para a semana que vem, pode ser às sete da manhã ou às dez da noite, e combina com você mesmo de abrir a meditação do dia nesse horário.
+E se, só por uma semana, você combinasse com você mesmo um horário fixo, às sete da manhã ou às dez da noite, para abrir a meditação do dia?
 
 O que mais te ajuda a manter a oração depois que a novidade passa?
 
@@ -345,7 +345,7 @@ Um mês inteiro com Santa Teresa, e agora vale a pena parar e perguntar o que fi
 
 Fica também o castelo, essa certeza de que Deus mora no centro da alma e espera a gente entrar, e fica o só Deus basta para os dias apertados. E fica, principalmente, que a oração mental é para todos, porque Teresa foi por muitos anos uma freira que rezava muito pouco, e Nosso Senhor chamou ela assim mesmo.
 
-O mês acaba, e a amizade continua. Hoje pega um papel, escreve uma frase só sobre o que mais te tocou neste mês e guarda dentro da sua Bíblia para reler no dia 15 de novembro.
+O mês acaba, e a amizade continua. Uma sugestão para fechar, se você quiser: escrever num papel uma frase só sobre o que mais te tocou neste mês e guardar dentro da sua Bíblia para reler no dia 15 de novembro.
 
 O que deste mês com Teresa você quer levar para a vida?
 
@@ -359,7 +359,7 @@ O que deste mês com Teresa você quer levar para a vida?
 
 Santa Teresa dá uma régua melhor. No Castelo Interior ela diz que o sinal mais certo de que a gente ama a Deus é o amor ao próximo. O fruto concreto da oração são as obras: mais paciência com quem mora com você, mais bondade com o colega difícil do trabalho, mais facilidade para perdoar. E isso cresce devagar, como o feijãozinho no algodão que a gente plantava na escola, que quando a gente percebe já brotou.
 
-Hoje faz um gesto escondido por amor a Jesus, um só, como arrumar uma coisa que não era sua obrigação, sem contar para ninguém.
+Pode ser que hoje apareça a chance de um gesto escondido por amor a Jesus, um só, como arrumar uma coisa que não era sua obrigação, sem que ninguém fique sabendo.
 
 Onde você tem visto o amor crescer na sua vida?
 
@@ -373,7 +373,7 @@ Uma expressão de Santa Teresa me acompanha há muito tempo: a determinada deter
 
 Isso não quer dizer que a gente nunca vai falhar. A nossa vontade é fraca, e a gente sabe que podia ter rezado naquela hora e acabou no celular. Só que a determinação vai se alimentando dela mesma: quanto mais a gente se decide por rezar, mais força ganha para rezar. É como o soldado no seu posto, que fica ali esteja se sentindo bem ou não.
 
-E quando falhar, volta. O castelo é casa, e casa é o lugar para onde a gente sempre pode voltar. Hoje põe um despertador no celular para o seu horário de oração de amanhã, com o nome Jesus, e quando ele tocar, vai.
+E quando a gente falha, dá para voltar. O castelo é casa, e casa é o lugar para onde a gente sempre pode voltar. Uma coisa que ajuda muito é deixar um despertador no celular para o horário de oração de amanhã, com o nome Jesus, e, quando ele tocar, simplesmente ir.
 
 O que te ajuda a continuar quando a oração fica seca?
 
@@ -385,9 +385,9 @@ O que te ajuda a continuar quando a oração fica seca?
 **Legenda:**
 “Eu vou começar a rezar quando a minha vida estiver mais organizada.” A gente fala assim do mesmo jeito que fala da dieta que começa na segunda-feira, e a segunda-feira nunca chega. O melhor momento para começar a rezar é agora, porque, se o desejo está aí, ele já é graça de Deus.
 
-A novena passou, a festa de Santa Teresa passou, e a oração continua sendo para a vida inteira, do jeito que você está hoje. Tempo você tem; o que falta, quase sempre, é sentar e decidir. Pega um papel, escreve a sua rotina, que horas acorda, que horas almoça, quanto tempo fica no trânsito, e aponta ali o momento em que vai parar para Nosso Senhor.
+A novena passou, a festa de Santa Teresa passou, e a oração continua sendo para a vida inteira, do jeito que você está hoje. Tempo você tem; o que falta, quase sempre, é sentar e decidir. O que eu costumo sugerir é bem simples: pegar um papel, escrever a rotina, que horas acorda, que horas almoça, quanto tempo fica no trânsito, e apontar ali o momento de parar para Nosso Senhor.
 
-Começa com cinco minutos hoje. Se der, antes de dormir reza mais dez, e amanhã você já chega aos quinze.
+Cinco minutos hoje já são um começo. Se der, antes de dormir mais dez, e amanhã você já chega aos quinze.
 
 Que horário do seu dia vai virar o seu tempo com Deus?
 
@@ -401,7 +401,7 @@ Amanhã é a véspera e depois de amanhã é a Solenidade de Todos os Santos, e 
 
 A santidade que eles viveram foi viver a virtude, amar e crescer no bem dia após dia, e a perfeição de não pecar mais a gente só vai ter no céu. Quem coloca a meta em parar de pecar vive olhando para o próprio pecado; quem coloca a meta na virtude vive olhando para Jesus.
 
-Os santos que a Igreja celebra no dia primeiro são esses: gente que caiu, levantou e não largou a mão de Nosso Senhor. Hoje escolhe um santo e reza cinco minutos com ele, pedindo a graça de não desistir.
+Os santos que a Igreja celebra no dia primeiro são esses: gente que caiu, levantou e não largou a mão de Nosso Senhor. Se você quiser, hoje dá para escolher um santo e rezar cinco minutos com ele, pedindo a graça de não desistir.
 
 Qual santo te inspira a rezar mais?
 
@@ -415,7 +415,7 @@ Hoje à noite muita rua vai se encher de fantasia de bruxa e de caveira, e a Igr
 
 A santidade é para você também. Ela começa por dentro, no coração que se entrega a Jesus, e só depois vai mudando as atitudes, de dentro para fora, assim como a planta cresce primeiro na raiz e só depois aparece a flor. E o lugar onde esse coração se entrega todo dia é a oração.
 
-Por isso o convite para esta véspera é simples: hoje, antes de dormir, desliga o celular e fica cinco minutos em silêncio com Nosso Senhor, pedindo a intercessão do santo do seu nome ou do seu batismo.
+Por isso eu deixo um convite para esta véspera, e você aceita se quiser: antes de dormir, desligar o celular e ficar cinco minutos em silêncio com Nosso Senhor, pedindo a intercessão do santo do seu nome ou do seu batismo.
 
 Você sabe quem é o santo do seu nome?
 
