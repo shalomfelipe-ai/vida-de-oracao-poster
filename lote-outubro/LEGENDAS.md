@@ -373,7 +373,7 @@ Uma expressão de Santa Teresa me acompanha há muito tempo: a determinada deter
 
 Isso não quer dizer que a gente nunca vai falhar. A nossa vontade é fraca, e a gente sabe que podia ter rezado naquela hora e acabou no celular. Só que a determinação vai se alimentando dela mesma: quanto mais a gente se decide por rezar, mais força ganha para rezar. É como o soldado no seu posto, que fica ali esteja se sentindo bem ou não.
 
-E quando a gente falha, dá para voltar. O castelo é casa, e casa é o lugar para onde a gente sempre pode voltar. Uma coisa que ajuda muito é deixar um despertador no celular para o horário de oração de amanhã, com o nome Jesus, e, quando ele tocar, simplesmente ir.
+E quando a gente falha, dá para voltar. O castelo é uma casa, e a nossa casa é o lugar onde a gente sempre pode voltar, por pior que tenha sido o dia. Uma coisa que ajuda muito é deixar um despertador no celular para o horário da oração de manhã (ou outra hora que você escolheu), com o nome Jesus, e, quando ele tocar, simplesmente ir.
 
 O que te ajuda a continuar quando a oração fica seca?
 
@@ -383,9 +383,9 @@ O que te ajuda a continuar quando a oração fica seca?
 
 ## 29/10 CONVITE
 **Legenda:**
-“Eu vou começar a rezar quando a minha vida estiver mais organizada.” A gente fala assim do mesmo jeito que fala da dieta que começa na segunda-feira, e a segunda-feira nunca chega. O melhor momento para começar a rezar é agora, porque, se o desejo está aí, ele já é graça de Deus.
+“Eu vou começar a rezar quando a minha vida estiver mais organizada.” A gente fala assim do mesmo jeito que fala da dieta que começa na segunda-feira, e a segunda-feira nunca chega. O melhor momento para começar a rezar é agora, porque, se o desejo está aí, ele já é uma graça de Deus.
 
-A novena passou, a festa de Santa Teresa passou, e a oração continua sendo para a vida inteira, do jeito que você está hoje. Tempo você tem; o que falta, quase sempre, é sentar e decidir. O que eu costumo sugerir é bem simples: pegar um papel, escrever a rotina, que horas acorda, que horas almoça, quanto tempo fica no trânsito, e apontar ali o momento de parar para Nosso Senhor.
+A novena passou, a festa de Santa Teresa passou, e a oração continua sendo para a vida inteira, do jeito que você está hoje. Tempo você tem; o que falta, quase sempre, é sentar e decidir. O que eu costumo sugerir é bem simples: pegar um papel, escrever a rotina, que horas acorda, que horas almoça, quanto tempo fica no trânsito, e apontar ali o tempo de parar e ficar com Nosso Senhor.
 
 Cinco minutos hoje já são um começo. Se der, antes de dormir mais dez, e amanhã você já chega aos quinze.
 
@@ -401,7 +401,7 @@ Amanhã é a véspera e depois de amanhã é a Solenidade de Todos os Santos, e 
 
 A santidade que eles viveram foi viver a virtude, amar e crescer no bem dia após dia, e a perfeição de não pecar mais a gente só vai ter no céu. Quem coloca a meta em parar de pecar vive olhando para o próprio pecado; quem coloca a meta na virtude vive olhando para Jesus.
 
-Os santos que a Igreja celebra no dia primeiro são esses: gente que caiu, levantou e não largou a mão de Nosso Senhor. Se você quiser, hoje dá para escolher um santo e rezar cinco minutos com ele, pedindo a graça de não desistir.
+No dia primeiro a Igreja celebra gente como a gente, gente que caiu, levantou e não largou a mão de Nosso Senhor. Se você quiser, hoje dá para escolher um santo e pedir que ele te acompanhe na sua oração, nem que seja só por cinco minutos, pedindo a intercessão dele ou dela a Nosso Senhor para te dar a graça de nunca desistir, de perseverar até o fim.
 
 Qual santo te inspira a rezar mais?
 
@@ -411,7 +411,7 @@ Qual santo te inspira a rezar mais?
 
 ## 31/10 VESPERA SANTOS
 **Legenda:**
-Hoje à noite muita rua vai se encher de fantasia de bruxa e de caveira, e a Igreja, nessa mesma noite, já está olhando para outra coisa: amanhã é a festa de todos os santos, aquela multidão que ninguém consegue contar, gente comum que chegou perto de Deus.
+Hoje é a véspera, e amanhã é a festa de Todos os Santos, aquela multidão que ninguém consegue contar, gente comum que chegou perto de Deus.
 
 A santidade é para você também. Ela começa por dentro, no coração que se entrega a Jesus, e só depois vai mudando as atitudes, de dentro para fora, assim como a planta cresce primeiro na raiz e só depois aparece a flor. E o lugar onde esse coração se entrega todo dia é a oração.
 

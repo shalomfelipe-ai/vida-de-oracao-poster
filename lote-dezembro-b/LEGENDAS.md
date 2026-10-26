@@ -20,7 +20,7 @@ Que horário você vai defender pra esses cinco minutos?
 ## CINCO MINUTOS INFOGRAFICO
 *Peca:* d05_post | Infografico | Pilar 1
 **Legenda:**
-“Felipe, eu não tenho tempo nem pra comer direito, imagina pra rezar.” Já ouvi isso de gente que hoje reza todo dia, e o que mudou a vida delas foi um compromisso do tamanho certo.
+“Felipe, eu não tenho tempo nem pra comer direito, imagina pra rezar.” E o que costuma mudar isso é um compromisso do tamanho certo.
 
 Cinco minutos cabem em qualquer agenda, até na de quem tem criança pequena e dois empregos. E cabem inteirinhos: um minuto pra chegar e dizer a Nosso Senhor que você chegou, três minutos de silêncio, e um minuto pra sair agradecendo. É pouco mesmo, e por isso dá pra fazer amanhã, depois de amanhã e até no dia em que você estiver gripado.
 
@@ -141,7 +141,7 @@ Tem gente que acha que estudar a fé esfria a oração: “estudar é coisa de c
 
 O Padre Marie-Eugène dizia que entre os livros que a gente pode levar pra oração está também o catecismo, e a razão é muito simples: é impossível amar quem a gente não conhece. Pensa numa conversa com alguém que você mal conhece, que trava depressa porque falta assunto. Com Nosso Senhor é igual, e quem conhece pouco acaba rezando sempre as mesmas três frases.
 
-Muita gente no comecinho da caminhada me pergunta por onde começar a ler Santa Teresa, e eu entendo o desejo, só que costumo responder que antes vale ler o catecismo. Primeiro a gente estuda, depois leva aquele mesmo texto pra oração e deixa ele descer da cabeça pro coração.
+Quem está no comecinho da caminhada costuma querer começar lendo Santa Teresa, e eu entendo o desejo, só que antes vale ler o catecismo. Primeiro a gente estuda, depois leva aquele mesmo texto pra oração e deixa ele descer da cabeça pro coração.
 
 Na época em que eu estudava, eu rezava na biblioteca: chegava, abria o computador, olhava a liturgia do dia e rezava em silêncio. Talvez ajude você também ler um parágrafo do Evangelho do dia, devagar, e passar cinco minutos conversando com Ele sobre o que leu.
 
@@ -154,7 +154,7 @@ Que livro ou texto tem alimentado a sua oração?
 ## MARIA CARROSSEL GUADALUPE
 *Peca:* d12_capa + d12_s2..s4 | Carrossel 4 | Pilar 4
 **Legenda:**
-“Eu não sou ninguém pra rezar desse jeito, isso é coisa de gente santa.” Já ouvi essa frase muitas vezes, quase sempre de gente que reza mais do que imagina.
+“Eu não sou ninguém pra rezar desse jeito, isso é coisa de gente santa.” Essa frase costuma vir de gente que reza mais do que imagina.
 
 Hoje é Nossa Senhora de Guadalupe, e a história tem um detalhe que me comove. Em 1531, no Tepeyac, Maria pede a Juan Diego, um indígena simples, que leve uma mensagem ao bispo, e ele responde pedindo que ela mande outra pessoa, alguém mais importante. A tradição conta que ela respondeu como mãe, perguntando se ele não estava no regaço dela. Acolheu o medo dele e manteve o pedido.
 
@@ -205,7 +205,7 @@ O que te dá alegria nessa espera?
 ## NOITE ESCURA CARROSSEL
 *Peca:* d15_capa + d15_s2..s4 | Carrossel 4 | Pilar 3
 **Legenda:**
-Ontem foi o dia de São João da Cruz, e muita gente me escreve com a mesma pergunta: “Felipe, estou seco na oração, será que é a noite escura?” A resposta honesta é que, na maioria das vezes, não, e isso é uma boa notícia.
+Ontem foi o dia de São João da Cruz, e fica no ar uma pergunta: “Estou seco na oração, será que é a noite escura?” A resposta honesta é que, na maioria das vezes, não, e isso é uma boa notícia.
 
 Tem dois critérios objetivos. O primeiro é o tempo de caminhada: quem não tem nem um ano de fidelidade à oração diária muito dificilmente está numa noite escura. O segundo é ter havido uma decisão concreta por Nosso Senhor, porque Ele não prova desse jeito quem ainda não se decidiu por Ele. Fora disso, quase sempre é um deserto de secura que tem remédio, seja mudando a maneira de rezar, seja procurando na confissão um pequeno sacrifício que fortaleça a vontade.
 

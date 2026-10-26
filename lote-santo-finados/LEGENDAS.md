@@ -8,13 +8,13 @@ TROCA ADOTADA EM 16/10/2026 (reescrita na voz do Felipe): a legenda agora diz "q
 
 ## FEED
 **Legenda:**
-"Rezar pelos mortos é coisa triste." Muita gente cresce pensando assim, e Finados acaba virando um dia de cara fechada, só de saudade.
+"Rezar pelos mortos é triste." Muita gente cresce pensando assim, e Finados acaba virando um dia de cara fechada, só de saudade.
 
 Só que a Igreja ensina (Catecismo, 1030 a 1032) que essa purificação depois da morte é para quem morreu na graça e na amizade de Deus, e que quem passa por essa purificação já tem a salvação garantida. Essa pessoa sabe que vai ver Nosso Senhor, e o que falta é só terminar de ser purificada para entrar na alegria d'Ele.
 
-Eu penso muito em quando a gente espera uma visita muito querida e fica arrumando a casa até o último minuto, tirando poeira de onde ninguém vai olhar, meio de alegria e meio de nervoso. Esse arrumar custa um pouquinho, porque o amor já está aceso e a pessoa ainda não chegou. Não estou dizendo que não haja sofrimento nessa purificação, porque há; estou dizendo que é um sofrimento cheio de esperança.
+Eu penso muito em quando a gente espera uma visita muito querida e fica arrumando a casa até o último minuto, tirando poeira de onde ninguém vai olhar, meio de alegria e meio de nervoso. Esse arrumar nos custa um pouquinho, porque o amor já está aceso e a pessoa ainda não chegou. Não estou dizendo que não haja sofrimento nessa purificação, porque há; estou dizendo que é um sofrimento cheio de esperança.
 
-E nisso a gente pode ajudar de um jeito concreto. A Igreja oferece nesses dias a indulgência plenária, que perdoa toda a pena que ainda resta pelos pecados já perdoados, e a gente pode oferecê-la por uma alma do purgatório, nunca por si mesmo.
+E nisso a gente pode ajudar concretamente. A Igreja oferece nesses dias a indulgência plenária, que perdoa toda a pena que ainda resta pelos pecados já perdoados, e a gente pode oferecê-la por uma alma do purgatório, nunca por si mesmo.
 
 Que tal fazer um esforço extra e oferecer a sua indulgência plenária por alguém que morreu? De 1º a 8 de novembro basta visitar um cemitério e rezar pelos mortos, e no dia 2 também vale visitar uma igreja e rezar o Pai-Nosso e o Credo, com confissão, comunhão e uma oração nas intenções do Papa nos dias perto da visita. Pode ser o seu avô, uma tia, ou alguém de quem quase ninguém mais se lembra.
 

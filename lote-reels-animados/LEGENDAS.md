@@ -5,7 +5,7 @@
 **Legenda:**
 "Santa Teresa era freira, vivia num convento. Como é que eu vou rezar como ela, com casa, trabalho e menino pequeno?" Já ouvi isso muitas vezes. A oração mental é para todos. Não precisa ser freira, nem enclausurado, nem missionário. A gente só precisa querer, porque a contemplação é um dom de Deus, e Deus dá a quem Ele quer, do jeito que Ele quer.
 
-A própria Teresa resumia tudo numa frase curtinha, que está no poema Nada te turbe: só Deus basta. Eu gosto de levar essa frase no bolso do dia e repetir por dentro quando aperta, na fila do mercado, no trânsito, antes de uma conversa difícil.
+A própria Teresa resumia tudo numa frase curtinha, que está no poema Nada te turbe: só Deus basta. Eu gosto de sempre repetir uma jaculatória ao longo do meu dia, e essa é uma das minhas: repito por dentro quando aperta, na fila do mercado, no trânsito, antes de uma conversa difícil.
 
 E o resto é voltar sempre. Faltou hoje? Amanhã você volta, com doçura, sem se xingar, porque a amizade com Deus se refaz a cada volta.
 

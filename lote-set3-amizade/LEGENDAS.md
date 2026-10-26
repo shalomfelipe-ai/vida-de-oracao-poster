@@ -9,7 +9,7 @@
 *Peça:* SEG 15/09 · Carrossel 4 slides (Pilar 5) · `seg15_capa, seg15_s2, seg15_s3, seg15_s4`
 *Rótulo anterior:* `## SEG 15/09 · Carrossel 4 slides (Pilar 5) · `seg15_capa, seg15_s2, seg15_s3, seg15_s4``
 **Legenda:**
-"Felipe, eu não sei rezar." Já ouvi isso de tanta gente. E eu sempre volto à definição de Santa Teresa no Livro da Vida: a oração é um trato de amizade, um estar muitas vezes a sós com quem sabemos que nos ama.
+"Felipe, eu não sei rezar." Aí eu volto à definição de Santa Teresa no Livro da Vida: a oração é um trato de amizade, um estar muitas vezes a sós com quem sabemos que nos ama.
 
 Dá pra reparar como ela fala de estar com Alguém, e em como técnica e horário nem aparecem na definição. É como ficar ao lado de uma pessoa muito querida, a sua mãe, a sua avó, alguém que você tem certeza de que te ama. Ninguém precisa de manual pra isso. A gente fica, conversa um pouquinho, se cala um pouquinho, e o tempo passa.
 

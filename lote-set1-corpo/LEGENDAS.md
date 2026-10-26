@@ -11,9 +11,9 @@
 *Peca:* d1_capa + d1_s2 + d1_s3 + d1_s4 | Carrossel 4 slides | Pilar 5 | "Voce reza com o corpo, nao apesar dele" | stories d1_story1 / d1_story2
 *Rotulo anterior:* `SEG 01/09 — Carrossel (Pilar 5) "Você reza com o corpo, não apesar dele"`
 **Legenda:**
-"A minha alma quer rezar, mas o meu corpo não deixa." Já ouvi isso muitas vezes, e confesso que eu mesmo já pensei assim. Só que a nossa fé não acredita nessa divisão. A gente é uma pessoa só, corpo e alma juntos, e é assim, inteiro, que chega diante de Nosso Senhor.
+Quando a gente está muito cansado, as dimensões do nosso ser parecem competir entre si: a alma quer rezar e o corpo pede cama. Eu mesmo já vivi isso incontáveis vezes. Só que a nossa fé ensina que corpo e alma formam uma pessoa só. Eles se separam na morte, e é por isso que esperamos a ressurreição da carne, mas enquanto a gente vive não existe um eu espiritual de um lado e um eu corporal do outro. É inteiro que a gente chega diante de Nosso Senhor.
 
-Eu gosto de explicar isso com a imagem de um livro. O papel é como a nossa carne: é ele que deixa as ideias tomarem forma, serem lidas e passarem adiante. É um pouco o que São João Paulo II ensina na teologia do corpo, que o corpo é aquilo que permite à alma amar. Quando você abraça uma pessoa querida, quem abraça é você inteiro.
+Eu gosto de explicar isso com a imagem de um livro. O papel é como a nossa carne, e as ideias são como a nossa alma. É o papel que deixa as ideias tomarem forma, serem lidas e passarem adiante. Se não tem papel, o livro não existe, são só ideias na cabeça do autor. E se não tem ideias, folhas em branco também não são um livro. É um pouco o que São João Paulo II ensina na teologia do corpo, que o corpo manifesta a pessoa e deixa o amor aparecer em gestos, presença e palavras. Quando você abraça uma pessoa querida, quem abraça é você inteiro.
 
 Na oração acontece a mesma coisa, por isso vale levar o corpo junto. Na próxima vez que você for rezar, você pode fazer assim: antes dos cinco minutos, sentar direitinho, respirar fundo três vezes e fazer o sinal da cruz bem devagar, prestando atenção em cada palavra.
 

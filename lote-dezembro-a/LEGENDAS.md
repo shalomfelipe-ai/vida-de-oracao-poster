@@ -37,7 +37,7 @@ O que você já entendeu na oração e queria ter anotado?
 ## CADERNO INFOGRAFICO SEGREDO
 *Peca:* d03_post | Infografico | Pilar 2 | O que anotar e o que guardar
 **Legenda:**
-Dois dias atrás eu contei da Teresinha dizendo que coisas há que perdem a fragrância quando expostas ao ar, e logo me perguntaram: “Felipe, então eu escrevo ou eu guardo?” As duas coisas, e o caderno é justamente onde elas se encontram.
+Dois dias atrás eu contei da Teresinha dizendo que coisas há que perdem a fragrância quando expostas ao ar, e dá para imaginar a pergunta: “Então eu escrevo ou eu guardo?” As duas coisas, e o caderno é justamente onde elas se encontram.
 
 No caderno entra o que você entendeu e o que não entendeu, as secas, as luzes, as resistências. Ele vai virando o mapa do seu caminho, e mapa a gente só consegue ler depois de andar um bom pedaço.
 

@@ -4,11 +4,11 @@
 
 ## LIVRO APRESENTA
 **Legenda:**
-"Felipe, o que eu rezo no Advento, além da coroa e da novena?" Essa pergunta me chega todo fim de ano, e a minha resposta tem sido quase sempre a mesma: o Evangelho do dia.
+Daqui a pouco começa o Advento, e além da coroa e da novena tem uma coisa que cabe em qualquer rotina: rezar com o Evangelho do dia.
 
 No canal Felizes os que Ouvem, meu pai, José Ricardo, e eu meditamos o Evangelho de cada dia, uma motivação curtinha por vez. As do Advento e do Natal agora viraram livro, com uma meditação para cada dia, do primeiro domingo do Advento até o Batismo do Senhor, no ano B, que é o ano litúrgico que começa agora.
 
-Não estou dizendo que o livro substitui a Bíblia. Cada página traz no alto o dia e a passagem, e a ideia é que você leia primeiro o Evangelho e depois deixe a meditação te acompanhar na oração.
+O livro serve para você rezar com a Bíblia. Cada página traz no alto o dia e a passagem, e a ideia é abrir primeiro o Evangelho e só depois ler a meditação. Se a pessoa abrir a meditação do dia e não rezar com a Palavra, nós falhamos miseravelmente.
 
 O Advento começa no dia 29 de novembro. Se quiser rezar esse tempo junto com a gente, o livro está no link da bio.
 
@@ -84,7 +84,7 @@ Hoje é Cristo Rei, o último domingo do ano litúrgico, e daqui a sete dias a I
 
 A gente costuma chegar ao primeiro domingo meio de supetão, com a coroa ainda na caixa e a cabeça nas compras de Natal. Uma ideia simples pra esta semana: escolher o cantinho da casa onde você vai rezar, deixar uma vela ali e combinar consigo mesmo um horário, nem que seja de cinco minutos.
 
-No domingo, o Evangelho é aquele em que Jesus pede que a gente vigie. A meditação desse dia, no livro, lembra que dá pra estar acordado e inerte, como um espantalho que as aves aprendem a ignorar. De pé no campo o tempo todo, e sem atenção nenhuma.
+No domingo, o Evangelho é aquele em que Jesus pede que a gente vigie. Na meditação desse dia, meu pai, José Ricardo, lembra que dá pra estar acordado e inerte, como um espantalho que as aves aprendem a ignorar. De pé no campo o tempo todo, e sem atenção nenhuma.
 
 Livro nenhum é obrigatório pra viver o Advento. A Bíblia e cinco minutos de silêncio já fazem muito; o livro só vai do lado, como um amigo que senta junto. Quem quiser começar com ele no domingo tem o caminho no link da bio.
 

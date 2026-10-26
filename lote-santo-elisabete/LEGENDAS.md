@@ -6,7 +6,7 @@
 
 ## FEED
 **Legenda:**
-"Felipe, eu só consigo rezar quando a casa está em silêncio." Eu ouço isso muito, principalmente de pai e de mãe com filho pequeno, e entendo bem.
+"Felipe, eu só consigo rezar quando a casa está em silêncio." Quem tem filho pequeno em casa sabe bem do que isso fala, e eu entendo.
 
 Santa Elisabete da Trindade, que o Carmelo celebra hoje, nasceu na França em 1880. Era uma menina de gênio forte, daquelas que tiram a mãe do sério, e tocava piano tão bem que ganhou prêmio no conservatório ainda adolescente. Aos 21 anos entrou no Carmelo de Dijon, adoeceu, e morreu em 1906, com apenas 26 anos. O Papa Francisco a canonizou em 2016.
 

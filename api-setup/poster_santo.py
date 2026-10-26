@@ -32,6 +32,16 @@ except Exception:
 
 # data -> dict(feed=[arquivos], feed_lote, feed_secao, story=arquivo|None, story_lote)
 CAL_SANTO = {
+    "2026-10-28": {
+        "feed": ["judas_simao_card.png"], "feed_lote": "lote-santo-judas-simao",
+        "feed_secao": "## FEED",
+        "story": "judas_simao_story.png", "story_lote": "lote-santo-judas-simao",
+    },
+    "2026-11-03": {
+        "feed": ["martinho_card.png"], "feed_lote": "lote-santo-martinho",
+        "feed_secao": "## FEED",
+        "story": "martinho_story.png", "story_lote": "lote-santo-martinho",
+    },
     "2026-11-01": {
         "feed": ["todos_santos_card.png"], "feed_lote": "lote-santo-todos-santos",
         "feed_secao": "## FEED",
@@ -182,11 +192,6 @@ CAL_SANTO = {
         "feed_secao": "",
         "story": "livro_s29_10.png", "story_lote": "lote-livro-advento",
     },
-    "2026-11-03": {
-        "feed": [], "feed_lote": "lote-livro-advento",
-        "feed_secao": "",
-        "story": "livro_s03_11.png", "story_lote": "lote-livro-advento",
-    },
     "2026-11-06": {
         "feed": [], "feed_lote": "lote-livro-advento",
         "feed_secao": "",
@@ -203,6 +208,11 @@ CAL_SANTO = {
         "story": "livro_s12_11.png", "story_lote": "lote-livro-advento",
     },
     "2026-11-17": {
+        "feed": ["isabel_hungria_card.png"], "feed_lote": "lote-santo-isabel-hungria",
+        "feed_secao": "## FEED",
+        "story": "isabel_hungria_story.png", "story_lote": "lote-santo-isabel-hungria",
+    },
+    "2026-11-18": {
         "feed": [], "feed_lote": "lote-livro-advento",
         "feed_secao": "",
         "story": "livro_s17_11.png", "story_lote": "lote-livro-advento",
@@ -215,10 +225,25 @@ CAL_SANTO = {
 }
 # SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
 CAL_SANTO_2 = {
+    "2026-11-03": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s03_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-04": {
+        "feed": ["carlos_borromeu_card.png"], "feed_lote": "lote-santo-borromeu",
+        "feed_secao": "## FEED",
+        "story": "carlos_borromeu_story.png", "story_lote": "lote-santo-borromeu",
+    },
     "2026-10-12": {
         "feed": ["carlo_acutis_card.png"], "feed_lote": "lote-santo-carlo-acutis",
         "feed_secao": "## FEED",
         "story": "carlo_acutis_story.png", "story_lote": "lote-santo-carlo-acutis",
+    },
+    "2026-11-17": {
+        "feed": [], "feed_lote": "lote-santo-isabel-hungria",
+        "feed_secao": "",
+        "story": "isabel_capela_story.png", "story_lote": "lote-santo-isabel-hungria",
     },
     "2026-12-14": {
         "feed": ["joao_f_capa.png", "joao_f_s2.png", "joao_f_s3.png", "joao_f_s4.png", "joao_f_s5.png"], "feed_lote": "lote-santo-joao-cruz",
@@ -229,6 +254,11 @@ CAL_SANTO_2 = {
         "feed": ["livro03_card.png"], "feed_lote": "lote-livro-advento",
         "feed_secao": "## LIVRO COMO USAR",
         "story": "livro03_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-06": {
+        "feed": ["nuno_card.png"], "feed_lote": "lote-santo-nuno",
+        "feed_secao": "## FEED",
+        "story": "nuno_story.png", "story_lote": "lote-santo-nuno",
     },
 }
 CAL_SANTO_DATES = set(CAL_SANTO) | set(CAL_SANTO_2)
@@ -441,6 +471,9 @@ def main2():
         _save_state(STATE, state)
         registrar(f"{hoje}: ha feed de manha de outra origem — 2a peca nao republicada.")
         return
+    if fk not in state and not cfg.get("feed"):
+        state[fk] = {"quando": now(), "media_id": "sem-feed"}
+        _save_state(STATE, state)
     if fk not in state:
         imgs = [str(INSTA / cfg["feed_lote"] / n) for n in cfg["feed"]]
         faltando = [p for p in imgs if not Path(p).exists()]
