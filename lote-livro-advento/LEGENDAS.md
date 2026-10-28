@@ -10,7 +10,7 @@ No canal Felizes os que Ouvem, meu pai, José Ricardo, e eu meditamos o Evangelh
 
 O livro serve para você rezar com a Bíblia. Cada página traz no alto o dia e a passagem, e a ideia é abrir primeiro o Evangelho e só depois ler a meditação. Se a pessoa abrir a meditação do dia e não rezar com a Palavra, nós falhamos miseravelmente.
 
-O Advento começa no dia 29 de novembro. Se quiser rezar esse tempo junto com a gente, o livro está no link da bio.
+O Advento começa no dia 29 de novembro. Se quiser rezar esse tempo junto com a gente, o livro está no link da bio. Compre o livro: link na bio.
 
 E você, já tentou rezar com o Evangelho do dia?
 
@@ -30,7 +30,7 @@ Repara que Maria não tinha o roteiro na mão. Ela perguntou como aquilo ia acon
 
 Talvez valha, hoje à noite, abrir a Anunciação no Evangelho de São Lucas, ler devagar duas vezes e ficar uns cinco minutos só olhando a cena, como quem entra pela porta da casa de Nazaré.
 
-O livro inteiro vai assim, uma meditação por dia, e quem quiser encontra no link da bio.
+O livro inteiro vai assim, uma meditação por dia, e quem quiser encontra no link da bio. Compre o livro: link na bio.
 
 Qual detalhe dessa cena mais mexe com você?
 
@@ -50,7 +50,7 @@ O livro entra no segundo passo. Primeiro vem a Bíblia aberta no Evangelho do di
 
 Uma sugestão pra começar: uns quinze minutos de manhã, antes de pegar o celular, sempre na mesma cadeira. Se no meio a cabeça viajar, volta com doçura, sem se xingar.
 
-Se quiser um companheiro pra esse caminho no Advento, deixei o livro no link da bio.
+Se quiser um companheiro pra esse caminho no Advento, deixei o livro no link da bio. Compre o livro: link na bio.
 
 Qual dos quatro passos é o mais difícil pra você?
 
@@ -68,7 +68,7 @@ Foi dessa frase que tudo nasceu. Primeiro um livro com esse título, que depois 
 
 Escrever com meu pai foi uma escola. Ele era engenheiro e voltou pra faculdade pra estudar Filosofia e Teologia, é consagrado no Shalom desde 1986, pai de oito filhos e avô de dezessete netos. No fim do livro a gente escreveu que ele descobriu cedo que a Escritura se entende de joelhos, e quem convive com ele sabe que é verdade.
 
-Se fizer sentido pra você, o livro que nasceu dessa história está no link da bio.
+Se fizer sentido pra você, o livro que nasceu dessa história está no link da bio. Compre o livro: link na bio.
 
 Quem foi que te ensinou a amar a Palavra de Deus?
 
@@ -86,7 +86,7 @@ A gente costuma chegar ao primeiro domingo meio de supetão, com a coroa ainda n
 
 No domingo, o Evangelho é aquele em que Jesus pede que a gente vigie. Na meditação desse dia, meu pai, José Ricardo, lembra que dá pra estar acordado e inerte, como um espantalho que as aves aprendem a ignorar. De pé no campo o tempo todo, e sem atenção nenhuma.
 
-Livro nenhum é obrigatório pra viver o Advento. A Bíblia e cinco minutos de silêncio já fazem muito; o livro só vai do lado, como um amigo que senta junto. Quem quiser começar com ele no domingo tem o caminho no link da bio.
+Livro nenhum é obrigatório pra viver o Advento. A Bíblia e cinco minutos de silêncio já fazem muito; o livro só vai do lado, como um amigo que senta junto. Quem quiser começar com ele no domingo tem o caminho no link da bio. Compre o livro: link na bio.
 
 Como você quer chegar a este Natal?
 

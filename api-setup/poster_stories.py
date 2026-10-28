@@ -135,6 +135,7 @@ CAL_S = {
     "2026-10-30": ("d30_story1.png", "d30_story2.png", "lote-outubro"),
     "2026-10-31": ("d31_story1.png", "lote-teresa-stories/t08_31-10_esc_monsieur_muralha_story.mp4", "lote-outubro"),
     "2026-11-02": (None, "lote-teresa-stories/c01_02-11_story.mp4", "lote-novembro"),
+    "2026-11-01": ("lote-todos-santos-stories/ts_story1.png", "lote-todos-santos-stories/ts_story2.png", "lote-novembro"),
     "2026-11-04": ("lote-set1-corpo/d2_story1.png", "lote-teresa-stories/c02_04-11_story.mp4", "lote-novembro"),
     "2026-11-06": ("lote-set1-corpo/d4_story1.png", "lote-teresa-stories/c03_06-11_story.mp4", "lote-novembro"),
     "2026-11-08": ("lote-set1-corpo/d7_story1.png", "lote-teresa-stories/c04_08-11_story.mp4", "lote-novembro"),
