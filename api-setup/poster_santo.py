@@ -33,32 +33,32 @@ except Exception:
 # data -> dict(feed=[arquivos], feed_lote, feed_secao, story=arquivo|None, story_lote)
 CAL_SANTO = {
     "2026-10-30": {
-        "feed": ["frase01_teresa_amigo_paga_card.png"], "feed_lote": "lote-frases-semanal-2810",
+        "feed": ["frase01_teresa_amigo_paga_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
         "feed_secao": "## FRASE TERESA AMIGO PAGA",
         "story": "frase01_teresa_amigo_paga_story.png", "story_lote": "lote-frases-semanal-2810",
     },
     "2026-10-31": {
-        "feed": ["frase02_joao_cruz_silencio_card.png"], "feed_lote": "lote-frases-semanal-2810",
+        "feed": ["frase02_joao_cruz_silencio_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
         "feed_secao": "## FRASE JOAO CRUZ SILENCIO",
         "story": "frase02_joao_cruz_silencio_story.png", "story_lote": "lote-frases-semanal-2810",
     },
     "2026-11-05": {
-        "feed": ["frase03_teresa_poco_card.png"], "feed_lote": "lote-frases-semanal-2810",
+        "feed": ["frase03_teresa_poco_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
         "feed_secao": "## FRASE TERESA POCO",
         "story": "frase03_teresa_poco_story.png", "story_lote": "lote-frases-semanal-2810",
     },
     "2026-11-07": {
-        "feed": ["frase04_teresinha_evangelho_card.png"], "feed_lote": "lote-frases-semanal-2810",
+        "feed": ["frase04_teresinha_evangelho_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
         "feed_secao": "## FRASE TERESINHA EVANGELHO",
         "story": "frase04_teresinha_evangelho_story.png", "story_lote": "lote-frases-semanal-2810",
     },
     "2026-11-09": {
-        "feed": ["frase05_joao_cruz_amor_card.png"], "feed_lote": "lote-frases-semanal-2810",
+        "feed": ["frase05_joao_cruz_amor_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
         "feed_secao": "## FRASE JOAO CRUZ AMOR",
         "story": "frase05_joao_cruz_amor_story.png", "story_lote": "lote-frases-semanal-2810",
     },
     "2026-11-11": {
-        "feed": ["frase06_teresinha_confianca_card.png"], "feed_lote": "lote-frases-semanal-2810",
+        "feed": ["frase06_teresinha_confianca_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
         "feed_secao": "## FRASE TERESINHA CONFIANCA",
         "story": "frase06_teresinha_confianca_story.png", "story_lote": "lote-frases-semanal-2810",
     },

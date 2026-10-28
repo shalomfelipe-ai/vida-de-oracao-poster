@@ -3,7 +3,7 @@
 *(PLUGADO no CAL_SANTO em 28/10/2026 com OK do Felipe, 6 datas: 30/10, 31/10, 05/11, 07/11, 09/11, 11/11. Cada frase e peca EXTRA do santo do dia: card 1080x1350 + 1 story 1080x1920.)*
 
 ## FRASE TERESA AMIGO PAGA
-*(arquivos: `frase01_teresa_amigo_paga_card.png`, `frase01_teresa_amigo_paga_story.png`)*
+*(arquivos: `frase01_teresa_amigo_paga_escrita.mp4` (reel de 20 s, letra script sendo escrita), `frase01_teresa_amigo_paga_story.png` 1080x1920)*
 
 **Legenda:**
 Uma vez, de visita à casa dos meus pais, escutei passos no corredor e reconheci, só pela pisada, que era a minha irmã chegando. Ninguém me ensinou isso. Foi a convivência que fez.
@@ -19,7 +19,7 @@ Qual horário do seu dia já tem cara de encontro marcado?
 ---
 
 ## FRASE JOAO CRUZ SILENCIO
-*(arquivos: `frase02_joao_cruz_silencio_card.png`, `frase02_joao_cruz_silencio_story.png`)*
+*(arquivos: `frase02_joao_cruz_silencio_escrita.mp4` (reel de 20 s, letra script sendo escrita), `frase02_joao_cruz_silencio_story.png` 1080x1920)*
 
 **Legenda:**
 E se, só por uma vez, a oração terminasse sem você dizer mais nada?
@@ -37,7 +37,7 @@ Em que hora do dia o seu silêncio costuma ser maior?
 ---
 
 ## FRASE TERESA POCO
-*(arquivos: `frase03_teresa_poco_card.png`, `frase03_teresa_poco_story.png`)*
+*(arquivos: `frase03_teresa_poco_escrita.mp4` (reel de 20 s, letra script sendo escrita), `frase03_teresa_poco_story.png` 1080x1920)*
 
 **Legenda:**
 Tem dia em que a gente joga o balde no poço e ele sobe vazio.
@@ -55,7 +55,7 @@ Quantos minutos você consegue guardar nos dias secos?
 ---
 
 ## FRASE TERESINHA EVANGELHO
-*(arquivos: `frase04_teresinha_evangelho_card.png`, `frase04_teresinha_evangelho_story.png`)*
+*(arquivos: `frase04_teresinha_evangelho_escrita.mp4` (reel de 20 s, letra script sendo escrita), `frase04_teresinha_evangelho_story.png` 1080x1920)*
 
 **Legenda:**
 Santa Teresinha leu São João da Cruz com avidez aos 17, 18 anos, e era o único alimento espiritual que ela tinha. Mais tarde, conta no Manuscrito A, todo livro espiritual, até o mais bonito, só lhe deixava seca: o coração se encolhia, ela lia sem entender, e o espírito parava, incapaz de meditar.
@@ -71,7 +71,7 @@ Qual passagem do Evangelho você mais costuma procurar quando está seco?
 ---
 
 ## FRASE JOAO CRUZ AMOR
-*(arquivos: `frase05_joao_cruz_amor_card.png`, `frase05_joao_cruz_amor_story.png`)*
+*(arquivos: `frase05_joao_cruz_amor_escrita.mp4` (reel de 20 s, letra script sendo escrita), `frase05_joao_cruz_amor_story.png` 1080x1920)*
 
 **Legenda:**
 Houve um tempo de muita tensão e divisão à minha volta, quando todo mundo parecia cansado e qualquer coisa pequena virava briga. Eu mesmo me percebia estressado, dando peso a coisas que não mereciam.
@@ -87,7 +87,7 @@ Quais duas linhas você escreveria?
 ---
 
 ## FRASE TERESINHA CONFIANCA
-*(arquivos: `frase06_teresinha_confianca_card.png`, `frase06_teresinha_confianca_story.png`)*
+*(arquivos: `frase06_teresinha_confianca_escrita.mp4` (reel de 20 s, letra script sendo escrita), `frase06_teresinha_confianca_story.png` 1080x1920)*
 
 **Legenda:**
 Santa Teresinha se cansava depressa de tratado espiritual que apresenta a perfeição cercada de mil estorvos e de uma multidão de ilusões. Numa carta ao Padre Roulland, em maio de 1897, ela conta que fecha o livro douto que lhe quebra a cabeça e lhe seca o coração, pega a Sagrada Escritura, e então tudo lhe parece luminoso. A perfeição lhe parece fácil: basta reconhecer o próprio nada e se abandonar, como uma criança, nos braços de Nosso Senhor. É dali que vem a frase do card, sobre ter medo de tão terno amigo.
