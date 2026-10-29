@@ -105,3 +105,4 @@
 [2026-10-27 15:21:29] OK 2026-10-27: story do santo publicado (livro_s27_10.png) media_id=17988946107063112
 [2026-10-28 15:31:02] 2026-10-28: feed do santo ja esta no ar (outra maquina) — nao republico.
 [2026-10-28 15:31:02] 2026-10-28: story do santo ja no ar (outra maquina) — nao republico.
+[2026-10-29 15:40:32] OK 2026-10-29: story do santo publicado (livro_s29_10.png) media_id=18121401974471162
