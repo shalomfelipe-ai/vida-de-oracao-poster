@@ -240,3 +240,4 @@
 [2026-10-28 15:31:03] 2026-10-28-manha: story do slot ja esta no ar backup nao precisou agir.
 [2026-10-28 21:27:04] 2026-10-28-tarde: story do slot ja esta no ar backup nao precisou agir.
 [2026-10-29 15:40:32] 2026-10-29-manha: story do slot ja esta no ar backup nao precisou agir.
+[2026-10-29 21:27:54] ERRO 2026-10-29-tarde: RuntimeError('container 18642268594050895 deu ERROR: {"status_code":"ERROR","id":"18642268594050895"}')
