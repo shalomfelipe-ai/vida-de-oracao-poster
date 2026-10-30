@@ -1,0 +1,554 @@
+#!/usr/bin/env python3
+"""
+Poster de SANTO DO DIA do @felipebzr_ — peca EXTRA (nao conta como o post nem o
+story do dia; a fila evergreen continua igual). Publica cedo (disparado no inicio
+da tarefa da manha, antes do poster_stories): um REEL no feed + um STORY.
+
+Regra (Felipe 23/07): santo do dia entra como extra e vai bem cedo no dia.
+O feed regular das 12h e o story regular da manha seguem normais — poster_diario
+e poster_stories ficam santo-aware e ignoram estas pecas na checagem "ja no ar"
+(feed regular so conta a partir das 11h BRT; story regular ignora o id do santo).
+
+Guard proprio: posted_santo.json (chaves 'AAAA-MM-DD-feed' e 'AAAA-MM-DD-story').
+Dedup entre PC e nuvem: se ja ha um feed de MANHA no ar (hora < 11 BRT), assume que
+o santo ja foi postado por outra maquina e nao republica.
+"""
+import re, sys, json, datetime, os
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+INSTA = HERE.parent
+sys.path.insert(0, str(HERE))
+from postar_instagram_api import (publish_reel, publish, load_secrets, feed_hoje_ids_brt,  # noqa
+                                  container_com_fallback, _post)
+try:
+    from alerta_telegram import alertar_falha as _alerta_falha, alertar_sucesso as _alerta_ok
+except Exception:
+    def _alerta_falha(*a, **k):
+        return False
+    def _alerta_ok(*a, **k):
+        return False
+
+
+# data -> dict(feed=[arquivos], feed_lote, feed_secao, story=arquivo|None, story_lote)
+CAL_SANTO = {
+    "2026-10-30": {
+        "feed": ["frase01_teresa_amigo_paga_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
+        "feed_secao": "## FRASE TERESA AMIGO PAGA",
+        "story": "frase01_teresa_amigo_paga_story.png", "story_lote": "lote-frases-semanal-2810",
+    },
+    "2026-10-31": {
+        "feed": ["frase02_joao_cruz_silencio_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
+        "feed_secao": "## FRASE JOAO CRUZ SILENCIO",
+        "story": "frase02_joao_cruz_silencio_story.png", "story_lote": "lote-frases-semanal-2810",
+    },
+    "2026-11-05": {
+        "feed": ["frase03_teresa_poco_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
+        "feed_secao": "## FRASE TERESA POCO",
+        "story": "frase03_teresa_poco_story.png", "story_lote": "lote-frases-semanal-2810",
+    },
+    "2026-11-07": {
+        "feed": ["frase04_teresinha_evangelho_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
+        "feed_secao": "## FRASE TERESINHA EVANGELHO",
+        "story": "frase04_teresinha_evangelho_story.png", "story_lote": "lote-frases-semanal-2810",
+    },
+    "2026-11-09": {
+        "feed": ["frase05_joao_cruz_amor_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
+        "feed_secao": "## FRASE JOAO CRUZ AMOR",
+        "story": "frase05_joao_cruz_amor_story.png", "story_lote": "lote-frases-semanal-2810",
+    },
+    "2026-11-11": {
+        "feed": ["frase06_teresinha_confianca_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
+        "feed_secao": "## FRASE TERESINHA CONFIANCA",
+        "story": "frase06_teresinha_confianca_story.png", "story_lote": "lote-frases-semanal-2810",
+    },
+    "2026-10-28": {
+        "feed": ["judas_simao_card.png"], "feed_lote": "lote-santo-judas-simao",
+        "feed_secao": "## FEED",
+        "story": "judas_simao_story.png", "story_lote": "lote-santo-judas-simao",
+    },
+    "2026-11-03": {
+        "feed": ["martinho_card.png"], "feed_lote": "lote-santo-martinho",
+        "feed_secao": "## FEED",
+        "story": "martinho_story.png", "story_lote": "lote-santo-martinho",
+    },
+    "2026-11-01": {
+        "feed": ["todos_santos_card.png"], "feed_lote": "lote-santo-todos-santos",
+        "feed_secao": "## FEED",
+        "story": "todos_santos_story.png", "story_lote": "lote-santo-todos-santos",
+    },
+    "2026-11-02": {
+        "feed": ["finados_card.png"], "feed_lote": "lote-santo-finados",
+        "feed_secao": "## FEED",
+        "story": "finados_story.png", "story_lote": "lote-santo-finados",
+    },
+    "2026-11-08": {
+        "feed": ["elisabete_card.png"], "feed_lote": "lote-santo-elisabete",
+        "feed_secao": "## FEED",
+        "story": "elisabete_story.png", "story_lote": "lote-santo-elisabete",
+    },
+    "2026-11-21": {
+        "feed": ["apresentacao_card.png"], "feed_lote": "lote-santo-apresentacao",
+        "feed_secao": "## FEED",
+        "story": "apresentacao_story.png", "story_lote": "lote-santo-apresentacao",
+    },
+    "2026-10-02": {
+        "feed": ["reel_anjos.mp4"], "feed_lote": "lote-outubro",
+        "feed_secao": "## 02/10 REEL ANJOS",
+        "story": None, "story_lote": "lote-outubro",
+    },
+    "2026-10-22": {
+        "feed": ["jp2_card.png"], "feed_lote": "lote-santo-jp2",
+        "feed_secao": "## FEED",
+        "story": "jp2_story.png", "story_lote": "lote-santo-jp2",
+    },
+    "2026-10-12": {
+        "feed": ["aparecida_card.png"], "feed_lote": "lote-santo-aparecida",
+        "feed_secao": "## FEED",
+        "story": "aparecida_story.png", "story_lote": "lote-santo-aparecida",
+    },
+    "2026-10-07": {
+        "feed": ["rosario_card.png"], "feed_lote": "lote-santo-rosario",
+        "feed_secao": "## FEED",
+        "story": "rosario_story.png", "story_lote": "lote-santo-rosario",
+    },
+    "2026-10-11": {
+        "feed": ["joao23_card.png"], "feed_lote": "lote-santo-joao23",
+        "feed_secao": "## FEED",
+        "story": "joao23_story.png", "story_lote": "lote-santo-joao23",
+    },
+    "2026-09-23": {
+        "feed": ["padre_pio_card.png"], "feed_lote": "lote-santo-padre-pio",
+        "feed_secao": "## FEED",
+        "story": "padre_pio_story.png", "story_lote": "lote-santo-padre-pio",
+    },
+    "2026-09-29": {
+        "feed": ["arcanjos_card.png"], "feed_lote": "lote-santo-arcanjos",
+        "feed_secao": "## FEED",
+        "story": "arcanjos_story.png", "story_lote": "lote-santo-arcanjos",
+    },
+    "2026-08-28": {
+        "feed": ["agostinho_card.png"], "feed_lote": "lote-santo-agostinho",
+        "feed_secao": "## FEED",
+        "story": "agostinho_story.png", "story_lote": "lote-santo-agostinho",
+    },
+    "2026-08-27": {
+        "feed": ["monica_card.png"], "feed_lote": "lote-santo-monica",
+        "feed_secao": "## FEED",
+        "story": "monica_story.png", "story_lote": "lote-santo-monica",
+    },
+    "2026-08-20": {
+        "feed": ["bernardo_card.png"], "feed_lote": "lote-santo-bernardo",
+        "feed_secao": "## FEED",
+        "story": "bernardo_story.png", "story_lote": "lote-santo-bernardo",
+    },
+    "2026-08-15": {
+        "feed": ["assuncao_card.png"], "feed_lote": "lote-santo-assuncao",
+        "feed_secao": "## FEED",
+        "story": "assuncao_story.png", "story_lote": "lote-santo-assuncao",
+    },
+    "2026-08-14": {
+        "feed": ["kolbe_card.png"], "feed_lote": "lote-santo-kolbe",
+        "feed_secao": "## FEED",
+        "story": "kolbe_story.png", "story_lote": "lote-santo-kolbe",
+    },
+    "2026-08-13": {
+        "feed": ["edith_card.png"], "feed_lote": "lote-santo-edith",
+        "feed_secao": "## FEED",
+        "story": "edith_story.png", "story_lote": "lote-santo-edith",
+    },
+    "2026-08-11": {
+        "feed": ["clara_card.png", "clara_slide2.png"], "feed_lote": "lote-santo-clara",
+        "feed_secao": "## FEED",
+        "story": "clara_story1.png", "story_lote": "lote-santo-clara",
+    },
+    "2026-07-26": {
+        "feed": ["santa_ana_reel_music.mp4"], "feed_lote": "lote-santo-ana",
+        "feed_secao": "Legenda do post",
+        "story": "santa_ana_story.png", "story_lote": "lote-santo-ana",
+    },
+    "2026-07-29": {
+        "feed": ["marta_reel.mp4"], "feed_lote": "lote-santo-marta",
+        "feed_secao": "## FEED",
+        "story": "marta_story.png", "story_lote": "lote-santo-marta",
+    },
+    "2026-07-31": {
+        "feed": ["inacio_card_reel.mp4"], "feed_lote": "lote-santo-inacio",
+        "feed_secao": "## FEED",
+        "story": "inacio_story.png", "story_lote": "lote-santo-inacio",
+    },
+    "2026-12-14": {
+        "feed": ["joao_card.png"], "feed_lote": "lote-santo-joao-cruz",
+        "feed_secao": "## SANTO CARD",
+        "story": "joao_story.png", "story_lote": "lote-santo-joao-cruz",
+    },
+    "2026-12-08": {
+        "feed": ["d08_santo.png"], "feed_lote": "lote-dezembro-b",
+        "feed_secao": "## SANTO IMACULADA",
+        "story": "d08_santo_story.png", "story_lote": "lote-dezembro-b",
+    },
+    "2026-12-12": {
+        "feed": ["d12_santo.png"], "feed_lote": "lote-dezembro-b",
+        "feed_secao": "## SANTO GUADALUPE",
+        "story": "d12_santo_story.png", "story_lote": "lote-dezembro-b",
+    },
+    "2026-10-25": {
+        "feed": ["livro01_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO APRESENTA",
+        "story": "livro01_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-04": {
+        "feed": ["livro02_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO TRECHO",
+        "story": "livro02_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-15": {
+        "feed": ["livro04_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO ORIGEM",
+        "story": "livro04_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-22": {
+        "feed": ["livro05_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO ADVENTO COMECA",
+        "story": "livro05_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-10-27": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s27_10.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-10-29": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s29_10.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-06": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s06_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-10": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s10_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-12": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s12_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-17": {
+        "feed": ["isabel_hungria_card.png"], "feed_lote": "lote-santo-isabel-hungria",
+        "feed_secao": "## FEED",
+        "story": "isabel_hungria_story.png", "story_lote": "lote-santo-isabel-hungria",
+    },
+    "2026-11-18": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s17_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-19": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s19_11.png", "story_lote": "lote-livro-advento",
+    },
+}
+# SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
+CAL_SANTO_2 = {
+    "2026-11-03": {
+        "feed": [], "feed_lote": "lote-livro-advento",
+        "feed_secao": "",
+        "story": "livro_s03_11.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-04": {
+        "feed": ["carlos_borromeu_card.png"], "feed_lote": "lote-santo-borromeu",
+        "feed_secao": "## FEED",
+        "story": "carlos_borromeu_story.png", "story_lote": "lote-santo-borromeu",
+    },
+    "2026-10-12": {
+        "feed": ["carlo_acutis_card.png"], "feed_lote": "lote-santo-carlo-acutis",
+        "feed_secao": "## FEED",
+        "story": "carlo_acutis_story.png", "story_lote": "lote-santo-carlo-acutis",
+    },
+    "2026-11-17": {
+        "feed": [], "feed_lote": "lote-santo-isabel-hungria",
+        "feed_secao": "",
+        "story": "isabel_capela_story.png", "story_lote": "lote-santo-isabel-hungria",
+    },
+    "2026-12-14": {
+        "feed": ["joao_f_capa.png", "joao_f_s2.png", "joao_f_s3.png", "joao_f_s4.png", "joao_f_s5.png"], "feed_lote": "lote-santo-joao-cruz",
+        "feed_secao": "## SANTO FRASES",
+        "story": "joao_story2.png", "story_lote": "lote-santo-joao-cruz",
+    },
+    "2026-11-08": {
+        "feed": ["livro03_card.png"], "feed_lote": "lote-livro-advento",
+        "feed_secao": "## LIVRO COMO USAR",
+        "story": "livro03_story.png", "story_lote": "lote-livro-advento",
+    },
+    "2026-11-06": {
+        "feed": ["nuno_card.png"], "feed_lote": "lote-santo-nuno",
+        "feed_secao": "## FEED",
+        "story": "nuno_story.png", "story_lote": "lote-santo-nuno",
+    },
+}
+CAL_SANTO_DATES = set(CAL_SANTO) | set(CAL_SANTO_2)
+
+STATE = HERE / "posted_santo.json"
+
+
+def now():
+    return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+def registrar(status):
+    with open(HERE / "santo_log.txt", "a", encoding="utf-8") as f:
+        f.write(f"[{now()}] {status}\n")
+    print(f"[{now()}] {status}")
+
+
+def _load_state(p):
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        try:
+            os.replace(p, p.with_suffix(".corrupto.bak"))
+        except Exception:
+            pass
+        return {}
+
+
+def _save_state(p, d):
+    tmp = p.with_suffix(".tmp")
+    tmp.write_text(json.dumps(d, indent=2, ensure_ascii=False), encoding="utf-8")
+    os.replace(tmp, p)
+
+
+# ---- helpers lidos por poster_diario / poster_stories (santo-aware) ----
+def santo_feed_ids_hoje(hoje):
+    """Ids de media do reel do santo de hoje (pra poster_diario desconsiderar)."""
+    v = _load_state(STATE).get(f"{hoje}-feed")
+    mid = v.get("media_id") if isinstance(v, dict) else None
+    return [mid] if mid and mid != "ja-no-ar" else []
+
+
+def santo_story_id_hoje(hoje):
+    """Id do story do santo de hoje (pra poster_stories desconsiderar)."""
+    v = _load_state(STATE).get(f"{hoje}-story")
+    mid = v.get("media_id") if isinstance(v, dict) else None
+    return mid if mid and mid != "ja-no-ar" else None
+
+
+def santo_story_ids_hoje(hoje):
+    """Ids dos stories de santo de hoje (1a e 2a peca) pra poster_stories desconsiderar."""
+    st = _load_state(STATE)
+    out = []
+    for k in (f"{hoje}-story", f"{hoje}-story2"):
+        v = st.get(k)
+        mid = v.get("media_id") if isinstance(v, dict) else None
+        if mid and mid != "ja-no-ar":
+            out.append(mid)
+    return out
+
+
+def extrair_legenda(lote, secao):
+    """Le .../instagram/<lote>/LEGENDAS.md e extrai a legenda da secao dada."""
+    md = (INSTA / lote / "LEGENDAS.md").read_text(encoding="utf-8")
+    i = md.find(secao)
+    if i < 0:
+        raise RuntimeError(f"secao '{secao}' nao encontrada em {lote}/LEGENDAS.md")
+    j = md.find("**Legenda:**", i)
+    if j < 0:
+        raise RuntimeError(f"'**Legenda:**' nao encontrada apos '{secao}'")
+    start = j + len("**Legenda:**")
+    ends = [x for x in (md.find("**Stories:**", start), md.find("\n---", start), md.find("\n## ", start)) if x != -1]
+    end = min(ends) if ends else len(md)
+    bruto = md[start:end].strip()
+    limpas = []
+    for linha in bruto.split("\n"):
+        s = linha.strip()
+        if s.startswith(">"):
+            continue
+        if re.match(r"^\*\*(nota|obs|observacao|observação|interno|lembrete)\b", s, re.I):
+            continue
+        limpas.append(linha)
+    legenda = "\n".join(limpas).strip()
+    legenda = re.sub(r"\n{3,}", "\n\n", legenda)
+    if not legenda:
+        raise RuntimeError(f"legenda vazia apos limpeza em {lote} / {secao}")
+    return legenda
+
+
+def publish_story(ig_id, img_path, secrets):
+    token = secrets["ACCESS_TOKEN"]
+    cid = container_com_fallback(ig_id, img_path, token, {"media_type": "STORIES"}, secrets)
+    return _post(f"{ig_id}/media_publish", {"creation_id": cid}, token).get("id")
+
+
+def main1():
+    hoje = datetime.date.today().strftime("%Y-%m-%d")
+    if hoje not in CAL_SANTO:
+        registrar(f"sem santo do dia para hoje ({hoje}) — nada postado.")
+        return
+    cfg = CAL_SANTO[hoje]
+    state = _load_state(STATE)
+    feed_key, story_key = f"{hoje}-feed", f"{hoje}-story"
+
+    try:
+        secrets = load_secrets()
+        feeds = feed_hoje_ids_brt(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"], hoje)
+    except Exception as e:
+        registrar(f"AVISO {hoje}: checagem 'ja no ar' falhou ({repr(e)[:150]}) NAO posto (nao arriscar duplicata).")
+        _alerta_falha(f"Santo {hoje} (checagem)", e)
+        return
+    # Se ja ha feed de MANHA (hora < 11 BRT), o santo ja saiu (PC ou nuvem): nao republica.
+    _v2 = state.get(f"{hoje}-feed2")
+    _mid2 = _v2.get("media_id") if isinstance(_v2, dict) else None
+    feeds_outros = [(m, t) for (m, t) in feeds if m != _mid2]
+    manha_no_ar = any(t.hour < 11 for _mid, t in feeds_outros)
+
+    # ---------- FEED (reel) ----------
+    if feed_key in state:
+        registrar(f"{feed_key} ja postado antes — pulando feed.")
+    elif not cfg.get("feed"):
+        pass  # peca so de story (ex.: divulgacao do livro): sem feed neste dia
+    elif manha_no_ar:
+        state[feed_key] = {"quando": now(), "media_id": "ja-no-ar"}
+        _save_state(STATE, state)
+        registrar(f"{hoje}: feed do santo ja esta no ar (outra maquina) — nao republico.")
+    else:
+        imgs = [str(INSTA / cfg["feed_lote"] / n) for n in cfg["feed"]]
+        faltando = [p for p in imgs if not Path(p).exists()]
+        if faltando:
+            registrar(f"ERRO {hoje}: arquivos do feed faltando: {faltando}")
+        else:
+            try:
+                legenda = extrair_legenda(cfg["feed_lote"], cfg["feed_secao"])
+                if imgs[0].lower().endswith((".mp4", ".mov", ".m4v")):
+                    mid = publish_reel(secrets["IG_USER_ID"], imgs[0], legenda, secrets, share_to_feed=True)
+                else:
+                    mid = publish(secrets["IG_USER_ID"], imgs, legenda, secrets)
+                state[feed_key] = {"quando": now(), "media_id": mid}
+                _save_state(STATE, state)
+                registrar(f"OK {hoje}: feed do santo publicado media_id={mid}")
+                _alerta_ok(f"Santo {hoje} (feed)", mid)
+            except Exception as e:
+                registrar(f"ERRO {hoje} (feed): {repr(e)[:300]}")
+                _alerta_falha(f"Santo {hoje} (feed)", e)
+
+    # ---------- STORY ----------
+    nome = cfg.get("story")
+    if not nome:
+        return
+    if story_key in state:
+        registrar(f"{story_key} ja postado antes — pulando story.")
+        return
+    if manha_no_ar:
+        state[story_key] = {"quando": now(), "media_id": "ja-no-ar"}
+        _save_state(STATE, state)
+        registrar(f"{hoje}: story do santo ja no ar (outra maquina) — nao republico.")
+        return
+    img = (INSTA / nome) if "/" in nome else (INSTA / cfg["story_lote"] / nome)
+    if not img.exists():
+        registrar(f"ERRO {hoje}: story faltando: {img}")
+        return
+    try:
+        mid = publish_story(secrets["IG_USER_ID"], str(img), secrets)
+        state[story_key] = {"quando": now(), "media_id": mid}
+        _save_state(STATE, state)
+        registrar(f"OK {hoje}: story do santo publicado ({nome}) media_id={mid}")
+        _alerta_ok(f"Santo {hoje} (story)", mid)
+    except Exception as e:
+        registrar(f"ERRO {hoje} (story): {repr(e)[:300]}")
+        _alerta_falha(f"Santo {hoje} (story)", e)
+
+
+def main2():
+    """Segunda peca de santo no mesmo dia (CAL_SANTO_2). Nunca duplica: se a 1a peca ja
+    estava no ar por outra maquina ('ja-no-ar') ou ha outro feed de manha alem das nossas, pula."""
+    hoje = datetime.date.today().strftime("%Y-%m-%d")
+    if hoje not in CAL_SANTO_2:
+        return
+    cfg = CAL_SANTO_2[hoje]
+    state = _load_state(STATE)
+    fk, sk = f"{hoje}-feed2", f"{hoje}-story2"
+    if fk in state and (not cfg.get("story") or sk in state):
+        return
+    v1 = state.get(f"{hoje}-feed")
+    if not isinstance(v1, dict):
+        return  # 1a peca ainda nao resolvida (falha transitoria): tenta de novo na proxima
+    if v1.get("media_id") in (None, "ja-no-ar"):
+        for k in (fk, sk):
+            if k not in state:
+                state[k] = {"quando": now(), "media_id": "ja-no-ar"}
+        _save_state(STATE, state)
+        registrar(f"{hoje}: 2a peca do santo pulada (1a nao foi postada por esta maquina).")
+        return
+    try:
+        secrets = load_secrets()
+        feeds = feed_hoje_ids_brt(secrets["IG_USER_ID"], secrets["ACCESS_TOKEN"], hoje)
+    except Exception as e:
+        registrar(f"AVISO {hoje}: checagem 2a peca falhou ({repr(e)[:150]}) NAO posto.")
+        _alerta_falha(f"Santo {hoje} 2a (checagem)", e)
+        return
+    v2 = state.get(fk)
+    nossos = {v1.get("media_id"), v2.get("media_id") if isinstance(v2, dict) else None}
+    if any(t.hour < 11 and m not in nossos for m, t in feeds):
+        for k in (fk, sk):
+            if k not in state:
+                state[k] = {"quando": now(), "media_id": "ja-no-ar"}
+        _save_state(STATE, state)
+        registrar(f"{hoje}: ha feed de manha de outra origem — 2a peca nao republicada.")
+        return
+    if fk not in state and not cfg.get("feed"):
+        state[fk] = {"quando": now(), "media_id": "sem-feed"}
+        _save_state(STATE, state)
+    if fk not in state:
+        imgs = [str(INSTA / cfg["feed_lote"] / n) for n in cfg["feed"]]
+        faltando = [p for p in imgs if not Path(p).exists()]
+        if faltando:
+            registrar(f"ERRO {hoje}: arquivos do feed 2 faltando: {faltando}")
+        else:
+            try:
+                legenda = extrair_legenda(cfg["feed_lote"], cfg["feed_secao"])
+                mid = publish(secrets["IG_USER_ID"], imgs, legenda, secrets)
+                state[fk] = {"quando": now(), "media_id": mid}
+                _save_state(STATE, state)
+                registrar(f"OK {hoje}: feed 2 do santo publicado media_id={mid}")
+                _alerta_ok(f"Santo {hoje} (feed 2)", mid)
+            except Exception as e:
+                registrar(f"ERRO {hoje} (feed 2): {repr(e)[:300]}")
+                _alerta_falha(f"Santo {hoje} (feed 2)", e)
+    nome = cfg.get("story")
+    if nome and sk not in state:
+        v1s = state.get(f"{hoje}-story")
+        if not isinstance(v1s, dict):
+            return
+        if v1s.get("media_id") in (None, "ja-no-ar"):
+            state[sk] = {"quando": now(), "media_id": "ja-no-ar"}
+            _save_state(STATE, state)
+            registrar(f"{hoje}: story 2 pulado (story 1 nao foi nosso).")
+            return
+        img = (INSTA / nome) if "/" in nome else (INSTA / cfg["story_lote"] / nome)
+        if not img.exists():
+            registrar(f"ERRO {hoje}: story 2 faltando: {img}")
+            return
+        try:
+            mid = publish_story(secrets["IG_USER_ID"], str(img), secrets)
+            state[sk] = {"quando": now(), "media_id": mid}
+            _save_state(STATE, state)
+            registrar(f"OK {hoje}: story 2 do santo publicado ({nome}) media_id={mid}")
+            _alerta_ok(f"Santo {hoje} (story 2)", mid)
+        except Exception as e:
+            registrar(f"ERRO {hoje} (story 2): {repr(e)[:300]}")
+            _alerta_falha(f"Santo {hoje} (story 2)", e)
+
+
+def main():
+    main1()
+    main2()
+
+
+if __name__ == "__main__":
+    main()

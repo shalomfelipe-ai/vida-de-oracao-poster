@@ -290,6 +290,21 @@ CAL_SANTO_2 = {
         "feed_secao": "## FEED",
         "story": "nuno_story.png", "story_lote": "lote-santo-nuno",
     },
+    "2026-11-07": {
+        "feed": ["palau_card.png"], "feed_lote": "lote-santo-palau",
+        "feed_secao": "## FEED",
+        "story": "palau_story.png", "story_lote": "lote-santo-palau",
+    },
+    "2026-11-11": {
+        "feed": ["martinho_tours_card.png"], "feed_lote": "lote-santo-martinho-tours",
+        "feed_secao": "## FEED",
+        "story": "martinho_tours_story.png", "story_lote": "lote-santo-martinho-tours",
+    },
+    "2026-11-10": {
+        "feed": ["leao_magno_card.png"], "feed_lote": "lote-santo-leao-magno",
+        "feed_secao": "## FEED",
+        "story": "leao_magno_story.png", "story_lote": "lote-santo-leao-magno",
+    },
 }
 CAL_SANTO_DATES = set(CAL_SANTO) | set(CAL_SANTO_2)
 
