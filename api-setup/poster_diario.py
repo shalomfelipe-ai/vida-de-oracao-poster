@@ -99,6 +99,7 @@ CAL = {
     "2026-10-29": (["d29_card.png"], "lote-outubro", "## 29/10 CONVITE"),
     "2026-10-30": (["d30_card.png"], "lote-outubro", "## 30/10 SANTOS"),
     "2026-10-31": (["d31_card.png"], "lote-outubro", "## 31/10 VESPERA SANTOS"),
+    "2026-11-02": (["finados_feed.png"], "lote-finados-feed", "## 02/11 ORACAO SEM AGRADECIMENTO"),
     "2026-11-03": (["d1_capa.png", "d1_s2.png", "d1_s3.png", "d1_s4.png"], "lote-set1-corpo", "## CORPO CARROSSEL UNIDADE"),
     "2026-11-04": (["d2_post.png"], "lote-set1-corpo", "## CORPO INFOGRAFICO JEITOS"),
     "2026-11-05": (["d3_post.png"], "lote-set1-corpo", "## CORPO CARD DESCANSO"),
