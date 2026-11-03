@@ -114,3 +114,5 @@
 [2026-11-01 15:07:54] 2026-11-01: story do santo ja no ar (outra maquina) — nao republico.
 [2026-11-02 18:57:19] 2026-11-02: feed do santo ja esta no ar (outra maquina) — nao republico.
 [2026-11-02 18:57:19] 2026-11-02: story do santo ja no ar (outra maquina) — nao republico.
+[2026-11-03 17:01:44] ERRO 2026-11-03 (feed): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
+[2026-11-03 17:02:08] ERRO 2026-11-03 (story): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
