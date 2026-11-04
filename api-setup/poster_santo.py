@@ -32,6 +32,21 @@ except Exception:
 
 # data -> dict(feed=[arquivos], feed_lote, feed_secao, story=arquivo|None, story_lote)
 CAL_SANTO = {
+    "2026-11-13": {
+        "feed": ["frase02_joao_cruz_puro_amor_escrita.mp4"], "feed_lote": "lote-frases-semanal-0411",
+        "feed_secao": "## FRASE JOAO CRUZ PURO AMOR",
+        "story": "frase02_joao_cruz_puro_amor_story.png", "story_lote": "lote-frases-semanal-0411",
+    },
+    "2026-11-14": {
+        "feed": ["frase03_teresa_santos_padres_escrita.mp4"], "feed_lote": "lote-frases-semanal-0411",
+        "feed_secao": "## FRASE TERESA SANTOS PADRES",
+        "story": "frase03_teresa_santos_padres_story.png", "story_lote": "lote-frases-semanal-0411",
+    },
+    "2026-11-16": {
+        "feed": ["frase05_teresa_castelo_diamante_escrita.mp4"], "feed_lote": "lote-frases-semanal-0411",
+        "feed_secao": "## FRASE TERESA CASTELO DIAMANTE",
+        "story": "frase05_teresa_castelo_diamante_story.png", "story_lote": "lote-frases-semanal-0411",
+    },
     "2026-10-30": {
         "feed": ["frase01_teresa_amigo_paga_escrita.mp4"], "feed_lote": "lote-frases-semanal-2810",
         "feed_secao": "## FRASE TERESA AMIGO PAGA",
@@ -255,6 +270,21 @@ CAL_SANTO = {
 }
 # SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
 CAL_SANTO_2 = {
+    "2026-11-12": {
+        "feed": ["frase01_teresa_oracao_mental_escrita.mp4"], "feed_lote": "lote-frases-semanal-0411",
+        "feed_secao": "## FRASE TERESA ORACAO MENTAL",
+        "story": "frase01_teresa_oracao_mental_story.png", "story_lote": "lote-frases-semanal-0411",
+    },
+    "2026-11-15": {
+        "feed": ["frase04_teresinha_ceu_bem_escrita.mp4"], "feed_lote": "lote-frases-semanal-0411",
+        "feed_secao": "## FRASE TERESINHA CEU BEM",
+        "story": "frase04_teresinha_ceu_bem_story.png", "story_lote": "lote-frases-semanal-0411",
+    },
+    "2026-11-18": {
+        "feed": ["frase06_elisabete_ceu_em_nos_escrita.mp4"], "feed_lote": "lote-frases-semanal-0411",
+        "feed_secao": "## FRASE ELISABETE CEU EM NOS",
+        "story": "frase06_elisabete_ceu_em_nos_story.png", "story_lote": "lote-frases-semanal-0411",
+    },
     "2026-11-03": {
         "feed": [], "feed_lote": "lote-livro-advento",
         "feed_secao": "",
