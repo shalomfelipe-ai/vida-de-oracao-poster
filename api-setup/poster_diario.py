@@ -132,7 +132,7 @@ CAL = {
     "2026-12-02": (["d02_card.png"], "lote-dezembro-a", "## CADERNO CARD ESCREVE"),
     "2026-12-03": (["d03_post.png"], "lote-dezembro-a", "## CADERNO INFOGRAFICO SEGREDO"),
     "2026-12-04": (["d04_card.png"], "lote-dezembro-b", "## ADVENTO CARD RECOMECAR"),
-    "2026-12-05": (["d05_post.png"], "lote-dezembro-b", "## CINCO MINUTOS INFOGRAFICO"),
+    "2026-12-05": (["REEL-CINCO-MINUTOS.mp4"], "lote-reel-cinco-minutos", "## CINCO MINUTOS REEL"),  # REEL (substitui infografico)
     "2026-12-06": (["d06_capa.png", "d06_s2.png", "d06_s3.png", "d06_s4.png"], "lote-dezembro-b", "## ADVENTO CARROSSEL NICOLAU"),
     "2026-12-07": (["d07_card.png"], "lote-dezembro-b", "## MARIA CARD VESPERA"),
     "2026-12-08": (["d08_capa.png", "d08_s2.png", "d08_s3.png", "d08_s4.png"], "lote-dezembro-b", "## MARIA CARROSSEL IMACULADA"),
