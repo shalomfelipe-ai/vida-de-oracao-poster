@@ -130,3 +130,4 @@
 [2026-11-08 15:05:59] 2026-11-08: 2a peca do santo pulada (1a nao foi postada por esta maquina).
 [2026-11-09 19:43:14] 2026-11-09: feed do santo ja esta no ar (outra maquina) — nao republico.
 [2026-11-09 19:43:14] 2026-11-09: story do santo ja no ar (outra maquina) — nao republico.
+[2026-11-10 17:02:53] ERRO 2026-11-10 (story): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
