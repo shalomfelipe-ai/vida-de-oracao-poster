@@ -270,6 +270,16 @@ CAL_SANTO = {
 }
 # SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
 CAL_SANTO_2 = {
+    "2026-11-14": {
+        "feed": ["carmelo_todos_card.png"], "feed_lote": "lote-santo-todos-santos-carmelo",
+        "feed_secao": "## FEED",
+        "story": "carmelo_todos_story.png", "story_lote": "lote-santo-todos-santos-carmelo",
+    },
+    "2026-11-16": {
+        "feed": ["gertrudes_card.png"], "feed_lote": "lote-santo-gertrudes",
+        "feed_secao": "## FEED",
+        "story": "gertrudes_story.png", "story_lote": "lote-santo-gertrudes",
+    },
     "2026-11-12": {
         "feed": ["frase01_teresa_oracao_mental_escrita.mp4"], "feed_lote": "lote-frases-semanal-0411",
         "feed_secao": "## FRASE TERESA ORACAO MENTAL",
