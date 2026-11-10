@@ -114,7 +114,7 @@ CAL = {
     "2026-11-14": (["sex19_reel.mp4"], "lote-set3-amizade", "## AMIZADE REEL SILENCIO"),
     "2026-11-15": (["sab20_post.png"], "lote-set3-amizade", "## AMIZADE INFOGRAFICO CULTIVAR"),
     "2026-11-16": (["dom21_capa.png", "dom21_s2.png", "dom21_s3.png", "dom21_s4.png"], "lote-set3-amizade", "## AMIZADE CARROSSEL PRIMEIRO"),
-    "2026-11-17": (["n17_post.png"], "lote-set5-acidia-deus", "## ACIDIA INFOGRAFICO HABITOS"),
+    "2026-11-17": (["REEL-HABITOS-ACIDIA.mp4"], "lote-reels-infograficos", "## HABITOS REEL"),  # REEL (substitui infografico)
     "2026-11-18": (["n18_card.png"], "lote-set5-acidia-deus", "## ACIDIA CARD ENGANO"),
     "2026-11-19": (["n19_capa.png", "n19_s2.png", "n19_s3.png", "n19_s4.png"], "lote-set5-acidia-deus", "## ACIDIA CARROSSEL DECIDIR"),
     "2026-11-20": (["n20_card.png"], "lote-set5-acidia-deus", "## ACIDIA CARD ESCONDIDO"),
@@ -122,7 +122,7 @@ CAL = {
     "2026-11-22": (["n22_card.png"], "lote-set5-acidia-deus", "## DEUS CARD CRISTO REI"),
     "2026-11-23": (["n23_capa.png", "n23_s2.png", "n23_s3.png", "n23_s4.png"], "lote-set5-acidia-deus", "## DEUS CARROSSEL ENERGIA"),
     "2026-11-24": (["n24_card.png"], "lote-set5-acidia-deus", "## DEUS CARD PAPAI NOEL"),
-    "2026-11-25": (["n25_post.png"], "lote-set5-acidia-deus", "## DEUS INFOGRAFICO IDOLO"),
+    "2026-11-25": (["REEL-IDOLO-MENTAL.mp4"], "lote-reels-infograficos", "## IDOLO REEL"),  # REEL (substitui infografico)
     "2026-11-26": (["n26_capa.png", "n26_s2.png", "n26_s3.png", "n26_s4.png"], "lote-set5-acidia-deus", "## DEUS CARROSSEL PEDRO"),
     "2026-11-27": (["n27_card.png"], "lote-set5-acidia-deus", "## DEUS CARD NUVEM"),
     "2026-11-28": (["n28_card.png"], "lote-set5-acidia-deus", "## ADVENTO CARD VESPERA"),
@@ -130,14 +130,14 @@ CAL = {
     "2026-11-30": (["n30_card.png"], "lote-set5-acidia-deus", "## ADVENTO CARD ANDRE"),
     "2026-12-01": (["d01_capa.png","d01_s2.png","d01_s3.png","d01_s4.png"], "lote-dezembro-a", "## CADERNO CARROSSEL FRAGRANCIA"),
     "2026-12-02": (["d02_card.png"], "lote-dezembro-a", "## CADERNO CARD ESCREVE"),
-    "2026-12-03": (["d03_post.png"], "lote-dezembro-a", "## CADERNO INFOGRAFICO SEGREDO"),
+    "2026-12-03": (["REEL-CADERNO-SEGREDO.mp4"], "lote-reels-infograficos", "## CADERNO REEL"),  # REEL (substitui infografico)
     "2026-12-04": (["d04_card.png"], "lote-dezembro-b", "## ADVENTO CARD RECOMECAR"),
     "2026-12-05": (["REEL-CINCO-MINUTOS.mp4"], "lote-reel-cinco-minutos", "## CINCO MINUTOS REEL"),  # REEL (substitui infografico)
     "2026-12-06": (["d06_capa.png", "d06_s2.png", "d06_s3.png", "d06_s4.png"], "lote-dezembro-b", "## ADVENTO CARROSSEL NICOLAU"),
     "2026-12-07": (["d07_card.png"], "lote-dezembro-b", "## MARIA CARD VESPERA"),
     "2026-12-08": (["d08_capa.png", "d08_s2.png", "d08_s3.png", "d08_s4.png"], "lote-dezembro-b", "## MARIA CARROSSEL IMACULADA"),
     "2026-12-09": (["d09_capa.png", "d09_s2.png", "d09_s3.png", "d09_s4.png"], "lote-dezembro-b", "## ADVENTO CARROSSEL ANTECIPA"),
-    "2026-12-10": (["d10_post.png"], "lote-dezembro-b", "## SECURA INFOGRAFICO"),
+    "2026-12-10": (["REEL-SECURA.mp4"], "lote-reels-infograficos", "## SECURA REEL"),  # REEL (substitui infografico)
     "2026-12-11": (["d11_card.png"], "lote-dezembro-b", "## FE CARD ESTUDAR"),
     "2026-12-12": (["d12_capa.png", "d12_s2.png", "d12_s3.png", "d12_s4.png"], "lote-dezembro-b", "## MARIA CARROSSEL GUADALUPE"),
     "2026-12-13": (["d13_capa.png", "d13_s2.png", "d13_s3.png", "d13_s4.png"], "lote-dezembro-b", "## ADVENTO CARROSSEL GAUDETE"),

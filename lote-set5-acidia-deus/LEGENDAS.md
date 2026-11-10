@@ -122,7 +122,7 @@ Qual pedido seu está demorando mais pra ser atendido?
 ## DEUS INFOGRAFICO IDOLO
 *Peca:* n25_post | Infografico | Pilar 6 | "Idolo mental"
 **Legenda:**
-Existe uma definição antiga de verdade, que Santo Tomás de Aquino deixou formulada, e que eu acho muito simples: verdade é quando aquilo que está na minha cabeça corresponde ao que a coisa é de fato. Agora leva isso pra Deus. Quando o Deus da minha cabeça não corresponde a quem Ele é, o que eu tenho é um ídolo mental, sem estátua e sem bezerro de ouro, morando quietinho dentro da gente.
+Existe uma definição antiga de verdade, que Santo Tomás de Aquino deixou formulada, e que eu acho muito simples: verdade é quando aquilo que está na minha cabeça corresponde ao que a coisa é de fato. Agora leva isso pra Deus. Quando o Deus da minha cabeça não corresponde a quem Ele é, o que eu tenho é um ídolo mental, morando quietinho dentro da gente.
 
 E isso tem consequência. Muita gente que se diz ateia, quando a gente vai ver, está rejeitando um deus que de fato não existe. Só que quem reza também monta o seu sem perceber, e eu me incluo nisso.
 
