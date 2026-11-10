@@ -5,7 +5,7 @@
 **Legenda:**
 “Em janeiro eu começo.” A gente tem essa mania, do mesmo jeito que diz que segunda-feira começa a dieta, e quando vê a oração ficou pra depois do Carnaval.
 
-Só que a Igreja não espera janeiro. O ano dela virou no último domingo de novembro, com a primeira vela do Advento, e quem quer recomeçar a oração já tem um começo pronto, com data e tudo. E dezembro tem uma vantagem: ninguém está fazendo promessa de ano novo ainda, então a promessa fica só entre você e Nosso Senhor, pequenininha e verdadeira.
+Só que a Igreja não espera janeiro. O ano dela virou no último domingo de novembro, com a primeira vela do Advento, e quem quer recomeçar a oração já tem um começo pronto, com data e tudo. Dezembro tem uma vantagem: ninguém está fazendo promessa de ano novo ainda, então a promessa fica só entre você e Nosso Senhor, pequenininha e verdadeira.
 
 Janeiro costuma vir com aquela resolução enorme, que pesa por três semanas e cai. Dezembro aceita cinco minutos hoje, sem plano pro ano inteiro, e até o Natal são três semanas. Quem passa por elas rezando todo dia chega a janeiro com um hábito de verdade, porque quanto mais a gente se decide por rezar, mais força ganha pra rezar.
 
@@ -20,13 +20,13 @@ Que horário você vai defender pra esses cinco minutos?
 ## CINCO MINUTOS INFOGRAFICO
 *Peca:* d05_post | Infografico | Pilar 1
 **Legenda:**
-“Felipe, eu não tenho tempo nem pra comer direito, imagina pra rezar.” E o que costuma mudar isso é um compromisso do tamanho certo.
+“Felipe, eu não tenho tempo nem pra comer direito, imagina pra rezar.” O que costuma mudar isso é um compromisso do tamanho certo.
 
-Cinco minutos cabem em qualquer agenda, até na de quem tem criança pequena e dois empregos. E cabem inteirinhos: um minuto pra chegar e dizer a Nosso Senhor que você chegou, três minutos de silêncio, e um minuto pra sair agradecendo. É pouco mesmo, e por isso dá pra fazer amanhã, depois de amanhã e até no dia em que você estiver gripado.
+Cinco minutos cabem em qualquer agenda, até na de quem tem criança pequena e dois empregos. Cabem inteirinhos: um minuto pra chegar e dizer a Nosso Senhor que você chegou, três minutos de silêncio, e um minuto pra sair agradecendo. É pouco mesmo, e por isso dá pra fazer amanhã, depois de amanhã e até no dia em que você estiver gripado.
 
 Eu vejo muita gente que começa querendo rezar quarenta minutos, para na terceira semana e cai naquele derrotismo de quem não consegue o muito e acaba não rezando nada. Rezar alguma coisa é melhor do que não rezar nada. Quem começa com cinco chega ao Natal rezando todo dia, e depois vai aumentando.
 
-Uma palavra prática que eu aprendi é não terminar a oração antes da hora, e um timer ajuda muito nisso. Você pode pôr um de cinco minutos, sentar numa cadeira e ficar ali, sem música e sem leitura, e só quando ele tocar agradecer e levantar.
+Uma palavra prática que eu aprendi é não terminar a oração antes da hora; um timer ajuda muito nisso. Você pode pôr um de cinco minutos, sentar numa cadeira e ficar ali, sem música e sem leitura, só quando ele tocar agradecer e levantar.
 
 Onde na sua casa cabe uma cadeira e cinco minutos de silêncio?
 
@@ -39,11 +39,11 @@ Onde na sua casa cabe uma cadeira e cinco minutos de silêncio?
 **Legenda:**
 Alguém já deixou um presente na sua porta sem assinar? A gente passa a vida querendo agradecer a quem agiu escondido, e quase nunca consegue.
 
-Hoje é o segundo domingo do Advento, e a liturgia leva a gente ao deserto com João Batista, uma voz sem palácio e sem plateia que prepara o caminho do Senhor. E hoje também é dia de São Nicolau, de quem a tradição conta que jogava bolsas de ouro pela janela, de noite, na casa de um pai que não tinha como casar as três filhas, e fazia de tudo pra ninguém descobrir de onde vinha aquilo.
+Hoje é o segundo domingo do Advento, e a liturgia leva a gente ao deserto com João Batista, uma voz sem palácio e sem plateia que prepara o caminho do Senhor. Hoje também é dia de São Nicolau, de quem a tradição conta que jogava bolsas de ouro pela janela, de noite, na casa de um pai que não tinha como casar as três filhas, e fazia de tudo pra ninguém descobrir de onde vinha aquilo.
 
 Os dois preparam o caminho de outro sem aparecer, e eu acho que é isso que o Advento vai treinando em quem reza. O bem que ninguém vê forma o coração de um jeito que o bem que rende curtida não consegue, porque a gente aprende a agir só por Nosso Senhor.
 
-E se, só por hoje, você fizesse um gesto escondido, como pagar o café de quem está atrás de você na fila ou deixar um bilhete sem assinatura, e guardasse segredo até a hora de dormir?
+Se, só por hoje, você fizesse um gesto escondido, como pagar o café de quem está atrás de você na fila ou deixar um bilhete sem assinatura, e guardasse segredo até a hora de dormir?
 
 Quem já te fez um bem que você nunca soube agradecer?
 
@@ -122,7 +122,7 @@ Rezar sem sentir nada? Acontece com todo mundo que reza, e a primeira reação c
 
 Lembro de um jovem, num retiro de líderes, que veio chorando dizer que Deus não falava mais com ele. Via Deus agir na vida dos outros, e pra ele só silêncio. Respondi algo como: talvez você precise dar a Deus mais tempo pra não falar com você. Ele se assustou, mas o princípio é esse. Deus não é um sentimento, e não sentir nada não quer dizer que Ele saiu de perto.
 
-Por isso, eu sugeriria três coisas. A primeira é ficar os cinco minutos combinados, como um soldado no posto, sentindo ou não. A segunda é dizer a Nosso Senhor: hoje não senti nada, e estou aqui. E a terceira é voltar ao Evangelho do dia, lido devagar, porque é por ele que o Senhor fala.
+Por isso, eu sugeriria três coisas. A primeira é ficar os cinco minutos combinados, como um soldado no posto, sentindo ou não. A segunda é dizer a Nosso Senhor: hoje não senti nada, e estou aqui. A terceira é voltar ao Evangelho do dia, lido devagar, porque é por ele que o Senhor fala.
 
 Diante do Santíssimo, às vezes parece que uma pedra faria mais efeito no nosso sentimento. Só que, assim como é impossível pôr a mão numa bacia cheia d'água sem molhá-la, é impossível fazer um ato de fé sem tocar a Deus.
 
@@ -190,7 +190,7 @@ Pra quem você vai mandar este card?
 **Legenda:**
 “Como é que alguém vai se alegrar no meio de tudo isso?” Hoje a liturgia pega essa pergunta e responde com uma ordem: Gaudete, alegrai-vos. É o domingo da vela rosa.
 
-A alegria que a Igreja pede hoje é a de quem já vê a luz acender lá no fim do corredor. Ainda não chegou, mas já dá pra ver, assim como a criança que passa dezembro contando os dias e já fica feliz muito antes de abrir o presente. E essa alegria também se decide, porque a gente escolhe olhar pro que vem em vez de ficar remoendo o que falta. Dá pra decidir isso cansado, com a oração seca e a casa bagunçada.
+A alegria que a Igreja pede hoje é a de quem já vê a luz acender lá no fim do corredor. Ainda não chegou, mas já dá pra ver, assim como a criança que passa dezembro contando os dias e já fica feliz muito antes de abrir o presente. Essa alegria também se decide, porque a gente escolhe olhar pro que vem em vez de ficar remoendo o que falta. Dá pra decidir isso cansado, com a oração seca e a casa bagunçada.
 
 Hoje também é Santa Luzia, cujo nome vem de luz, e uma vela acesa na mesa da oração é um jeito simples de lembrar dela e de lembrar que Ele vem.
 
@@ -209,7 +209,7 @@ Ontem foi o dia de São João da Cruz, e fica no ar uma pergunta: “Estou seco 
 
 Tem dois critérios objetivos. O primeiro é o tempo de caminhada: quem não tem nem um ano de fidelidade à oração diária muito dificilmente está numa noite escura. O segundo é ter havido uma decisão concreta por Nosso Senhor, porque Ele não prova desse jeito quem ainda não se decidiu por Ele. Fora disso, quase sempre é um deserto de secura que tem remédio, seja mudando a maneira de rezar, seja procurando na confissão um pequeno sacrifício que fortaleça a vontade.
 
-E tem um sinal positivo que pesa muito: mesmo sem gosto nenhum, o desejo de estar com Ele continua. Só que quem discerne isso é o acompanhador espiritual, porque é muito difícil a gente saber sozinho.
+Tem um sinal positivo que pesa muito: mesmo sem gosto nenhum, o desejo de estar com Ele continua. Só que quem discerne isso é o acompanhador espiritual, porque é muito difícil a gente saber sozinho.
 
 Se a secura está pesando, pode ajudar escrever numa folha, em cinco linhas, o que você sente, e levar pro seu acompanhador na próxima conversa.
 

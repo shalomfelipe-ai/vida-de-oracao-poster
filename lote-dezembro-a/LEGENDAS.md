@@ -5,7 +5,7 @@
 **Legenda:**
 Tem uma frase da Santa Teresinha que eu li muitas vezes sem reparar, até o dia em que reparei. Ela está contando a Primeira Comunhão, que foi o dia mais bonito da vida dela, e de repente para e diz que não vai entrar nos detalhes, porque coisas há que perdem a fragrância quando expostas ao ar.
 
-Repara no que ela faz. A madre tinha pedido que ela escrevesse a vida inteira, e ela, obediente, escreve tudo direitinho, só que separa um cantinho que fica só entre ela e Jesus. E logo em seguida explica o porquê: tem pensamentos da alma que não cabem em palavra humana sem perder o sentido, assim como a pedrinha branca prometida a quem vence, com um nome escrito que só conhece quem a recebe.
+Repara no que ela faz. A madre tinha pedido que ela escrevesse a vida inteira, e ela, obediente, escreve tudo direitinho, só que separa um cantinho que fica só entre ela e Jesus. Logo em seguida explica o porquê: tem pensamentos da alma que não cabem em palavra humana sem perder o sentido, assim como a pedrinha branca prometida a quem vence, com um nome escrito que só conhece quem a recebe.
 
 Eu acho isso lindo, porque a nossa oração também tem esses dois lados. Tem o que a gente escreve pra não esquecer e tem o que a gente guarda pra não estragar, e nos próximos dois dias eu quero conversar com você sobre os dois.
 
@@ -24,7 +24,7 @@ Quantas vezes você saiu da oração com uma luz bem clara, achando que nunca ia
 
 Por isso eu sempre recomendo o caderno de oração pessoal. Ele não precisa ser bonito, pode ser um caderninho simples de supermercado, desde que fique perto de você na hora de rezar. Logo depois da oração, antes de pegar o celular, você escreve umas cinco linhas: o que entendeu, o que não entendeu, uma frase que ficou, uma dúvida pra levar ao seu acompanhador.
 
-E pra que serve isso? Serve pro mês de secura, porque aí você abre o caderno e relê o que Ele fazia quando a oração estava boa, e isso sustenta mais do que qualquer motivação. E serve pro que você não entendeu hoje, que muitas vezes faz sentido daqui a um ano, quando você relê e enxerga o fio. Muita coisa do caminho de Deus a gente só vê olhando pra trás.
+Pra que serve isso? Serve pro mês de secura, porque aí você abre o caderno e relê o que Ele fazia quando a oração estava boa, e isso sustenta mais do que qualquer motivação. Serve pro que você não entendeu hoje, que muitas vezes faz sentido daqui a um ano, quando você relê e enxerga o fio. Muita coisa do caminho de Deus a gente só vê olhando pra trás.
 
 Eu conheço bem o dia em que a gente sai da oração sem saber nem o que escrever no caderno, de tão perdido. Mesmo nesse dia, a data e três linhas já bastam, e qualquer caderno serve pra começar.
 

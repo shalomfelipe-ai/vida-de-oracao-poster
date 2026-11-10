@@ -118,6 +118,7 @@ CAL = {
     "2026-11-18": (["n18_card.png"], "lote-set5-acidia-deus", "## ACIDIA CARD ENGANO"),
     "2026-11-19": (["n19_capa.png", "n19_s2.png", "n19_s3.png", "n19_s4.png"], "lote-set5-acidia-deus", "## ACIDIA CARROSSEL DECIDIR"),
     "2026-11-20": (["n20_card.png"], "lote-set5-acidia-deus", "## ACIDIA CARD ESCONDIDO"),
+    "2026-11-21": (["f21_card_c.png"], "lote-feed-2111", "## ACIDIA CARD CURTIDA"),
     "2026-11-22": (["n22_card.png"], "lote-set5-acidia-deus", "## DEUS CARD CRISTO REI"),
     "2026-11-23": (["n23_capa.png", "n23_s2.png", "n23_s3.png", "n23_s4.png"], "lote-set5-acidia-deus", "## DEUS CARROSSEL ENERGIA"),
     "2026-11-24": (["n24_card.png"], "lote-set5-acidia-deus", "## DEUS CARD PAPAI NOEL"),
