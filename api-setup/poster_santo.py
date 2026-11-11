@@ -212,6 +212,11 @@ CAL_SANTO = {
         "feed_secao": "## SANTO IMACULADA",
         "story": "d08_santo_story.png", "story_lote": "lote-dezembro-b",
     },
+    "2026-12-13": {
+        "feed": ["lz1312_card.png"], "feed_lote": "lote-santa-luzia",
+        "feed_secao": "## SANTO SANTA LUZIA",
+        "story": "lz1312_story.png", "story_lote": "lote-santa-luzia",
+    },
     "2026-12-12": {
         "feed": ["d12_santo.png"], "feed_lote": "lote-dezembro-b",
         "feed_secao": "## SANTO GUADALUPE",
