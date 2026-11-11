@@ -202,6 +202,11 @@ CAL_SANTO = {
         "feed_secao": "## SANTO CARD",
         "story": "joao_story.png", "story_lote": "lote-santo-joao-cruz",
     },
+    "2026-12-09": {
+        "feed": ["jd0912_card.png"], "feed_lote": "lote-guadalupe-juan-diego",
+        "feed_secao": "## SANTO JUAN DIEGO",
+        "story": "jd0912_story.png", "story_lote": "lote-guadalupe-juan-diego",
+    },
     "2026-12-08": {
         "feed": ["d08_santo.png"], "feed_lote": "lote-dezembro-b",
         "feed_secao": "## SANTO IMACULADA",
