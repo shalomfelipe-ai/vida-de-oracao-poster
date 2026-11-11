@@ -32,6 +32,31 @@ except Exception:
 
 # data -> dict(feed=[arquivos], feed_lote, feed_secao, story=arquivo|None, story_lote)
 CAL_SANTO = {
+    "2026-11-20": {
+        "feed": ["frase02_teresa_conduzir_ao_amor_escrita.mp4"], "feed_lote": "lote-frases-semanal-1111",
+        "feed_secao": "## FRASE TERESA CONDUZIR AO AMOR",
+        "story": "frase02_teresa_conduzir_ao_amor_story.png", "story_lote": "lote-frases-semanal-1111",
+    },
+    "2026-11-23": {
+        "feed": ["frase03_teresinha_elevador_escrita.mp4"], "feed_lote": "lote-frases-semanal-1111",
+        "feed_secao": "## FRASE TERESINHA ELEVADOR",
+        "story": "frase03_teresinha_elevador_story.png", "story_lote": "lote-frases-semanal-1111",
+    },
+    "2026-11-25": {
+        "feed": ["frase04_teresa_torres_sem_alicerces_escrita.mp4"], "feed_lote": "lote-frases-semanal-1111",
+        "feed_secao": "## FRASE TERESA TORRES SEM ALICERCES",
+        "story": "frase04_teresa_torres_sem_alicerces_story.png", "story_lote": "lote-frases-semanal-1111",
+    },
+    "2026-11-26": {
+        "feed": ["frase05_joao_cruz_ausentas_escrita.mp4"], "feed_lote": "lote-frases-semanal-1111",
+        "feed_secao": "## FRASE JOAO CRUZ AUSENTAS",
+        "story": "frase05_joao_cruz_ausentas_story.png", "story_lote": "lote-frases-semanal-1111",
+    },
+    "2026-11-27": {
+        "feed": ["frase06_teresinha_alma_simples_escrita.mp4"], "feed_lote": "lote-frases-semanal-1111",
+        "feed_secao": "## FRASE TERESINHA ALMA SIMPLES",
+        "story": "frase06_teresinha_alma_simples_story.png", "story_lote": "lote-frases-semanal-1111",
+    },
     "2026-11-24": {
         "feed": ["dung_lac_card.png"], "feed_lote": "lote-santo-dung-lac",
         "feed_secao": "## FEED",
@@ -285,6 +310,11 @@ CAL_SANTO = {
 }
 # SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
 CAL_SANTO_2 = {
+    "2026-11-19": {
+        "feed": ["frase01_joao_cruz_dois_juntos_escrita.mp4"], "feed_lote": "lote-frases-semanal-1111",
+        "feed_secao": "## FRASE JOAO CRUZ DOIS JUNTOS",
+        "story": "frase01_joao_cruz_dois_juntos_story.png", "story_lote": "lote-frases-semanal-1111",
+    },
     "2026-11-14": {
         "feed": ["carmelo_todos_card.png"], "feed_lote": "lote-santo-todos-santos-carmelo",
         "feed_secao": "## FEED",
