@@ -57,6 +57,16 @@ CAL_SANTO = {
         "feed_secao": "## FRASE TERESINHA ALMA SIMPLES",
         "story": "frase06_teresinha_alma_simples_story.png", "story_lote": "lote-frases-semanal-1111",
     },
+    "2026-11-30": {
+        "feed": ["andre_card.png"], "feed_lote": "lote-santo-andre",
+        "feed_secao": "## FEED",
+        "story": "andre_story.png", "story_lote": "lote-santo-andre",
+    },
+    "2026-12-03": {
+        "feed": ["xavier_card.png"], "feed_lote": "lote-santo-francisco-xavier",
+        "feed_secao": "## FEED",
+        "story": "xavier_story_video.mp4", "story_lote": "lote-santo-francisco-xavier",
+    },
     "2026-11-24": {
         "feed": ["dung_lac_card.png"], "feed_lote": "lote-santo-dung-lac",
         "feed_secao": "## FEED",
@@ -310,6 +320,11 @@ CAL_SANTO = {
 }
 # SEGUNDA peca do mesmo dia (data -> mesmo formato de CAL_SANTO). Postada logo depois da primeira.
 CAL_SANTO_2 = {
+    "2026-11-27": {
+        "feed": ["medalha_card.png"], "feed_lote": "lote-santo-medalha-milagrosa",
+        "feed_secao": "## FEED",
+        "story": "medalha_story.png", "story_lote": "lote-santo-medalha-milagrosa",
+    },
     "2026-11-19": {
         "feed": ["frase01_joao_cruz_dois_juntos_escrita.mp4"], "feed_lote": "lote-frases-semanal-1111",
         "feed_secao": "## FRASE JOAO CRUZ DOIS JUNTOS",
@@ -482,7 +497,11 @@ def extrair_legenda(lote, secao):
 
 def publish_story(ig_id, img_path, secrets):
     token = secrets["ACCESS_TOKEN"]
-    cid = container_com_fallback(ig_id, img_path, token, {"media_type": "STORIES"}, secrets)
+    if str(img_path).lower().endswith(".mp4"):
+        from poster_stories import container_story_video  # story em VIDEO (parallax)
+        cid = container_story_video(ig_id, img_path, token, secrets)
+    else:
+        cid = container_com_fallback(ig_id, img_path, token, {"media_type": "STORIES"}, secrets)
     return _post(f"{ig_id}/media_publish", {"creation_id": cid}, token).get("id")
 
 
