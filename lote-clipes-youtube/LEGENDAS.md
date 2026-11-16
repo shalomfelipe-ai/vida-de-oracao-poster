@@ -192,9 +192,9 @@ Qual dessas frases você já disse pra si mesmo?
 **Clipe:** lote-clipes-youtube\c13_supermercado.mp4
 **Título na tela:** Espiritualidade de supermercado
 **Legenda:**
-Tem gente que vai buscando espiritualidades, sensações e experiências religiosas como num supermercado: vai aqui, vai ali, pega isso, pega aquilo e mais outra coisa, e não se firma numa espiritualidade só. Eu sou da Comunidade Shalom, a minha espiritualidade é a da Comunidade, então eu preciso rezar assim e ler os escritos do meu fundador. Não tem nada de errado em ter outro santo de devoção, como Carlo Acutis ou São Josemaria, grandes santos. Só não convém eu conhecer mais os escritos deles do que os de Santa Teresa d'Ávila, sendo Shalom. É um exemplo, mas vale pra qualquer lugar.
+Tem gente que vai buscando espiritualidades, sensações e experiências religiosas como num supermercado: vai aqui, vai ali, pega isso, pega aquilo e mais outra coisa, e não se firma numa espiritualidade só. Eu sou da Comunidade Shalom, a minha espiritualidade é a da Comunidade, então eu preciso rezar assim e ler os escritos do meu fundador. Não tem nada de errado em ter outro santo de devoção, como Carlo Acutis ou São Josemaria, grandes santos. Só não convém eu conhecer mais os escritos deles do que os de Santa Teresa d'Ávila, sendo Shalom. É um exemplo, mas queria trazer essa reflexão.
 
-Qual espiritualidade você tem tentado seguir de verdade?
+Qual a sua espiritualidade? Qual o seu carisma? Que tal voltar às fontes?
 
 #vidadeoração #oraçãomental #católico #gulaespiritual
 
