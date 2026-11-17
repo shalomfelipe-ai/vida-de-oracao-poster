@@ -5,9 +5,9 @@
 ## HABITOS REEL
 *Peca:* n17_post | Infografico | Pilar 2 | "Tres habitos que aquecem o coracao"
 **Legenda:**
-“Felipe, eu sei que devia rezar mais, só que não tenho vontade nenhuma.” Esse desânimo tem nome, a gente chama de acídia. Hoje tem uma coisa que conspira muito contra nós: tudo ao nosso redor foi feito para premiar na mesma hora. A gente posta uma foto e as curtidas chegam, abre um joguinho e ganha ponto a cada toque. Na oração a recompensa nem sempre vem na hora. Quem entra nela com a lógica do like desanima rápido.
+“Felipe, eu sei que devia rezar mais, só que não tenho vontade nenhuma.” Esse desânimo tem nome, a gente chama de acídia. Hoje tem uma coisa que conspira muito contra nós: tudo ao nosso redor foi feito pensando em recompensa imediata. A foto no Instagram recebe logo alguma curtida, nos jogos a gente ganha pontos ou benefícios por ter visto um anúncio. Na oração a recompensa nem sempre vem na hora. Quem entra nela com essa mentalidade de redes sociais desanima rápido.
 
-Por isso eu gosto de dar três dicas que, curiosamente, nem falam da oração, porque acontecem fora dela. A primeira é o sacrifício escondido, como ceder o seu lugar no ônibus dizendo no coração: é pra Ti, Senhor. A segunda é o jejum, pequeno e concreto, como passar a semana sem o doce de que você gosta. A terceira é ficar atento à caridade, porque é no irmão que a gente ama Aquele que tanto o ama.
+Por isso eu sugiro que você alimente três hábitos que parecem que nem falam de oração, mas vai por mim, são muito úteis para ela. O primeiro é o sacrifício escondido, como ceder o seu lugar no ônibus dizendo no coração: é pra Ti, Senhor. O segundo é o jejum, pequeno e concreto, como passar a semana sem o doce de que você gosta. O terceiro é ficar atento à caridade, porque é no irmão que a gente ama Aquele que tanto o ama.
 
 A nossa oração alimenta a nossa vida, e a nossa vida alimenta a nossa oração. Se der, tenta um deles ainda hoje, antes das oito da noite, sem contar pra ninguém, que o segredo também faz parte do remédio.
 
