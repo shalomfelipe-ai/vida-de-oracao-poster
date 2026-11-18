@@ -144,3 +144,4 @@
 [2026-11-16 19:33:10] ERRO 2026-11-16 (story): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
 [2026-11-17 18:24:45] ERRO 2026-11-17 (feed): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
 [2026-11-17 18:26:49] ERRO 2026-11-17 (story): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
+[2026-11-18 17:58:28] ERRO 2026-11-18 (story): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
