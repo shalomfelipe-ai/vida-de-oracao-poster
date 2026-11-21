@@ -148,3 +148,4 @@
 [2026-11-19 18:00:46] ERRO 2026-11-19 (story): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
 [2026-11-20 17:45:37] ERRO 2026-11-20 (feed): RuntimeError('container 18650079610050895 deu ERROR: {"status_code":"ERROR","id":"18650079610050895"}')
 [2026-11-20 17:46:08] ERRO 2026-11-20 (story): RuntimeError('nenhum host serviu a midia para a Meta (ultimo erro: 412 Client Error: Precondition Failed for url: https://catbox.moe/user/api.php)')
+[2026-11-21 16:49:20] AVISO 2026-11-21: checagem 'ja no ar' falhou (RuntimeError('GET 17841401526820437/media -> 400: {"error":{"message":"Error validating access token: Session has expired on Saturday, 21-Nov-26 01:14) NAO posto (nao arriscar duplicata).
