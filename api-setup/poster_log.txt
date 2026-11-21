@@ -133,3 +133,4 @@
 [2026-11-18 19:43:13] 2026-11-18: feed do dia ja esta no ar backup nao precisou agir.
 [2026-11-19 19:48:03] 2026-11-19: feed do dia ja esta no ar backup nao precisou agir.
 [2026-11-20 19:22:17] 2026-11-20: feed do dia ja esta no ar backup nao precisou agir.
+[2026-11-21 18:10:58] AVISO 2026-11-21: checagem 'ja no ar' falhou (RuntimeError('GET 17841401526820437/media -> 400: {"error":{"message":"Error validating access token: Session has expired on Saturday, 21-Nov-26 01:14) NAO posto para nao arriscar duplicata.
