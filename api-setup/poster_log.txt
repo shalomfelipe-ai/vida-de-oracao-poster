@@ -135,3 +135,4 @@
 [2026-11-20 19:22:17] 2026-11-20: feed do dia ja esta no ar backup nao precisou agir.
 [2026-11-21 18:10:58] AVISO 2026-11-21: checagem 'ja no ar' falhou (RuntimeError('GET 17841401526820437/media -> 400: {"error":{"message":"Error validating access token: Session has expired on Saturday, 21-Nov-26 01:14) NAO posto para nao arriscar duplicata.
 [2026-11-22 18:17:50] AVISO 2026-11-22: checagem 'ja no ar' falhou (RuntimeError('GET 17841401526820437/media -> 400: {"error":{"message":"Error validating access token: The session has been invalidated because the use) NAO posto para nao arriscar duplicata.
+[2026-11-23 23:36:38] AVISO 2026-11-23: checagem 'ja no ar' falhou (RuntimeError('GET 17841401526820437/media -> 400: {"error":{"message":"Error validating access token: The session has been invalidated because the use) NAO posto para nao arriscar duplicata.
