@@ -321,3 +321,7 @@
 [2026-11-25 19:00:39] checagem 'ja no ar' (ids) tentativa 2/3 falhou (RuntimeError('GET 17841401526820437/stories -> 400: {"error":{"message":"Error validating access token: The session has )
 [2026-11-25 19:00:45] checagem 'ja no ar' (ids) tentativa 3/3 falhou (RuntimeError('GET 17841401526820437/stories -> 400: {"error":{"message":"Error validating access token: The session has )
 [2026-11-25 19:00:45] AVISO 2026-11-25-manha: checagem 'ja no ar' falhou (RuntimeError('GET 17841401526820437/stories -> 400: {"error":{"message":"Error validating access token: The session has been invalidated because the u) NAO posto para nao arriscar duplicata.
+[2026-11-26 00:12:01] checagem 'ja no ar' (ids) tentativa 1/3 falhou (RuntimeError('GET 17841401526820437/stories -> 400: {"error":{"message":"Error validating access token: The session has )
+[2026-11-26 00:12:07] checagem 'ja no ar' (ids) tentativa 2/3 falhou (RuntimeError('GET 17841401526820437/stories -> 400: {"error":{"message":"Error validating access token: The session has )
+[2026-11-26 00:12:14] checagem 'ja no ar' (ids) tentativa 3/3 falhou (RuntimeError('GET 17841401526820437/stories -> 400: {"error":{"message":"Error validating access token: The session has )
+[2026-11-26 00:12:14] AVISO 2026-11-26-tarde: checagem 'ja no ar' falhou (RuntimeError('GET 17841401526820437/stories -> 400: {"error":{"message":"Error validating access token: The session has been invalidated because the u) NAO posto para nao arriscar duplicata.
