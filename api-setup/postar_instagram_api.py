@@ -13,7 +13,7 @@ Le segredos de secrets.json (ver GUIA-API-INSTAGRAM.md). NUNCA imprime o token.
 Fluxo: hospeda imagem -> cria container(es) -> container de carrossel -> media_publish.
 Docs: https://developers.facebook.com/docs/instagram-platform/content-publishing/
 """
-import argparse, json, os, sys, time, mimetypes, datetime
+import argparse, json, os, re, sys, time, mimetypes, datetime
 from pathlib import Path
 import requests
 
@@ -210,13 +210,24 @@ def _ts_brt(s):
     return datetime.datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z").astimezone(BRT)
 
 
+# Serie "Moradas em um ano" (reel das 6h BRT, poster_moradas.py): a legenda comeca com
+# "Dia N/365". Esse post e PARALELO e nao pode contar como santo do dia nem como feed regular.
+# (OK do Felipe em 27/11/2026.)
+_MORADAS_RE = re.compile(r"^\s*Dia \d{1,3}/365\b")
+
+
+def eh_moradas(caption):
+    return bool(_MORADAS_RE.match(caption or ""))
+
+
 def feed_hoje_ids_brt(ig_id, token, hoje):
-    """[(id, ts_brt)] dos posts de FEED cuja data (BRT) == hoje."""
-    d = _get(f"{ig_id}/media", {"fields": "id,timestamp", "limit": 10}, token)
+    """[(id, ts_brt)] dos posts de FEED cuja data (BRT) == hoje.
+    Ignora os reels da serie Moradas em um ano (legenda comecando com "Dia N/365")."""
+    d = _get(f"{ig_id}/media", {"fields": "id,timestamp,caption", "limit": 12}, token)
     out = []
     for m in d.get("data", []):
         t = _ts_brt(m["timestamp"])
-        if t.strftime("%Y-%m-%d") == hoje:
+        if t.strftime("%Y-%m-%d") == hoje and not eh_moradas(m.get("caption")):
             out.append((m["id"], t))
     return out
 
